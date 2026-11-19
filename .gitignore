@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Dados brutos NUNCA vão para o repositório (licença/privacidade)
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Arquivos de sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Segredos — jamais commitar
+*.token
+.env

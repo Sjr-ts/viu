@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NightEyes — Catálogo de Datasets</title>
+<style>
+  :root {
+    --bg: #0f1420; --panel: #171e2e; --panel2: #1e2740;
+    --text: #e8ecf5; --muted: #93a0bd; --accent: #5aa9ff;
+    --ok: #3ddc84; --warn: #ffb454; --err: #ff6b6b;
+    --border: #2a3550;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text); font-size: 14px;
+  }
+  header {
+    padding: 18px 24px; background: var(--panel);
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 { margin: 0 0 4px; font-size: 20px; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  main { padding: 20px 24px; max-width: 1400px; margin: 0 auto; }
+  .cards {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 12px; margin-bottom: 20px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px 14px;
+  }
+  .card .num { font-size: 26px; font-weight: 600; }
+  .card .lbl { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .card .sub { color: var(--muted); font-size: 11px; margin-top: 6px; line-height: 1.5; }
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px;
+    background: var(--panel); padding: 12px; border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .filters input, .filters select {
+    background: var(--panel2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 8px 10px; min-width: 150px;
+  }
+  .filters input { min-width: 220px; }
+  table {
+    width: 100%; border-collapse: collapse; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+  }
+  th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  th { background: var(--panel2); color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  tr.row { cursor: pointer; }
+  tr.row:hover { background: #222c48; }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 10px;
+    font-size: 11px; margin: 1px 3px 1px 0; background: var(--panel2);
+    border: 1px solid var(--border);
+  }
+  .badge.ok { color: var(--ok); border-color: var(--ok); }
+  .badge.warn { color: var(--warn); border-color: var(--warn); }
+  .badge.err { color: var(--err); border-color: var(--err); }
+  .badge.info { color: var(--accent); border-color: var(--accent); }
+  #detail {
+    margin-top: 18px; background: var(--panel); border: 1px solid var(--border);
+    border-radius: 8px; padding: 16px; display: none;
+  }
+  #detail h2 { margin-top: 0; }
+  .kv { display: grid; grid-template-columns: 220px 1fr; gap: 4px 12px; }
+  .kv .k { color: var(--muted); }
+  .kv .v { word-break: break-word; }
+  h3 { margin: 18px 0 8px; font-size: 15px; color: var(--accent); }
+  .empty { color: var(--muted); padding: 20px; text-align: center; }
+  footer { color: var(--muted); font-size: 12px; padding: 20px 24px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>NightEyes — Risk Lab · Catálogo de Datasets V1.0</h1>
+  <p>Consulta local do inventário de fontes (Parte 1). Sem anotação de vídeos nesta etapa.</p>
+</header>
+
+<main>
+  <div class="cards" id="cards"></div>
+
+  <div class="filters">
+    <input id="f-q" type="search" placeholder="Buscar por nome ou instituição…">
+    <select id="f-institution"><option value="">Todas as instituições</option></select>
+    <select id="f-domain">
+      <option value="">Todos os domínios</option>
+      <option>FATIGUE</option><option>SLEEPINESS</option>
+      <option>DISTRACTION</option><option>MULTI_DOMAIN</option>
+    </select>
+    <select id="f-access">
+      <option value="">Todas as situações de acesso</option>
+      <option>AVAILABLE</option><option>REQUIRES_PERMISSION</option>
+      <option>REVIEW_REQUIRED</option><option>RESTRICTED</option>
+      <option>UNKNOWN</option>
+    </select>
+    <select id="f-license">
+      <option value="">Licença (todas)</option>
+      <option value="PENDING">Licença pendente (UNKNOWN)</option>
+      <option value="DEFINED">Licença definida</option>
+    </select>
+    <select id="f-compat">
+      <option value="">Compatibilidade (todas)</option>
+      <option>DIRECT</option><option>PARTIAL</option>
+      <option>COMPLEMENTARY</option><option>INCOMPATIBLE</option>
+      <option>UNVERIFIED</option>
+    </select>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Nome</th><th>Domínio</th><th>Instituição</th>
+        <th>Acesso</th><th>Licença</th><th>Compatibilidade</th>
+        <th>Reanotação</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"><tr><td colspan="8" class="empty">Carregando…</td></tr></tbody>
+  </table>
+
+  <div id="detail"></div>
+</main>
+
+<footer>NightEyes Dataset V1.0 — Parte 1 · dados locais em data/catalog/*.csv · nenhum dado protegido é distribuído por esta interface</footer>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+function badgeClassForAccess(a) {
+  if (a === "AVAILABLE") return "ok";
+  if (a === "REQUIRES_PERMISSION" || a === "REVIEW_REQUIRED") return "warn";
+  if (a === "RESTRICTED") return "err";
+  return "";
+}
+function badgeClassForLevel(l) {
+  if (l === "DIRECT") return "ok";
+  if (l === "PARTIAL" || l === "COMPLEMENTARY") return "warn";
+  if (l === "INCOMPATIBLE") return "err";
+  return "info";
+}
+
+async function loadSummary() {
+  const s = await (await fetch("/api/summary")).json();
+  const domainLines = Object.entries(s.by_domain)
+    .map(([k, v]) => `${k}: ${v}`).join("<br>") || "—";
+  const cards = [
+    { n: s.total_datasets, l: "Datasets cadastrados", sub: "" },
+    { n: s.access_available, l: "Acesso confirmado", sub: `AVAILABLE` },
+    { n: s.access_requires_permission, l: "Exigem autorização", sub: "REQUIRES_PERMISSION" },
+    { n: s.access_review_required, l: "Acesso em revisão", sub: "REVIEW_REQUIRED" },
+    { n: s.license_pending, l: "Licença pendente", sub: "license = UNKNOWN" },
+    { n: s.compat_direct_datasets, l: "Compat. direta", sub: "≥1 mapeamento DIRECT" },
+    { n: s.compat_partial_datasets, l: "Compat. parcial", sub: "≥1 mapeamento PARTIAL" },
+    { n: s.needs_reannotation, l: "Precisam de nova anotação", sub: "requires_reannotation = YES" },
+    { n: "", l: "Por domínio", sub: domainLines },
+  ];
+  $("cards").innerHTML = cards.map(c => `
+    <div class="card">
+      <div class="num">${c.n}</div>
+      <div class="lbl">${c.l}</div>
+      ${c.sub ? `<div class="sub">${c.sub}</div>` : ""}
+    </div>`).join("");
+}
+
+async function loadInstitutions() {
+  const data = await (await fetch("/api/datasets")).json();
+  const insts = [...new Set(data.datasets.map(d => d.institution))].sort();
+  const sel = $("f-institution");
+  insts.forEach(i => {
+    const o = document.createElement("option");
+    o.value = i; o.textContent = i; sel.appendChild(o);
+  });
+}
+
+function currentFilters() {
+  return {
+    q: $("f-q").value,
+    institution: $("f-institution").value,
+    domain: $("f-domain").value,
+    access: $("f-access").value,
+    license: $("f-license").value,
+    compatibility: $("f-compat").value,
+  };
+}
+
+async function loadTable() {
+  const f = currentFilters();
+  const qs = new URLSearchParams(
+    Object.entries(f).filter(([, v]) => v)
+  ).toString();
+  const data = await (await fetch("/api/datasets" + (qs ? "?" + qs : ""))).json();
+  const tbody = $("tbody");
+  if (!data.datasets.length) {
+    tbody.innerHTML = `<tr><td colspan="8" class="empty">Nenhum dataset corresponde aos filtros.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = data.datasets.map(d => {
+    const licPending = d.license.toUpperCase().includes("UNKNOWN");
+    const compat = d.compatibility_levels.map(
+      l => `<span class="badge ${badgeClassForLevel(l)}">${l}</span>`
+    ).join("") || "<span class='badge'>—</span>";
+    return `<tr class="row" data-id="${d.dataset_id}">
+      <td>${d.dataset_id}</td>
+      <td>${d.dataset_name}</td>
+      <td>${d.primary_domain}</td>
+      <td>${d.institution}</td>
+      <td><span class="badge ${badgeClassForAccess(d.access_status)}">${d.access_status}</span></td>
+      <td><span class="badge ${licPending ? "warn" : "ok"}">${licPending ? "PENDENTE" : "DEFINIDA"}</span></td>
+      <td>${compat}</td>
+      <td>${d.needs_reannotation ? '<span class="badge warn">YES</span>' : '<span class="badge">NO</span>'}</td>
+    </tr>`;
+  }).join("");
+
+  tbody.querySelectorAll("tr.row").forEach(tr => {
+    tr.addEventListener("click", () => showDetail(tr.dataset.id));
+  });
+}
+
+async function showDetail(id) {
+  const d = await (await fetch("/api/datasets/" + encodeURIComponent(id))).json();
+  const box = $("detail");
+  if (d.error) { box.style.display = "none"; return; }
+  const ds = d.dataset;
+  const skip = new Set(["dataset_id"]);
+  const kv = Object.entries(ds)
+    .filter(([k]) => !skip.has(k))
+    .map(([k, v]) => `<div class="k">${k}</div><div class="v">${v || "—"}</div>`)
+    .join("");
+  const lic = d.license ? `
+    <h3>Licença</h3><div class="kv">${
+      Object.entries(d.license).filter(([k]) => k !== "dataset_id")
+        .map(([k, v]) => `<div class="k">${k}</div><div class="v">${v || "—"}</div>`)
+        .join("")
+    }</div>` : "<h3>Licença</h3><p class='empty'>Não registrada.</p>";
+
+  const compatRows = d.compatibility.map(c => `
+    <tr>
+      <td>${c.source_label}</td>
+      <td>${c.mapped_domain}</td>
+      <td>${c.mapped_behavior}</td>
+      <td><span class="badge ${badgeClassForLevel(c.compatibility_level)}">${c.compatibility_level}</span></td>
+      <td>${c.temporal_resolution}</td>
+      <td>${c.requires_reannotation}</td>
+      <td>${c.reviewer_notes || ""}</td>
+    </tr>`).join("");
+
+  box.innerHTML = `
+    <h2>${ds.dataset_id} — ${ds.dataset_name}</h2>
+    <div class="kv">${kv}</div>
+    ${lic}
+    <h3>Matriz de compatibilidade</h3>
+    ${d.compatibility.length ? `
+      <table><thead><tr>
+        <th>Rótulo de origem</th><th>Domínio</th><th>Comportamento</th>
+        <th>Nível</th><th>Resol. temporal</th><th>Reanotação</th><th>Notas</th>
+      </tr></thead><tbody>${compatRows}</tbody></table>`
+      : "<p class='empty'>Sem mapeamentos registrados.</p>"}
+    <p><button onclick="document.getElementById('detail').style.display='none'">Fechar</button></p>
+  `;
+  box.style.display = "block";
+  box.scrollIntoView({ behavior: "smooth" });
+}
+
+function wireFilters() {
+  ["f-q", "f-institution", "f-domain", "f-access", "f-license",
+   "f-compat"].forEach(id => {
+    $(id).addEventListener("input", loadTable);
+    $(id).addEventListener("change", loadTable);
+  });
+}
+
+(async function init() {
+  try {
+    await loadSummary();
+    await loadInstitutions();
+    wireFilters();
+    await loadTable();
+  } catch (e) {
+    $("tbody").innerHTML = `<tr><td colspan="8" class="empty">Erro ao carregar: ${e}</td></tr>`;
+  }
+})();
+</script>
+</body>
+</html>

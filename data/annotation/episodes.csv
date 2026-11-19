@@ -1,0 +1,1 @@
+episode_id,session_id,participant_id,dataset_id,start_ms,end_ms,domain,behavior_code,reference_label,annotator_id,annotation_confidence,lighting_condition,occlusion_condition,annotation_notes

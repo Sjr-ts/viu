@@ -1,0 +1,1 @@
+window_id,session_id,participant_id,dataset_id,window_start_ms,window_end_ms,domain,reference_label,annotator_id,annotation_confidence,lighting_condition,occlusion_condition,annotation_notes
