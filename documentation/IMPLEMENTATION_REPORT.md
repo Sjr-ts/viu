@@ -224,3 +224,49 @@ não bloqueiam a Parte 1 (nenhuma importação de dados foi feita).
    confiável dos participantes; dados de TEST isolados durante calibração.
 8. **Consolidação NightEyes:** novo dataset derivado, mantendo colunas de
    origem (`dataset_id`, `original_*`) para rastreabilidade total.
+
+---
+
+## 8. Sincronização GitHub e avanços adicionais (2026-11-19)
+
+### 8.1 Push para o GitHub
+- Repositório: https://github.com/Sjr-ts/viu (branch `main`, commit `d1859c8`).
+- Git 2.56.0 instalado via winget na máquina de execução.
+- 39 arquivos versionados: catálogos, esquemas, documentação, scripts, testes,
+  interface, relatórios de validação e `.gitkeep` nos diretórios vazios.
+- `.gitignore` criado: exclui `data/raw/**` (exceto `.gitkeep`), caches Python
+  e arquivos de segredo. Varredura confirmou **zero tokens/segredos** staged.
+- Dados brutos (`data/raw/`) permanecem fora do repositório por
+  licença/privacidade.
+
+### 8.2 README técnico integral
+- `README.md` reescrito com 10 seções: finalidade; especificação técnica do
+  Protocolo V0.1 (domínios, unidades de anotação, rótulos, metadados,
+  processo, independência, splits, condições de captura, avaliação,
+  estrutura §11, critérios §12); avanços da Parte 1 com estatísticas; guia
+  de aquisição rápida; situação das fontes; estrutura; execução;
+  vocabulários; testes; pendências.
+
+### 8.3 Guia de aquisição rápida (pesquisa sites/GitHub/Kaggle/Reddit)
+Varredura para agilizar downloads (detalhes na seção 4 do README):
+- **YawDD**: download direto sem login em
+  `skuld.cs.umass.edu/traces/mmsys/2014/user06.tar` (~4,9 GB) + espelho
+  Kaggle `enider/yawdd-dataset` (5,48 GB) + oficial IEEE DataPort.
+- **UTA-RLDD**: Drive público oficial (111 GB) + espelhos Kaggle e
+  HuggingFace para frames rápidos (1,9–6,7 GB).
+- **NTHU-DDD**: EULA oficial; espelhos Kaggle de frames (817 MB–2,34 GB,
+  licença `Unknown` — risco de violação de EULA).
+- **State Farm**: Kaggle competição (aceitar regras) — `driver_imgs_list.csv`
+  já traz o split por participante.
+- **DMD**: formulários em `opendatasets.vicomtech.org` + GitHub oficial de
+  ferramentas (Vicomtech/DMD-Driver-Monitoring-Dataset).
+- **UL-DD**: Zenodo restricted com e-mail institucional.
+- **Extras achados**: FatigueView (GitHub MIT, vídeos + anotações JSON),
+  NITYMED (CC-BY, noturno), lista `ykotseruba/attention_and_driving`,
+  thread Reddit r/datasets sobre datasets de drowsiness.
+
+### 8.4 Pendência de segurança
+- O token de acesso (PAT) foi fornecido em texto plano na conversa: usado
+  apenas na URL do remote local (não versionado). **Recomendação: revogar e
+  rotacionar o token** após a sincronização (GitHub → Settings → Developer
+  settings → Personal access tokens).
