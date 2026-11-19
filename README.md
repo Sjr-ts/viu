@@ -504,6 +504,7 @@ NightEyes/
 │   ├── behavior_dictionary.csv        # 16 códigos (PROPOSED)
 │   ├── metadata_dictionary.csv        # dicionário campo a campo (schema v1.0)
 │   ├── label_mapping_rules.md         # regras de conversão (CASOS 1–5)
+│   ├── distraction_criteria.md        # manual DISTRAÇÃO/celular (limiares P9, árvore CASO 4)
 │   ├── annotation_workflow.md         # RUNBOOK de anotação (protocolo §6 → comandos)
 │   └── IMPLEMENTATION_REPORT.md       # relatório de execução da Parte 1
 ├── scripts/
@@ -654,7 +655,7 @@ Relatórios: `data/reports/validation_report.json` e `.csv`.
 | P6 | Revisão dos termos da competição State Farm | SRC007 |
 | P7 | Resolver conflitos de contagem (AUC frames 12.977 vs 17.308; NTHU 356 vs 360; YawDD 107 vs 119) após aquisição | metadados definitivos |
 | P8 | Revisar códigos `PROPOSED` do dicionário no manual de anotação | anotação |
-| P9 | Fixar limiares (persistência de olhar/cabeça, duração de fechamento prolongado) no manual | mapeamentos `PARTIAL`→`DIRECT` |
+| P9 | Fixar limiares (persistência de olhar/cabeça, duração de fechamento prolongado) no manual | mapeamentos `PARTIAL`→`DIRECT` — **rascunho pronto:** `documentation/distraction_criteria.md` (distração, PROPOSED) e §3 do runbook |
 | P10 | Definir divisão TRAIN/VALIDATION/TEST por participante | splits |
 
 ## 10.2 Parte 2 — próximos passos
@@ -726,6 +727,7 @@ Relatórios: `data/reports/validation_report.json` e `.csv`.
 | `scripts/serve_catalog.py` + `interface/` | UI local (stdlib, sem API paga) | ✅ |
 | `tests/` | 68 testes (validador, mapeamento, gate de legalidade, ferramentas de anotação) | ✅ |
 | `documentation/annotation_workflow.md` | Runbook operacional de anotação | ✅ |
+| `documentation/distraction_criteria.md` | Manual de distração/celular: limiares PROPOSED (P9), árvore CASO 4, casos-limite | ✅ rascunho p/ piloto |
 | `documentation/IMPLEMENTATION_REPORT.md` | Relatório da Parte 1 + histórico de execução | ✅ |
 | `documentation/metadata_dictionary.csv` | Schema v1.0 campo a campo (10 esquemas) | ✅ |
 

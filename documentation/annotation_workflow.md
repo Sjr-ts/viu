@@ -74,6 +74,10 @@ Cada avaliador produz o próprio `episodes.csv` (Nível A):
   episódio (CASO 3). Celular presente sem desvio de atenção → **não** é
   `DIST_00x = PRESENT` (CASO 4/5).
 
+> **Domínio DISTRACTION / celular:** seguir obrigatoriamente
+> `documentation/distraction_criteria.md` (limiares PROPOSED, árvore de
+> decisão presença-vs-uso, regra da associação temporal, casos-limite).
+
 Arquivos sugeridos: `data/original_labels/episodes_<ANN_X>.csv`
 (preservados como origem).
 
