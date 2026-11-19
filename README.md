@@ -550,6 +550,28 @@ d = evaluate_mapping("SRC002", "drowsy", "SLEEPINESS", "SLEEP_001")
 print(d.decision)   # PENDING — CASO 1, nunca conversão automática
 ```
 
+### 7.5 Aquisição licenciada (porta de legalidade)
+```bash
+python scripts/acquire.py list        # mostra o gate de licença por fonte
+python scripts/acquire.py fetch SRC003   # só baixa se CLEARED (staging em data/_incoming/)
+python scripts/acquire.py finalize SRC003  # move p/ data/raw + SHA-256 + registry
+python scripts/acquire.py register    # registra arquivos ainda não catalogados
+```
+
+### 7.6 Ferramentas de anotação (Parte 2)
+```bash
+# Nível B: janelas de 5 s derivadas dos episódios (prioridade PRESENT >
+# UNCERTAIN > UNOBSERVABLE > ABSENT; nunca colapsa UNCERTAIN)
+python scripts/make_windows.py --annotator AN_CONSOLIDATED
+
+# Consolidação de 2 anotadores independentes (divergências viram UNCERTAIN)
+python scripts/merge_annotations.py --annotator-a ANN_1 --annotator-b ANN_2 \
+    --consolidator AN_CONSOLIDATED
+
+# Catálogo de frames de exemplo (SHA-256 por frame, em quality_control/)
+python scripts/catalog_frames.py --positions 0.1,0.5,0.9
+```
+
 ---
 
 # 8. Vocabulários controlados e integridade
