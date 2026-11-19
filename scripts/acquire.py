@@ -8,6 +8,7 @@ Usage:
     python scripts/acquire.py list
     python scripts/acquire.py fetch SRC003
     python scripts/acquire.py finalize SRC003
+    python scripts/acquire.py extract SRC003
     python scripts/acquire.py register
 
 Flow:
@@ -15,6 +16,8 @@ Flow:
     fetch     -> download into data/_incoming/<DATASET>/ (staging, resumable)
     finalize  -> verify size, move into data/raw/<DATASET>/, SHA-256,
                  append to data/catalog/sources_registry.csv
+    extract   -> untar/unrar/ unzip archives in place (idempotent: each
+                 archive gets a .extracted_* marker) and register products
     register  -> scan data/raw for unregistered files and hash them
 """
 
@@ -351,8 +354,10 @@ def cmd_extract(dataset_id: str) -> int:
 
     Extraction products are auto-registered (V09) in the same run. The
     original archive is kept untouched (protocol: originals preserved).
+    Idempotent: a .extracted_<name> marker (dotfile, ignored by V09/register)
+    skips already-processed archives; the scan re-runs in a loop so archives
+    nested inside archives (e.g. a .rar inside a .tar) are handled in one run.
     """
-    import shutil as _sh
     src = SOURCES.get(dataset_id)
     if src is None:
         print(f"ERROR: unknown dataset {dataset_id}")
@@ -366,14 +371,6 @@ def cmd_extract(dataset_id: str) -> int:
         print(f"nothing at {base}")
         return 1
 
-    archives = [
-        p for p in sorted(base.rglob("*"))
-        if p.is_file() and p.suffix.lower() in (".tar", ".rar", ".zip")
-    ]
-    if not archives:
-        print("no archives to extract (already extracted?)")
-        return cmd_register()
-
     unrar = _find_tool([
         r"C:\Program Files\WinRAR\UnRAR.exe",
         r"C:\Program Files (x86)\WinRAR\UnRAR.exe",
@@ -382,39 +379,55 @@ def cmd_extract(dataset_id: str) -> int:
         r"C:\Program Files\7-Zip\7z.exe",
         r"C:\Program Files (x86)\7-Zip\7z.exe",
     ])
-    for arch in archives:
-        print(f"extracting {arch.relative_to(ROOT).as_posix()} ...")
-        if arch.suffix.lower() == ".tar":
-            rc = subprocess.call(["tar", "-xf", str(arch), "-C", str(base)])
+
+    extracted_any = False
+    processed: set[Path] = set()
+    while True:
+        archives = [
+            p for p in sorted(base.rglob("*"))
+            if p.is_file() and p.suffix.lower() in (".tar", ".rar", ".zip")
+            and p not in processed
+        ]
+        if not archives:
+            break
+        for arch in archives:
+            marker = base / f".extracted_{arch.name}"
+            if marker.exists():
+                processed.add(arch)
+                continue
+            print(f"extracting {arch.relative_to(ROOT).as_posix()} ...")
+            if arch.suffix.lower() == ".tar":
+                rc = subprocess.call(["tar", "-xf", str(arch), "-C", str(base)])
+            elif arch.suffix.lower() == ".rar":
+                if unrar:
+                    rc = subprocess.call([unrar, "x", "-o+", "-idq",
+                                          str(arch), str(base) + "\\"])
+                elif seven:
+                    rc = subprocess.call([seven, "x", "-y", f"-o{base}",
+                                          f"-w{base}", str(arch)])
+                else:
+                    print("ERROR: neither UnRAR nor 7-Zip found")
+                    return 4
+            else:  # .zip
+                if seven:
+                    rc = subprocess.call([seven, "x", "-y", f"-o{base}",
+                                          str(arch)])
+                else:
+                    import zipfile
+                    with zipfile.ZipFile(arch) as zf:
+                        zf.extractall(base)
+                    rc = 0
             if rc != 0:
-                print(f"ERROR: tar failed ({rc})")
+                print(f"ERROR: extraction failed for {arch.name} ({rc})")
                 return rc
-        elif arch.suffix.lower() == ".rar":
-            if unrar:
-                rc = subprocess.call([unrar, "x", "-o+", "-idq", str(arch),
-                                      str(base) + "\\"])
-            elif seven:
-                rc = subprocess.call([seven, "x", "-y", f"-o{base}",
-                                      f"-w{base}", str(arch)])
-            else:
-                print("ERROR: neither UnRAR nor 7-Zip found")
-                return 4
-            if rc != 0:
-                print(f"ERROR: rar extraction failed ({rc})")
-                return rc
-        elif arch.suffix.lower() == ".zip":
-            if seven:
-                rc = subprocess.call([seven, "x", "-y", f"-o{base}",
-                                      str(arch)])
-            else:
-                import zipfile
-                with zipfile.ZipFile(arch) as zf:
-                    zf.extractall(base)
-                rc = 0
-            if rc != 0:
-                print(f"ERROR: zip extraction failed ({rc})")
-                return rc
-    print("extraction done — registering products ...")
+            marker.write_text(TODAY, encoding="utf-8")
+            processed.add(arch)
+            extracted_any = True
+
+    if not extracted_any:
+        print("no archives to extract (already extracted?)")
+    else:
+        print("extraction done — registering products ...")
     return cmd_register()
 
 

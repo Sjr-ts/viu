@@ -6,7 +6,7 @@
 **Protocolo de referência:** *NightEyes — Anotação de Dataset V0.1* (texto integral, enviado na abertura do projeto)
 **Data de verificação dos metadados:** 2026-11-19
 **Repositório:** https://github.com/Sjr-ts/viu (branch `main`)
-**Status:** validação `PASS` (0 erros) · **56 testes aprovados** · interface local operacional · gate de legalidade ativo (`acquire.py`) · download YawDD em andamento (~5 GB)
+**Status:** validação `PASS` (0 erros) · **68 testes aprovados** · interface local operacional · gate de legalidade ativo (`acquire.py`) · download YawDD em andamento (~5 GB)
 **Snapshot para continuação:** ver **[§11 HANDOFF](#11-handoff--guia-de-continuação-para-outro-operadoroutra-ia)** — leia antes de executar qualquer coisa.
 
 ---
@@ -515,10 +515,11 @@ NightEyes/
 │   ├── catalog_frames.py              # frames de exemplo + SHA-256
 │   └── serve_catalog.py               # interface local
 ├── interface/index.html               # UI do catálogo
-├── tests/                             # pytest — 56 testes
+├── tests/                             # pytest — 68 testes
 │   ├── conftest.py
 │   ├── test_validate_dataset.py       # V01–V14 + sentinelas .gitkeep
 │   ├── test_label_mapping.py          # CASOS 1–5 + FORBIDDEN
+│   ├── test_acquire.py                # gate de legalidade + registry ids
 │   └── test_annotation_tools.py       # make_windows / merge / catalog_frames
 └── logs/                              # ignorado pelo git (download em andamento)
 ```
@@ -529,7 +530,10 @@ NightEyes/
 
 ### Pré-requisitos
 - Python 3.10+ (executado com 3.14.2)
-- `pip install -r requirements.txt` (pandas, pytest)
+- `pip install -r requirements.txt` (pandas, pytest, **opencv-python** —
+  o `catalog_frames.py` usa cv2)
+- Windows: `tar` nativo + WinRAR/`UnRAR.exe` para extrair o YawDD
+  (`acquire.py extract` os localiza automaticamente)
 
 ### 7.1 Validação
 ```bash
@@ -543,9 +547,9 @@ python scripts/validate_dataset.py
 ```bash
 python -m pytest tests/ -v
 ```
-56 testes: caso base limpo, cada verificação com defeito injetado, geração de
-relatórios, CASOS 1–5 do mapeamento, janelas Nível B, consolidação de
-anotadores e catálogo de frames.
+68 testes: caso base limpo, cada verificação com defeito injetado, geração de
+relatórios, CASOS 1–5 do mapeamento, gate de legalidade, janelas Nível B,
+consolidação de anotadores e catálogo de frames.
 
 ### 7.3 Interface local
 ```bash
@@ -618,7 +622,7 @@ python scripts/catalog_frames.py --positions 0.1,0.5,0.9
 
 | Execução | Comando | Resultado |
 |---|---|---|
-| Testes automatizados | `python -m pytest tests/ -q` | **56 passed** (~2,3 s) |
+| Testes automatizados | `python -m pytest tests/ -q` | **68 passed** (~2,2 s) |
 | Validação do projeto | `python scripts/validate_dataset.py` | **PASS** — 0 erros, 0 avisos, exit 0 |
 | Checagem de integridade CSV | nº de campos por linha (11 arquivos) | todos consistentes |
 | Interface | `GET /api/summary`, filtros, detalhe, `/` | 8 datasets; filtros OK; HTTP 200 |
@@ -689,8 +693,8 @@ Relatórios: `data/reports/validation_report.json` e `.csv`.
 | Parte 1 (catálogo/esquemas/validador/UI) | **CONCLUÍDA** |
 | Parte 2 (aquisição/anotação) | **EM ANDAMENTO** |
 | Validação `validate_dataset.py` | **PASS** — 0 erros, 0 avisos, exit 0 |
-| Testes | **56 passed** (`python -m pytest tests/ -q`, ~2,3 s) |
-| Último commit | `126c640` + este commit — branch `main` de `https://github.com/Sjr-ts/viu` |
+| Testes | **68 passed** (`python -m pytest tests/ -q`, ~2,2 s) |
+| Último commit | branch `main` de `https://github.com/Sjr-ts/viu` (histórico completo: `git log --oneline`) |
 | Gate de legalidade | **ATIVO** — só SRC003 (YawDD) está `CLEARED`; outras 7 fontes `BLOCKED` |
 | Processo ativo | Download de `user06.tar` (YawDD, 5.307.791.360 bytes ≈ 5.061 MB) em `data/_incoming/YawDD/` — **fora** do repositório git (`.gitignore`) |
 | Ferramentas Parte 2 | `acquire.py` (5 subcomandos), `make_windows.py`, `merge_annotations.py`, `catalog_frames.py` — todas com testes |
@@ -720,7 +724,7 @@ Relatórios: `data/reports/validation_report.json` e `.csv`.
 | `scripts/merge_annotations.py` | 2 anotadores; divergência/único → `UNCERTAIN` | ✅ |
 | `scripts/catalog_frames.py` | Frames 0,1/0,5/0,9 + SHA-256 → `quality_control/frame_catalog/` | ✅ |
 | `scripts/serve_catalog.py` + `interface/` | UI local (stdlib, sem API paga) | ✅ |
-| `tests/` | 56 testes (validador, mapeamento, ferramentas de anotação) | ✅ |
+| `tests/` | 68 testes (validador, mapeamento, gate de legalidade, ferramentas de anotação) | ✅ |
 | `documentation/annotation_workflow.md` | Runbook operacional de anotação | ✅ |
 | `documentation/IMPLEMENTATION_REPORT.md` | Relatório da Parte 1 + histórico de execução | ✅ |
 | `documentation/metadata_dictionary.csv` | Schema v1.0 campo a campo (10 esquemas) | ✅ |
@@ -787,7 +791,7 @@ python scripts/acquire.py extract SRC003      # tar → "YawDD dataset.rar" → 
 | 5 | Registrar avaliadores | linhas `ANN_1`, `ANN_2`, `AN_CONSOLIDATED` em `annotators.csv` (`access_to_engine_scores=NO`) |
 | 6 | Sessão piloto | `documentation/annotation_workflow.md` §4–§5 (2 anotadores independentes) |
 | 7 | Consolidação | `merge_annotations.py` → `make_windows.py` |
-| 8 | Gate final | `pytest` (56+) + `validate_dataset.py` (PASS) → `git push` |
+| 8 | Gate final | `pytest` (68+) + `validate_dataset.py` (PASS) → `git push` |
 | 9 | Demais fontes | só avançar `acquire.py list` para CLEARED (P2–P6 da §10.1) |
 
 ## 11.6 Pendências que exigem ação do usuário (não automatizável)
@@ -820,7 +824,7 @@ python scripts/acquire.py extract SRC003      # tar → "YawDD dataset.rar" → 
 - [ ] Split por participante → `processed/{train,validation,test}.csv` (gerados por `participant_id`)
 - [ ] Origem/condições documentadas → `sources_registry.csv` + `sessions.csv`
 - [ ] Licença/consentimento → gate `acquire.py list` CLEARED + `licenses.csv`
-- [ ] Reprodutibilidade → `pytest` (56+) + `validate_dataset.py` PASS + push limpo
+- [ ] Reprodutibilidade → `pytest` (68+) + `validate_dataset.py` PASS + push limpo
 
 ---
 

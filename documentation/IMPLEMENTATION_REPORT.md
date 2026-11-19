@@ -1,5 +1,11 @@
 # NightEyes Dataset V1.0 — Relatório de Implementação (Parte 1)
 
+> **Nota de atualização (2026-11-19, pós-Parte 1):** este relatório documenta
+> a **Parte 1 como executada** (histórico). O estado corrente do projeto —
+> **Parte 2 em andamento** (aquisição licenciada, `extract`, ferramentas de
+> anotação, runbook, **68 testes**, download YawDD ativo) — está em
+> `README.md` **§9** (testes) e **§11 HANDOFF** (continuação).
+
 **Projeto:** NightEyes — Risk Lab
 **Etapa:** Parte 1 — Inventário, organização e padronização das fontes de dados
 **Modelo executor:** Claude Sonnet (opencode)
