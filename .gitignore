@@ -21,3 +21,6 @@ Desktop.ini
 # Segredos — jamais commitar
 *.token
 .env
+
+# Logs de download
+logs/
