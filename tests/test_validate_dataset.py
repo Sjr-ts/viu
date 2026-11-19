@@ -348,6 +348,14 @@ def test_v09_registry_row_without_path(project):
                for i in _check_ids(report, "V09"))
 
 
+def test_v09_gitkeep_sentinel_ignored(project):
+    sentinel = project / "data" / "raw" / "TEST" / ".gitkeep"
+    sentinel.write_bytes(b"")
+    report = validate_project(project)
+    assert not any(".gitkeep" in i["file"] or ".gitkeep" in i["message"]
+                   for i in _check_ids(report, "V09"))
+
+
 # ---------------------------------------------------------------------------
 # V10 checksum divergence
 # ---------------------------------------------------------------------------

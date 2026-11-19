@@ -519,6 +519,8 @@ def _check_v09_origin(root: Path, files: dict, issues: list) -> None:
         for path in sorted(raw_dir.rglob("*")):
             if not path.is_file():
                 continue
+            if path.name.startswith("."):
+                continue  # sentinel/placeholder files (.gitkeep) are not data
             rel = path.relative_to(root).as_posix()
             if rel not in registered_paths:
                 issues.append(Issue(
