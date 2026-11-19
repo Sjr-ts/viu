@@ -312,7 +312,7 @@ def cmd_register() -> int:
         print("data/raw does not exist")
         return 0
     for path in sorted(RAW.rglob("*")):
-        if not path.is_file() or path.name == ".gitkeep":
+        if not path.is_file() or path.name.startswith("."):
             continue
         rel = path.relative_to(ROOT).as_posix()
         if rel in known:
@@ -339,12 +339,92 @@ def cmd_register() -> int:
     return 0
 
 
+def _find_tool(candidates: list[str]) -> str | None:
+    for c in candidates:
+        if Path(c).exists():
+            return c
+    return None
+
+
+def cmd_extract(dataset_id: str) -> int:
+    """Extract archives in data/raw/<dir> (tar via bsdtar, rar via UnRAR/7z).
+
+    Extraction products are auto-registered (V09) in the same run. The
+    original archive is kept untouched (protocol: originals preserved).
+    """
+    import shutil as _sh
+    src = SOURCES.get(dataset_id)
+    if src is None:
+        print(f"ERROR: unknown dataset {dataset_id}")
+        return 1
+    status, reason = gate(load_licenses().get(dataset_id))
+    if status == "BLOCKED":
+        print(f"BLOCKED {dataset_id}: {reason}")
+        return 2
+    base = RAW / src["dir"]
+    if not base.exists():
+        print(f"nothing at {base}")
+        return 1
+
+    archives = [
+        p for p in sorted(base.rglob("*"))
+        if p.is_file() and p.suffix.lower() in (".tar", ".rar", ".zip")
+    ]
+    if not archives:
+        print("no archives to extract (already extracted?)")
+        return cmd_register()
+
+    unrar = _find_tool([
+        r"C:\Program Files\WinRAR\UnRAR.exe",
+        r"C:\Program Files (x86)\WinRAR\UnRAR.exe",
+    ])
+    seven = _find_tool([
+        r"C:\Program Files\7-Zip\7z.exe",
+        r"C:\Program Files (x86)\7-Zip\7z.exe",
+    ])
+    for arch in archives:
+        print(f"extracting {arch.relative_to(ROOT).as_posix()} ...")
+        if arch.suffix.lower() == ".tar":
+            rc = subprocess.call(["tar", "-xf", str(arch), "-C", str(base)])
+            if rc != 0:
+                print(f"ERROR: tar failed ({rc})")
+                return rc
+        elif arch.suffix.lower() == ".rar":
+            if unrar:
+                rc = subprocess.call([unrar, "x", "-o+", "-idq", str(arch),
+                                      str(base) + "\\"])
+            elif seven:
+                rc = subprocess.call([seven, "x", "-y", f"-o{base}",
+                                      f"-w{base}", str(arch)])
+            else:
+                print("ERROR: neither UnRAR nor 7-Zip found")
+                return 4
+            if rc != 0:
+                print(f"ERROR: rar extraction failed ({rc})")
+                return rc
+        elif arch.suffix.lower() == ".zip":
+            if seven:
+                rc = subprocess.call([seven, "x", "-y", f"-o{base}",
+                                      str(arch)])
+            else:
+                import zipfile
+                with zipfile.ZipFile(arch) as zf:
+                    zf.extractall(base)
+                rc = 0
+            if rc != 0:
+                print(f"ERROR: zip extraction failed ({rc})")
+                return rc
+    print("extraction done — registering products ...")
+    return cmd_register()
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="NightEyes licensed acquisition")
     sub = p.add_subparsers(dest="cmd", required=True)
     sub.add_parser("list")
     f = sub.add_parser("fetch"); f.add_argument("dataset_id")
     fin = sub.add_parser("finalize"); fin.add_argument("dataset_id")
+    ext = sub.add_parser("extract"); ext.add_argument("dataset_id")
     sub.add_parser("register")
     args = p.parse_args(argv)
     if args.cmd == "list":
@@ -353,6 +433,8 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_fetch(args.dataset_id)
     if args.cmd == "finalize":
         return cmd_finalize(args.dataset_id)
+    if args.cmd == "extract":
+        return cmd_extract(args.dataset_id)
     if args.cmd == "register":
         return cmd_register()
     return 1

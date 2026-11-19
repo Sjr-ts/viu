@@ -2,11 +2,12 @@
 # NightEyes Dataset V1.0 — Infraestrutura de Inventário, Anotação e Validação (Parte 1)
 
 **Projeto:** NightEyes — Risk Lab
-**Etapa:** Parte 1 — Inventário, organização e padronização das fontes de dados
+**Etapa:** Parte 1 CONCLUÍDA · Parte 2 EM ANDAMENTO (aquisição + ferramentas de anotação)
 **Protocolo de referência:** *NightEyes — Anotação de Dataset V0.1* (texto integral, enviado na abertura do projeto)
 **Data de verificação dos metadados:** 2026-11-19
-**Repositório:** https://github.com/Sjr-ts/viu
-**Status:** Parte 1 CONCLUÍDA — validação `PASS`, 43 testes aprovados, interface local operacional
+**Repositório:** https://github.com/Sjr-ts/viu (branch `main`)
+**Status:** validação `PASS` (0 erros) · **56 testes aprovados** · interface local operacional · gate de legalidade ativo (`acquire.py`) · download YawDD em andamento (~5 GB)
+**Snapshot para continuação:** ver **[§11 HANDOFF](#11-handoff--guia-de-continuação-para-outro-operadoroutra-ia)** — leia antes de executar qualquer coisa.
 
 ---
 
@@ -22,6 +23,7 @@
 8. [Vocabulários controlados e integridade de dados](#8-vocabulários-controlados-e-integridade)
 9. [Estado dos testes e relatórios](#9-estado-dos-testes-e-relatórios)
 10. [Pendências conhecidas (P1–P10) e plano da Parte 2](#10-pendências-e-plano-da-parte-2)
+11. [**HANDOFF — guia de continuação para outro operador/IA**](#11-handoff--guia-de-continuação-para-outro-operadoroutra-ia)
 
 ---
 
@@ -476,40 +478,49 @@ verificação de atenção (CASO 4) exigem reanotação humana independente.
 
 ```
 NightEyes/
-├── README.md                          # este arquivo
+├── README.md                          # este arquivo (inclui §11 HANDOFF)
 ├── requirements.txt                   # pandas, pytest
+├── .gitignore                         # data/raw, data/_incoming, logs, caches, segredos
 ├── data/
 │   ├── catalog/
 │   │   ├── datasets.csv               # catálogo central (8 datasets × 22 campos)
 │   │   ├── compatibility_matrix.csv   # 64 mapeamentos rótulo-a-rótulo
 │   │   ├── licenses.csv               # registro de licenças (8)
-│   │   └── sources_registry.csv       # esquema de rastreio de arquivos (vazio)
-│   ├── raw/                           # ORIGINAIS NUNCA modificados (vazio na Parte 1)
+│   │   ├── sources_registry.csv       # rastreio de arquivos (SHA-256, 10 colunas)
+│   │   └── frame_samples.csv          # gerado por catalog_frames.py (frames + SHA-256)
+│   ├── raw/                           # ORIGINAIS NUNCA modificados (.gitkeep = sentinela)
 │   │   ├── DMD/ UTA_RLDD/ YawDD/ DROZY/ NTHU_DDD/
 │   │   ├── AUC_Distracted/ State_Farm/ UL_DD/
 │   │   ├── sessions/                  # §11 do protocolo — por sessão
 │   │   └── metadata/                  # §11 do protocolo — metadados originais
-│   ├── original_labels/               # rótulos originais preservados
+│   ├── _incoming/                     # STAGING de downloads (fora do escaneado pelo V09)
+│   ├── original_labels/               # rótulos originais preservados (episódios por avaliador)
 │   ├── normalized/                    # só saídas NOVAS de transformação
 │   ├── annotation/                    # participants, sessions, episodes, windows, annotators
-│   ├── quality_control/
+│   ├── quality_control/               # divergence_report.csv + frame_catalog/
 │   ├── processed/                     # train/validation/test (Parte 2)
 │   └── reports/                       # validation_report.json / .csv
 ├── documentation/
 │   ├── behavior_dictionary.csv        # 16 códigos (PROPOSED)
 │   ├── metadata_dictionary.csv        # dicionário campo a campo (schema v1.0)
 │   ├── label_mapping_rules.md         # regras de conversão (CASOS 1–5)
+│   ├── annotation_workflow.md         # RUNBOOK de anotação (protocolo §6 → comandos)
 │   └── IMPLEMENTATION_REPORT.md       # relatório de execução da Parte 1
 ├── scripts/
-│   ├── validate_dataset.py            # V01–V14
-│   ├── label_mapping.py               # 43 regras R001–R043
+│   ├── validate_dataset.py            # V01–V14 (V09 ignora dotfiles)
+│   ├── label_mapping.py               # 43 regras R001–R043 (FORBIDDEN p/ scores)
+│   ├── acquire.py                     # gate de legalidade: list/fetch/finalize/extract/register
+│   ├── make_windows.py                # Nível B: janelas 5 s dos episódios
+│   ├── merge_annotations.py           # 2 anotadores → consenso/UNCERTAIN
+│   ├── catalog_frames.py              # frames de exemplo + SHA-256
 │   └── serve_catalog.py               # interface local
 ├── interface/index.html               # UI do catálogo
-├── tests/                             # pytest — 43 testes
+├── tests/                             # pytest — 56 testes
 │   ├── conftest.py
-│   ├── test_validate_dataset.py
-│   └── test_label_mapping.py
-└── .gitignore
+│   ├── test_validate_dataset.py       # V01–V14 + sentinelas .gitkeep
+│   ├── test_label_mapping.py          # CASOS 1–5 + FORBIDDEN
+│   └── test_annotation_tools.py       # make_windows / merge / catalog_frames
+└── logs/                              # ignorado pelo git (download em andamento)
 ```
 
 ---
@@ -532,8 +543,9 @@ python scripts/validate_dataset.py
 ```bash
 python -m pytest tests/ -v
 ```
-43 testes: caso base limpo, cada verificação com defeito injetado, geração de
-relatórios e os CASOS 1–5 do mapeamento.
+56 testes: caso base limpo, cada verificação com defeito injetado, geração de
+relatórios, CASOS 1–5 do mapeamento, janelas Nível B, consolidação de
+anotadores e catálogo de frames.
 
 ### 7.3 Interface local
 ```bash
@@ -552,11 +564,14 @@ print(d.decision)   # PENDING — CASO 1, nunca conversão automática
 
 ### 7.5 Aquisição licenciada (porta de legalidade)
 ```bash
-python scripts/acquire.py list        # mostra o gate de licença por fonte
-python scripts/acquire.py fetch SRC003   # só baixa se CLEARED (staging em data/_incoming/)
+python scripts/acquire.py list          # gate de licença por fonte (CLEARED/BLOCKED)
+python scripts/acquire.py fetch SRC003  # baixa só se CLEARED (staging em data/_incoming/)
 python scripts/acquire.py finalize SRC003  # move p/ data/raw + SHA-256 + registry
-python scripts/acquire.py register    # registra arquivos ainda não catalogados
+python scripts/acquire.py extract SRC003   # extrai .tar/.rar/.zip no lugar + registra produtos
+python scripts/acquire.py register      # registra arquivos ainda não catalogados
 ```
+> O staging fica em `data/_incoming/` (fora do escaneado pelo V09) para que o
+> validador continue `PASS` durante downloads parciais.
 
 ### 7.6 Ferramentas de anotação (Parte 2)
 ```bash
@@ -603,18 +618,21 @@ python scripts/catalog_frames.py --positions 0.1,0.5,0.9
 
 | Execução | Comando | Resultado |
 |---|---|---|
-| Testes automatizados | `python -m pytest tests/ -q` | **43 passed** (~1,8 s) |
+| Testes automatizados | `python -m pytest tests/ -q` | **56 passed** (~2,3 s) |
 | Validação do projeto | `python scripts/validate_dataset.py` | **PASS** — 0 erros, 0 avisos, exit 0 |
 | Checagem de integridade CSV | nº de campos por linha (11 arquivos) | todos consistentes |
 | Interface | `GET /api/summary`, filtros, detalhe, `/` | 8 datasets; filtros OK; HTTP 200 |
+| Gate de legalidade | `python scripts/acquire.py list` | SRC003 CLEARED; demais BLOCKED |
 
 Correções de dados aplicadas durante a execução (nunca o validador):
 1. `behavior_dictionary.csv` — 2 linhas com vírgula não escapada (SLEEP_004,
    DIST_004) re-citadas.
 2. `compatibility_matrix.csv` — 4 valores `NO (store separately)` violando o
    enum `requires_reannotation` corrigidos para `NO`.
+3. V09 do validador passou a **ignorar dotfiles** (`.gitkeep` são sentinelas
+   de diretório, não dados) — teste `test_v09_gitkeep_sentinel_ignored`.
 
-Relatóries: `data/reports/validation_report.json` e `.csv`.
+Relatórios: `data/reports/validation_report.json` e `.csv`.
 
 ---
 
@@ -657,5 +675,154 @@ Relatóries: `data/reports/validation_report.json` e `.csv`.
 
 ---
 
-*Documento técnico do NightEyes Dataset V1.0 — Parte 1. Atualizado em 2026-11-19.*
+# 11. HANDOFF — guia de continuação para outro operador/outra IA
+
+> **Leia esta seção inteira antes de executar qualquer comando.** Ela foi
+> escrita para que outra IA (ou humano) continue o trabalho sem perguntas:
+> o que existe, o que está rodando, o que é proibido e os próximos passos
+> exatos. Dúvidas de protocolo → §2 deste README + `documentation/annotation_workflow.md`.
+
+## 11.1 Snapshot do estado (data do snapshot: 2026-11-19)
+
+| Item | Estado |
+|---|---|
+| Parte 1 (catálogo/esquemas/validador/UI) | **CONCLUÍDA** |
+| Parte 2 (aquisição/anotação) | **EM ANDAMENTO** |
+| Validação `validate_dataset.py` | **PASS** — 0 erros, 0 avisos, exit 0 |
+| Testes | **56 passed** (`python -m pytest tests/ -q`, ~2,3 s) |
+| Último commit | `126c640` + este commit — branch `main` de `https://github.com/Sjr-ts/viu` |
+| Gate de legalidade | **ATIVO** — só SRC003 (YawDD) está `CLEARED`; outras 7 fontes `BLOCKED` |
+| Processo ativo | Download de `user06.tar` (YawDD, 5.307.791.360 bytes ≈ 5.061 MB) em `data/_incoming/YawDD/` — **fora** do repositório git (`.gitignore`) |
+| Ferramentas Parte 2 | `acquire.py` (5 subcomandos), `make_windows.py`, `merge_annotations.py`, `catalog_frames.py` — todas com testes |
+| Runbook de anotação | `documentation/annotation_workflow.md` (protocolo §6 → comandos) |
+
+## 11.2 Árvore do repositório — propósito e estado de cada item
+
+| Caminho | Propósito | Estado |
+|---|---|---|
+| `README.md` | Documento mestre (este arquivo, §1–§11) | ✅ atual |
+| `requirements.txt` | `pandas`, `pytest` | ✅ instalado (pandas 3.1.1, pytest 9.2.0, Python 3.14.2, OpenCV 4.13.0) |
+| `.gitignore` | Ignora `data/raw/**`, `data/_incoming/`, `logs/`, caches, segredos | ✅ |
+| `data/catalog/datasets.csv` | 8 datasets × 22 colunas (inventário) | ✅ completo |
+| `data/catalog/compatibility_matrix.csv` | 64 linhas long-form; 0 `DIRECT`; 59 `requires_reannotation=YES` | ✅ completo |
+| `data/catalog/licenses.csv` | 8 licenças; UNKNOWN só em UTA-RLDD/DROZY | ✅ completo |
+| `data/catalog/sources_registry.csv` | 10 colunas; rastreio SHA-256 de cada arquivo de `raw/` | ✅ esquema — **vazio, será preenchido pelo `finalize`** |
+| `data/raw/*` | Originais nunca modificados; `.gitkeep` sentinela | ✅ vazio (aguardando YawDD) |
+| `data/_incoming/YawDD/user06.tar` | Download em andamento (staging) | 🔄 **ATIVO** |
+| `data/annotation/*.csv` | participants/sessions/episodes/windows/annotators (esquemas) | ✅ esquemas — vazios |
+| `data/original_labels/` | Episódios brutos por avaliador (preservados) | 📁 pronto |
+| `data/quality_control/` | `divergence_report.csv` + `frame_catalog/` | 📁 pronto |
+| `data/processed/` | train/validation/test por participante | 📁 pronto (§8) |
+| `scripts/validate_dataset.py` | V01–V14; V09 ignora dotfiles; nunca corrige silenciosamente | ✅ |
+| `scripts/label_mapping.py` | 43 regras; `PENDING` sem regra; `FORBIDDEN` p/ sinais do motor | ✅ |
+| `scripts/acquire.py` | `list` / `fetch` / `finalize` / `extract` / `register` com gate de licença | ✅ |
+| `scripts/make_windows.py` | Nível B (5 s); prioridade `PRESENT>UNCERTAIN>UNOBSERVABLE>ABSENT` | ✅ |
+| `scripts/merge_annotations.py` | 2 anotadores; divergência/único → `UNCERTAIN` | ✅ |
+| `scripts/catalog_frames.py` | Frames 0,1/0,5/0,9 + SHA-256 → `quality_control/frame_catalog/` | ✅ |
+| `scripts/serve_catalog.py` + `interface/` | UI local (stdlib, sem API paga) | ✅ |
+| `tests/` | 56 testes (validador, mapeamento, ferramentas de anotação) | ✅ |
+| `documentation/annotation_workflow.md` | Runbook operacional de anotação | ✅ |
+| `documentation/IMPLEMENTATION_REPORT.md` | Relatório da Parte 1 + histórico de execução | ✅ |
+| `documentation/metadata_dictionary.csv` | Schema v1.0 campo a campo (10 esquemas) | ✅ |
+
+## 11.3 Pipeline canônico (9 estágios — nesta ordem)
+
+```text
+[1] LEGALIDADE   python scripts/acquire.py list            → só CLEARED avança
+[2] DOWNLOAD     python scripts/acquire.py fetch SRC003     → data/_incoming/<dir>/
+[3] FINALIZE     python scripts/acquire.py finalize SRC003  → data/raw/ + SHA-256 + registry
+[4] EXTRAIR      python scripts/acquire.py extract SRC003   → .tar/.rar/.zip + auto-register
+[5] METADADOS    preencher participants.csv/sessions.csv    → a partir dos metadados de origem
+[6] CATÁLOGO     python scripts/catalog_frames.py           → frames + SHA-256 (imagens p/ QA)
+[7] ANOTAR       runbook documentation/annotation_workflow.md → episódios por avaliador
+[8] CONSOLIDAR   merge_annotations.py → make_windows.py     → episodes.csv + windows.csv
+[9] VALIDAR      pytest + validate_dataset.py → git push    → exit 0 / PASS obrigatório
+```
+
+Regras que atravessam todos os estágios (**não violar**):
+
+1. **Legalidade primeiro** — nunca `fetch` de fonte `BLOCKED`; licença em `licenses.csv` é a fonte da verdade.
+2. **Originais intocados** — nada edita arquivo em `data/raw/`; transformações geram arquivo novo.
+3. **`UNCERTAIN`/`UNOBSERVABLE` nunca viram `ABSENT`** — nem em merge, nem em janelas, nem manualmente sem nota.
+4. **Ground truth sem scores** — EAR/MAR/PERCLOS/scores do Risk Engine são `FORBIDDEN` como origem de rótulo (§7 do protocolo).
+5. **Anonimização** — sem nome/rosto/identidade; sem fusão de identidades entre datasets.
+6. **KSS separado** — autorrelato (`SLEEP_004`) nunca fundido com observação visual.
+7. **Split por participante** — TRAIN/VALIDATION/TEST nunca cortam sessões da mesma pessoa.
+
+## 11.4 Como retomar após reinício / em outra máquina
+
+```powershell
+# 0) PATH do git (por shell — instalação via winget não persiste sozinho)
+$env:Path = [System.Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [System.Environment]::GetEnvironmentVariable('Path','User')
+
+# 1) Ver se o download parou: comparar tamanho com 5307791360 bytes
+Get-Item 'data\_incoming\YawDD\user06.tar' | Select-Object Length
+
+# 2) Retomar do zero parcial (curl -C - é idempotente)
+curl -L -C - -o 'data\_incoming\YawDD\user06.tar' `
+     'http://skuld.cs.umass.edu/traces/mmsys/2014/user06.tar' 2> 'logs\yawdd.err'
+# Esperado: ~295 kB/s ⇒ ~4h50 de download total
+
+# 3) Quando Length == 5307791360:
+python scripts/acquire.py finalize SRC003
+python scripts/acquire.py extract SRC003      # tar → "YawDD dataset.rar" → UnRAR (WinRAR já instalado)
+
+# 4) Preencher participants/sessions a partir dos metadados extraídos
+# 5) python scripts/catalog_frames.py --positions 0.1,0.5,0.9
+# 6) pytest + validate + commit + push
+```
+
+- **Formato do tar** (verificado no parcial): `user06/` → `user06/YawDD dataset.rar` (um único RAR interno). Extração automática via `extract` usa `tar` do Windows + `UnRAR.exe` (presente em `C:\Program Files\WinRAR\`).
+- **Kaggle** (State Farm, espelhos NTHU): bloqueado por ausência de `~/.kaggle/kaggle.json` — instalar `kaggle` CLI e colar API key só depois de aceitar as regras de cada competição.
+- **Segredo:** o PAT do GitHub está embutido na URL do remote. **Pedir ao usuário para revogar/rotacionar** (apareceu em log de chat; `git log`/arquivos estão limpos — verificado por varredura de segredos).
+
+## 11.5 Próximos passos imediatos (ordem exata)
+
+| # | Ação | Comando / critério |
+|---|---|---|
+| 1 | Monitorar download YawDD | `Get-Item 'data\_incoming\YawDD\user06.tar' \| Select Length` até `5307791360` |
+| 2 | Finalizar + extrair | `acquire.py finalize SRC003` → `acquire.py extract SRC003` (esperado: dezenas de vídeos + `Participants Information`) |
+| 3 | Preencher `participants.csv` / `sessions.csv` | da tabela de participantes do YawDD (IDs opacos `PT_SRC003_###`, sem nome) |
+| 4 | Catálogo de frames real | `python scripts/catalog_frames.py --positions 0.1,0.5,0.9` |
+| 5 | Registrar avaliadores | linhas `ANN_1`, `ANN_2`, `AN_CONSOLIDATED` em `annotators.csv` (`access_to_engine_scores=NO`) |
+| 6 | Sessão piloto | `documentation/annotation_workflow.md` §4–§5 (2 anotadores independentes) |
+| 7 | Consolidação | `merge_annotations.py` → `make_windows.py` |
+| 8 | Gate final | `pytest` (56+) + `validate_dataset.py` (PASS) → `git push` |
+| 9 | Demais fontes | só avançar `acquire.py list` para CLEARED (P2–P6 da §10.1) |
+
+## 11.6 Pendências que exigem ação do usuário (não automatizável)
+
+1. **Rotacionar/revoke do PAT do GitHub** (`ghp_...` exposto em chat).
+2. **EULA/permission:** NTHU-DDD (assinatura de chefe/diretor), AUC-DISTRACTED (acordo + e-mail), UL-DD (Zenodo institucional), State Farm (aceite Kaggle), DMD (formulário 2026).
+3. **Licenças a confirmar com autores:** UTA-RLDD (P3), DROZY (P2 — site fora do ar).
+4. **Definir identidade dos anotadores** (nomes/IDs reais) em `annotators.csv`.
+
+## 11.7 Armadilhas conhecidas (evitar retrabalho)
+
+| Armadilha | Fato |
+|---|---|
+| `pytest` não está no PATH | usar `python -m pytest` |
+| `git` não está no PATH por shell | recarregar `$env:Path` como na §11.4 |
+| Download no `data/raw/` invalidaria V09 | staging é sempre `data/_incoming/` |
+| `.gitkeep` quebrava V09 | corrigido (V09 ignora dotfiles) — não remover os `.gitkeep` |
+| `windows.annotator_id` é FK | o consolidador precisa existir em `annotators.csv` antes de rodar `make_windows.py` |
+| Espelhos não-oficiais de dataset restrito | podem violar EULA — só com licença clara e anotada em `licenses.csv` |
+| `UNCERTAIN` → `ABSENT` "para limpar" | **proibido** — viola §2.3/§7 do protocolo e derruba a credibilidade do benchmark |
+| Editar vídeo em `data/raw/` | **proibido** — originais preservados; hash no registry deixaria de bater (V10) |
+| Identidade facial/nome em CSV | proibido (anonimização) |
+
+## 11.8 Critérios de "pronto" para a Parte 2 (§12 do protocolo → checklist executável)
+
+- [ ] Timestamps alinhados → V03/V04/V05 em `PASS`
+- [ ] Critérios de rótulo documentados → `behavior_dictionary.csv` + `annotation_workflow.md`
+- [ ] Avaliadores sem scores → `annotators.csv.access_to_engine_scores = NO`
+- [ ] Inconclusivos identificados → `UNCERTAIN`/`UNOBSERVABLE` preservados + `divergence_report.csv`
+- [ ] Split por participante → `processed/{train,validation,test}.csv` (gerados por `participant_id`)
+- [ ] Origem/condições documentadas → `sources_registry.csv` + `sessions.csv`
+- [ ] Licença/consentimento → gate `acquire.py list` CLEARED + `licenses.csv`
+- [ ] Reprodutibilidade → `pytest` (56+) + `validate_dataset.py` PASS + push limpo
+
+---
+
+*Documento técnico do NightEyes Dataset V1.0 — Partes 1 e 2 (em andamento). Atualizado em 2026-11-19.*
 *Dados protegidos NÃO são distribuídos por este repositório.*
