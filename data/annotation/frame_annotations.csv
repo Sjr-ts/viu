@@ -383,3 +383,579 @@ FR000191,SRC003,18-FemaleNoGlasses-Yawning.avi,YD_P18,18-FemaleNoGlasses-Yawning
 FR000191,SRC003,18-FemaleNoGlasses-Yawning.avi,YD_P18,18-FemaleNoGlasses-Yawning,9276,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
 FR000192,SRC003,18-FemaleNoGlasses-Yawning.avi,YD_P18,18-FemaleNoGlasses-Yawning,16717,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
 FR000192,SRC003,18-FemaleNoGlasses-Yawning.avi,YD_P18,18-FemaleNoGlasses-Yawning,16717,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000193,SRC003,18-FemaleSunGlasses-Normal.avi,YD_P18,18-FemaleSunGlasses-Normal,2169,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000193,SRC003,18-FemaleSunGlasses-Normal.avi,YD_P18,18-FemaleSunGlasses-Normal,2169,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000194,SRC003,18-FemaleSunGlasses-Normal.avi,YD_P18,18-FemaleSunGlasses-Normal,10978,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000194,SRC003,18-FemaleSunGlasses-Normal.avi,YD_P18,18-FemaleSunGlasses-Normal,10978,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000195,SRC003,18-FemaleSunGlasses-Normal.avi,YD_P18,18-FemaleSunGlasses-Normal,19786,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000195,SRC003,18-FemaleSunGlasses-Normal.avi,YD_P18,18-FemaleSunGlasses-Normal,19786,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000196,SRC003,18-FemaleSunGlasses-Talking.avi,YD_P18,18-FemaleSunGlasses-Talking,3303,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000196,SRC003,18-FemaleSunGlasses-Talking.avi,YD_P18,18-FemaleSunGlasses-Talking,3303,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000197,SRC003,18-FemaleSunGlasses-Talking.avi,YD_P18,18-FemaleSunGlasses-Talking,16517,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000197,SRC003,18-FemaleSunGlasses-Talking.avi,YD_P18,18-FemaleSunGlasses-Talking,16517,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000198,SRC003,18-FemaleSunGlasses-Talking.avi,YD_P18,18-FemaleSunGlasses-Talking,29730,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000198,SRC003,18-FemaleSunGlasses-Talking.avi,YD_P18,18-FemaleSunGlasses-Talking,29730,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000199,SRC003,18-FemaleSunGlasses-Yawning.avi,YD_P18,18-FemaleSunGlasses-Yawning,2102,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000199,SRC003,18-FemaleSunGlasses-Yawning.avi,YD_P18,18-FemaleSunGlasses-Yawning,2102,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000200,SRC003,18-FemaleSunGlasses-Yawning.avi,YD_P18,18-FemaleSunGlasses-Yawning,10644,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; hand touching face
+FR000200,SRC003,18-FemaleSunGlasses-Yawning.avi,YD_P18,18-FemaleSunGlasses-Yawning,10644,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,"sunglasses hide gaze; hand-to-face gesture, no phone"
+FR000201,SRC003,18-FemaleSunGlasses-Yawning.avi,YD_P18,18-FemaleSunGlasses-Yawning,19186,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000201,SRC003,18-FemaleSunGlasses-Yawning.avi,YD_P18,18-FemaleSunGlasses-Yawning,19186,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000202,SRC003,19-FemaleNoGlasses-Normal.avi,YD_P19,19-FemaleNoGlasses-Normal,2236,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000202,SRC003,19-FemaleNoGlasses-Normal.avi,YD_P19,19-FemaleNoGlasses-Normal,2236,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000203,SRC003,19-FemaleNoGlasses-Normal.avi,YD_P19,19-FemaleNoGlasses-Normal,11311,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000203,SRC003,19-FemaleNoGlasses-Normal.avi,YD_P19,19-FemaleNoGlasses-Normal,11311,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000204,SRC003,19-FemaleNoGlasses-Normal.avi,YD_P19,19-FemaleNoGlasses-Normal,20354,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000204,SRC003,19-FemaleNoGlasses-Normal.avi,YD_P19,19-FemaleNoGlasses-Normal,20354,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000205,SRC003,19-FemaleNoGlasses-Talking&Yawning.avi,YD_P19,19-FemaleNoGlasses-Talking&Yawning,2236,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed or fully lowered, mouth closed; may be blink"
+FR000205,SRC003,19-FemaleNoGlasses-Talking&Yawning.avi,YD_P19,19-FemaleNoGlasses-Talking&Yawning,2236,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000206,SRC003,19-FemaleNoGlasses-Talking&Yawning.avi,YD_P19,19-FemaleNoGlasses-Talking&Yawning,11278,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted"
+FR000206,SRC003,19-FemaleNoGlasses-Talking&Yawning.avi,YD_P19,19-FemaleNoGlasses-Talking&Yawning,11278,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000207,SRC003,19-FemaleNoGlasses-Talking&Yawning.avi,YD_P19,19-FemaleNoGlasses-Talking&Yawning,20287,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000207,SRC003,19-FemaleNoGlasses-Talking&Yawning.avi,YD_P19,19-FemaleNoGlasses-Talking&Yawning,20287,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000208,SRC003,19-FemaleNoGlasses-Talking.avi,YD_P19,19-FemaleNoGlasses-Talking,3770,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000208,SRC003,19-FemaleNoGlasses-Talking.avi,YD_P19,19-FemaleNoGlasses-Talking,3770,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,gaze near-forward
+FR000209,SRC003,19-FemaleNoGlasses-Talking.avi,YD_P19,19-FemaleNoGlasses-Talking,18886,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000209,SRC003,19-FemaleNoGlasses-Talking.avi,YD_P19,19-FemaleNoGlasses-Talking,18886,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000210,SRC003,19-FemaleNoGlasses-Talking.avi,YD_P19,19-FemaleNoGlasses-Talking,34001,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000210,SRC003,19-FemaleNoGlasses-Talking.avi,YD_P19,19-FemaleNoGlasses-Talking,34001,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000211,SRC003,19-FemaleNoGlasses-Yawning.avi,YD_P19,19-FemaleNoGlasses-Yawning,2469,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or fully lowered lids; may be blink
+FR000211,SRC003,19-FemaleNoGlasses-Yawning.avi,YD_P19,19-FemaleNoGlasses-Yawning,2469,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000212,SRC003,19-FemaleNoGlasses-Yawning.avi,YD_P19,19-FemaleNoGlasses-Yawning,12412,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed or fully lowered lids, mouth slightly open; may be blink"
+FR000212,SRC003,19-FemaleNoGlasses-Yawning.avi,YD_P19,19-FemaleNoGlasses-Yawning,12412,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000213,SRC003,19-FemaleNoGlasses-Yawning.avi,YD_P19,19-FemaleNoGlasses-Yawning,22322,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000213,SRC003,19-FemaleNoGlasses-Yawning.avi,YD_P19,19-FemaleNoGlasses-Yawning,22322,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000214,SRC003,2-FemaleNoGlasses-Normal.avi,YD_P2,2-FemaleNoGlasses-Normal,1602,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000214,SRC003,2-FemaleNoGlasses-Normal.avi,YD_P2,2-FemaleNoGlasses-Normal,1602,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,gaze forward
+FR000215,SRC003,2-FemaleNoGlasses-Normal.avi,YD_P2,2-FemaleNoGlasses-Normal,8141,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000215,SRC003,2-FemaleNoGlasses-Normal.avi,YD_P2,2-FemaleNoGlasses-Normal,8141,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,gaze forward
+FR000216,SRC003,2-FemaleNoGlasses-Normal.avi,YD_P2,2-FemaleNoGlasses-Normal,14681,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000216,SRC003,2-FemaleNoGlasses-Normal.avi,YD_P2,2-FemaleNoGlasses-Normal,14681,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000217,SRC003,2-FemaleNoGlasses-Talking.avi,YD_P2,2-FemaleNoGlasses-Talking,2803,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes half-closed or lowered, neutral face; may be blink"
+FR000217,SRC003,2-FemaleNoGlasses-Talking.avi,YD_P2,2-FemaleNoGlasses-Talking,2803,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000218,SRC003,2-FemaleNoGlasses-Talking.avi,YD_P2,2-FemaleNoGlasses-Talking,14014,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000218,SRC003,2-FemaleNoGlasses-Talking.avi,YD_P2,2-FemaleNoGlasses-Talking,14014,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000219,SRC003,2-FemaleNoGlasses-Talking.avi,YD_P2,2-FemaleNoGlasses-Talking,25225,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000219,SRC003,2-FemaleNoGlasses-Talking.avi,YD_P2,2-FemaleNoGlasses-Talking,25225,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000220,SRC003,2-FemaleNoGlasses-Yawning.avi,YD_P2,2-FemaleNoGlasses-Yawning,1935,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000220,SRC003,2-FemaleNoGlasses-Yawning.avi,YD_P2,2-FemaleNoGlasses-Yawning,1935,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000221,SRC003,2-FemaleNoGlasses-Yawning.avi,YD_P2,2-FemaleNoGlasses-Yawning,9776,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000221,SRC003,2-FemaleNoGlasses-Yawning.avi,YD_P2,2-FemaleNoGlasses-Yawning,9776,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000222,SRC003,2-FemaleNoGlasses-Yawning.avi,YD_P2,2-FemaleNoGlasses-Yawning,17584,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000222,SRC003,2-FemaleNoGlasses-Yawning.avi,YD_P2,2-FemaleNoGlasses-Yawning,17584,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000223,SRC003,20-FemaleNoGlasses-Normal.avi,YD_P20,20-FemaleNoGlasses-Normal,2703,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000223,SRC003,20-FemaleNoGlasses-Normal.avi,YD_P20,20-FemaleNoGlasses-Normal,2703,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000224,SRC003,20-FemaleNoGlasses-Normal.avi,YD_P20,20-FemaleNoGlasses-Normal,13547,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000224,SRC003,20-FemaleNoGlasses-Normal.avi,YD_P20,20-FemaleNoGlasses-Normal,13547,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000225,SRC003,20-FemaleNoGlasses-Normal.avi,YD_P20,20-FemaleNoGlasses-Normal,24358,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000225,SRC003,20-FemaleNoGlasses-Normal.avi,YD_P20,20-FemaleNoGlasses-Normal,24358,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000226,SRC003,20-FemaleNoGlasses-Talking.avi,YD_P20,20-FemaleNoGlasses-Talking,2369,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000226,SRC003,20-FemaleNoGlasses-Talking.avi,YD_P20,20-FemaleNoGlasses-Talking,2369,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000227,SRC003,20-FemaleNoGlasses-Talking.avi,YD_P20,20-FemaleNoGlasses-Talking,11945,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000227,SRC003,20-FemaleNoGlasses-Talking.avi,YD_P20,20-FemaleNoGlasses-Talking,11945,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000228,SRC003,20-FemaleNoGlasses-Talking.avi,YD_P20,20-FemaleNoGlasses-Talking,21522,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000228,SRC003,20-FemaleNoGlasses-Talking.avi,YD_P20,20-FemaleNoGlasses-Talking,21522,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000229,SRC003,20-FemaleNoGlasses-Yawning.avi,YD_P20,20-FemaleNoGlasses-Yawning,2536,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, slight smile"
+FR000229,SRC003,20-FemaleNoGlasses-Yawning.avi,YD_P20,20-FemaleNoGlasses-Yawning,2536,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000230,SRC003,20-FemaleNoGlasses-Yawning.avi,YD_P20,20-FemaleNoGlasses-Yawning,12713,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000230,SRC003,20-FemaleNoGlasses-Yawning.avi,YD_P20,20-FemaleNoGlasses-Yawning,12713,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000231,SRC003,20-FemaleNoGlasses-Yawning.avi,YD_P20,20-FemaleNoGlasses-Yawning,22890,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed or fully lowered lids, mouth slightly open; may be blink"
+FR000231,SRC003,20-FemaleNoGlasses-Yawning.avi,YD_P20,20-FemaleNoGlasses-Yawning,22890,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000232,SRC003,21-FemaleNoGlasses-Normal.avi,YD_P21,21-FemaleNoGlasses-Normal,2002,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000232,SRC003,21-FemaleNoGlasses-Normal.avi,YD_P21,21-FemaleNoGlasses-Normal,2002,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000233,SRC003,21-FemaleNoGlasses-Normal.avi,YD_P21,21-FemaleNoGlasses-Normal,10077,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000233,SRC003,21-FemaleNoGlasses-Normal.avi,YD_P21,21-FemaleNoGlasses-Normal,10077,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000234,SRC003,21-FemaleNoGlasses-Normal.avi,YD_P21,21-FemaleNoGlasses-Normal,18151,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000234,SRC003,21-FemaleNoGlasses-Normal.avi,YD_P21,21-FemaleNoGlasses-Normal,18151,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000235,SRC003,21-FemaleNoGlasses-Talking.avi,YD_P21,21-FemaleNoGlasses-Talking,3337,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000235,SRC003,21-FemaleNoGlasses-Talking.avi,YD_P21,21-FemaleNoGlasses-Talking,3337,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000236,SRC003,21-FemaleNoGlasses-Talking.avi,YD_P21,21-FemaleNoGlasses-Talking,16717,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000236,SRC003,21-FemaleNoGlasses-Talking.avi,YD_P21,21-FemaleNoGlasses-Talking,16717,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000237,SRC003,21-FemaleNoGlasses-Talking.avi,YD_P21,21-FemaleNoGlasses-Talking,30097,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000237,SRC003,21-FemaleNoGlasses-Talking.avi,YD_P21,21-FemaleNoGlasses-Talking,30097,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000238,SRC003,21-FemaleNoGlasses-Yawning.avi,YD_P21,21-FemaleNoGlasses-Yawning,1635,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000238,SRC003,21-FemaleNoGlasses-Yawning.avi,YD_P21,21-FemaleNoGlasses-Yawning,1635,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000239,SRC003,21-FemaleNoGlasses-Yawning.avi,YD_P21,21-FemaleNoGlasses-Yawning,8208,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000239,SRC003,21-FemaleNoGlasses-Yawning.avi,YD_P21,21-FemaleNoGlasses-Yawning,8208,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000240,SRC003,21-FemaleNoGlasses-Yawning.avi,YD_P21,21-FemaleNoGlasses-Yawning,14781,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000240,SRC003,21-FemaleNoGlasses-Yawning.avi,YD_P21,21-FemaleNoGlasses-Yawning,14781,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000241,SRC003,22-FemaleNoGlasses-Normal.avi,YD_P22,22-FemaleNoGlasses-Normal,2102,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000241,SRC003,22-FemaleNoGlasses-Normal.avi,YD_P22,22-FemaleNoGlasses-Normal,2102,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000242,SRC003,22-FemaleNoGlasses-Normal.avi,YD_P22,22-FemaleNoGlasses-Normal,10544,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000242,SRC003,22-FemaleNoGlasses-Normal.avi,YD_P22,22-FemaleNoGlasses-Normal,10544,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000243,SRC003,22-FemaleNoGlasses-Normal.avi,YD_P22,22-FemaleNoGlasses-Normal,18986,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000243,SRC003,22-FemaleNoGlasses-Normal.avi,YD_P22,22-FemaleNoGlasses-Normal,18986,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000244,SRC003,22-FemaleNoGlasses-Talking.avi,YD_P22,22-FemaleNoGlasses-Talking,3670,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000244,SRC003,22-FemaleNoGlasses-Talking.avi,YD_P22,22-FemaleNoGlasses-Talking,3670,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000245,SRC003,22-FemaleNoGlasses-Talking.avi,YD_P22,22-FemaleNoGlasses-Talking,18352,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000245,SRC003,22-FemaleNoGlasses-Talking.avi,YD_P22,22-FemaleNoGlasses-Talking,18352,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000246,SRC003,22-FemaleNoGlasses-Talking.avi,YD_P22,22-FemaleNoGlasses-Talking,33033,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000246,SRC003,22-FemaleNoGlasses-Talking.avi,YD_P22,22-FemaleNoGlasses-Talking,33033,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000247,SRC003,22-FemaleNoGlasses-Yawning.avi,YD_P22,22-FemaleNoGlasses-Yawning,2102,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000247,SRC003,22-FemaleNoGlasses-Yawning.avi,YD_P22,22-FemaleNoGlasses-Yawning,2102,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000248,SRC003,22-FemaleNoGlasses-Yawning.avi,YD_P22,22-FemaleNoGlasses-Yawning,10511,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000248,SRC003,22-FemaleNoGlasses-Yawning.avi,YD_P22,22-FemaleNoGlasses-Yawning,10511,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000249,SRC003,22-FemaleNoGlasses-Yawning.avi,YD_P22,22-FemaleNoGlasses-Yawning,18919,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000249,SRC003,22-FemaleNoGlasses-Yawning.avi,YD_P22,22-FemaleNoGlasses-Yawning,18919,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000250,SRC003,22-FemaleSunGlasses-Normal.avi,YD_P22,22-FemaleSunGlasses-Normal,1201,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000250,SRC003,22-FemaleSunGlasses-Normal.avi,YD_P22,22-FemaleSunGlasses-Normal,1201,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000251,SRC003,22-FemaleSunGlasses-Normal.avi,YD_P22,22-FemaleSunGlasses-Normal,6073,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000251,SRC003,22-FemaleSunGlasses-Normal.avi,YD_P22,22-FemaleSunGlasses-Normal,6073,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000252,SRC003,22-FemaleSunGlasses-Normal.avi,YD_P22,22-FemaleSunGlasses-Normal,10911,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000252,SRC003,22-FemaleSunGlasses-Normal.avi,YD_P22,22-FemaleSunGlasses-Normal,10911,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000253,SRC003,22-FemaleSunGlasses-Talking.avi,YD_P22,22-FemaleSunGlasses-Talking,2069,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000253,SRC003,22-FemaleSunGlasses-Talking.avi,YD_P22,22-FemaleSunGlasses-Talking,2069,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000254,SRC003,22-FemaleSunGlasses-Talking.avi,YD_P22,22-FemaleSunGlasses-Talking,10410,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000254,SRC003,22-FemaleSunGlasses-Talking.avi,YD_P22,22-FemaleSunGlasses-Talking,10410,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000255,SRC003,22-FemaleSunGlasses-Talking.avi,YD_P22,22-FemaleSunGlasses-Talking,18719,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000255,SRC003,22-FemaleSunGlasses-Talking.avi,YD_P22,22-FemaleSunGlasses-Talking,18719,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000256,SRC003,22-FemaleSunGlasses-Yawning.avi,YD_P22,22-FemaleSunGlasses-Yawning,1401,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (yawn or talking ambiguous)
+FR000256,SRC003,22-FemaleSunGlasses-Yawning.avi,YD_P22,22-FemaleSunGlasses-Yawning,1401,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000257,SRC003,22-FemaleSunGlasses-Yawning.avi,YD_P22,22-FemaleSunGlasses-Yawning,7074,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000257,SRC003,22-FemaleSunGlasses-Yawning.avi,YD_P22,22-FemaleSunGlasses-Yawning,7074,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000258,SRC003,22-FemaleSunGlasses-Yawning.avi,YD_P22,22-FemaleSunGlasses-Yawning,12746,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000258,SRC003,22-FemaleSunGlasses-Yawning.avi,YD_P22,22-FemaleSunGlasses-Yawning,12746,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000259,SRC003,23-FemaleNoGlasses-Normal.avi,YD_P23,23-FemaleNoGlasses-Normal,2402,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000259,SRC003,23-FemaleNoGlasses-Normal.avi,YD_P23,23-FemaleNoGlasses-Normal,2402,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000260,SRC003,23-FemaleNoGlasses-Normal.avi,YD_P23,23-FemaleNoGlasses-Normal,12012,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000260,SRC003,23-FemaleNoGlasses-Normal.avi,YD_P23,23-FemaleNoGlasses-Normal,12012,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000261,SRC003,23-FemaleNoGlasses-Normal.avi,YD_P23,23-FemaleNoGlasses-Normal,21622,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, slight smile"
+FR000261,SRC003,23-FemaleNoGlasses-Normal.avi,YD_P23,23-FemaleNoGlasses-Normal,21622,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000262,SRC003,23-FemaleNoGlasses-Talking&Yawning.avi,YD_P23,23-FemaleNoGlasses-Talking&Yawning,1869,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000262,SRC003,23-FemaleNoGlasses-Talking&Yawning.avi,YD_P23,23-FemaleNoGlasses-Talking&Yawning,1869,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000263,SRC003,23-FemaleNoGlasses-Talking&Yawning.avi,YD_P23,23-FemaleNoGlasses-Talking&Yawning,9409,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000263,SRC003,23-FemaleNoGlasses-Talking&Yawning.avi,YD_P23,23-FemaleNoGlasses-Talking&Yawning,9409,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000264,SRC003,23-FemaleNoGlasses-Talking&Yawning.avi,YD_P23,23-FemaleNoGlasses-Talking&Yawning,16950,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000264,SRC003,23-FemaleNoGlasses-Talking&Yawning.avi,YD_P23,23-FemaleNoGlasses-Talking&Yawning,16950,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000265,SRC003,23-FemaleNoGlasses-Talking.avi,YD_P23,23-FemaleNoGlasses-Talking,2769,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000265,SRC003,23-FemaleNoGlasses-Talking.avi,YD_P23,23-FemaleNoGlasses-Talking,2769,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000266,SRC003,23-FemaleNoGlasses-Talking.avi,YD_P23,23-FemaleNoGlasses-Talking,13981,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000266,SRC003,23-FemaleNoGlasses-Talking.avi,YD_P23,23-FemaleNoGlasses-Talking,13981,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000267,SRC003,23-FemaleNoGlasses-Talking.avi,YD_P23,23-FemaleNoGlasses-Talking,25158,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000267,SRC003,23-FemaleNoGlasses-Talking.avi,YD_P23,23-FemaleNoGlasses-Talking,25158,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000268,SRC003,23-FemaleNoGlasses-Yawning.avi,YD_P23,23-FemaleNoGlasses-Yawning,1735,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000268,SRC003,23-FemaleNoGlasses-Yawning.avi,YD_P23,23-FemaleNoGlasses-Yawning,1735,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000269,SRC003,23-FemaleNoGlasses-Yawning.avi,YD_P23,23-FemaleNoGlasses-Yawning,8742,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000269,SRC003,23-FemaleNoGlasses-Yawning.avi,YD_P23,23-FemaleNoGlasses-Yawning,8742,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000270,SRC003,23-FemaleNoGlasses-Yawning.avi,YD_P23,23-FemaleNoGlasses-Yawning,15749,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within smile, not drowsy"
+FR000270,SRC003,23-FemaleNoGlasses-Yawning.avi,YD_P23,23-FemaleNoGlasses-Yawning,15749,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000271,SRC003,24-FemaleNoGlasses-Normal.avi,YD_P24,24-FemaleNoGlasses-Normal,2102,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000271,SRC003,24-FemaleNoGlasses-Normal.avi,YD_P24,24-FemaleNoGlasses-Normal,2102,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000272,SRC003,24-FemaleNoGlasses-Normal.avi,YD_P24,24-FemaleNoGlasses-Normal,10544,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000272,SRC003,24-FemaleNoGlasses-Normal.avi,YD_P24,24-FemaleNoGlasses-Normal,10544,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,head and gaze turned right; persistence unknown
+FR000273,SRC003,24-FemaleNoGlasses-Normal.avi,YD_P24,24-FemaleNoGlasses-Normal,18952,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000273,SRC003,24-FemaleNoGlasses-Normal.avi,YD_P24,24-FemaleNoGlasses-Normal,18952,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000274,SRC003,24-FemaleNoGlasses-Talking.avi,YD_P24,24-FemaleNoGlasses-Talking,2269,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000274,SRC003,24-FemaleNoGlasses-Talking.avi,YD_P24,24-FemaleNoGlasses-Talking,2269,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000275,SRC003,24-FemaleNoGlasses-Talking.avi,YD_P24,24-FemaleNoGlasses-Talking,11345,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or lowered while mouth open (talking); may be blink
+FR000275,SRC003,24-FemaleNoGlasses-Talking.avi,YD_P24,24-FemaleNoGlasses-Talking,11345,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000276,SRC003,24-FemaleNoGlasses-Talking.avi,YD_P24,24-FemaleNoGlasses-Talking,20420,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000276,SRC003,24-FemaleNoGlasses-Talking.avi,YD_P24,24-FemaleNoGlasses-Talking,20420,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000277,SRC003,24-FemaleNoGlasses-Yawning.avi,YD_P24,24-FemaleNoGlasses-Yawning,2135,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000277,SRC003,24-FemaleNoGlasses-Yawning.avi,YD_P24,24-FemaleNoGlasses-Yawning,2135,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000278,SRC003,24-FemaleNoGlasses-Yawning.avi,YD_P24,24-FemaleNoGlasses-Yawning,10777,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000278,SRC003,24-FemaleNoGlasses-Yawning.avi,YD_P24,24-FemaleNoGlasses-Yawning,10777,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000279,SRC003,24-FemaleNoGlasses-Yawning.avi,YD_P24,24-FemaleNoGlasses-Yawning,19386,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000279,SRC003,24-FemaleNoGlasses-Yawning.avi,YD_P24,24-FemaleNoGlasses-Yawning,19386,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000280,SRC003,25-FemaleNoGlasses-Normal.avi,YD_P25,25-FemaleNoGlasses-Normal,1001,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or fully lowered lids; may be blink
+FR000280,SRC003,25-FemaleNoGlasses-Normal.avi,YD_P25,25-FemaleNoGlasses-Normal,1001,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000281,SRC003,25-FemaleNoGlasses-Normal.avi,YD_P25,25-FemaleNoGlasses-Normal,5138,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000281,SRC003,25-FemaleNoGlasses-Normal.avi,YD_P25,25-FemaleNoGlasses-Normal,5138,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000282,SRC003,25-FemaleNoGlasses-Normal.avi,YD_P25,25-FemaleNoGlasses-Normal,9243,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000282,SRC003,25-FemaleNoGlasses-Normal.avi,YD_P25,25-FemaleNoGlasses-Normal,9243,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000283,SRC003,25-FemaleNoGlasses-Yawning.avi,YD_P25,25-FemaleNoGlasses-Yawning,868,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed, neutral face; may be blink"
+FR000283,SRC003,25-FemaleNoGlasses-Yawning.avi,YD_P25,25-FemaleNoGlasses-Yawning,868,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000284,SRC003,25-FemaleNoGlasses-Yawning.avi,YD_P25,25-FemaleNoGlasses-Yawning,4471,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted"
+FR000284,SRC003,25-FemaleNoGlasses-Yawning.avi,YD_P25,25-FemaleNoGlasses-Yawning,4471,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000285,SRC003,25-FemaleNoGlasses-Yawning.avi,YD_P25,25-FemaleNoGlasses-Yawning,8041,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, slight smile"
+FR000285,SRC003,25-FemaleNoGlasses-Yawning.avi,YD_P25,25-FemaleNoGlasses-Yawning,8041,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000286,SRC003,25-FemaleSunGlasses-Normal.avi,YD_P25,25-FemaleSunGlasses-Normal,1668,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000286,SRC003,25-FemaleSunGlasses-Normal.avi,YD_P25,25-FemaleSunGlasses-Normal,1668,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000287,SRC003,25-FemaleSunGlasses-Normal.avi,YD_P25,25-FemaleSunGlasses-Normal,8408,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000287,SRC003,25-FemaleSunGlasses-Normal.avi,YD_P25,25-FemaleSunGlasses-Normal,8408,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000288,SRC003,25-FemaleSunGlasses-Normal.avi,YD_P25,25-FemaleSunGlasses-Normal,15148,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000288,SRC003,25-FemaleSunGlasses-Normal.avi,YD_P25,25-FemaleSunGlasses-Normal,15148,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000289,SRC003,25-FemaleSunGlasses-Talking.avi,YD_P25,25-FemaleSunGlasses-Talking,2803,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000289,SRC003,25-FemaleSunGlasses-Talking.avi,YD_P25,25-FemaleSunGlasses-Talking,2803,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000290,SRC003,25-FemaleSunGlasses-Talking.avi,YD_P25,25-FemaleSunGlasses-Talking,14014,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000290,SRC003,25-FemaleSunGlasses-Talking.avi,YD_P25,25-FemaleSunGlasses-Talking,14014,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000291,SRC003,25-FemaleSunGlasses-Talking.avi,YD_P25,25-FemaleSunGlasses-Talking,25225,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000291,SRC003,25-FemaleSunGlasses-Talking.avi,YD_P25,25-FemaleSunGlasses-Talking,25225,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000292,SRC003,25-FemaleSunGlasses-Yawning.avi,YD_P25,25-FemaleSunGlasses-Yawning,2035,SLEEPINESS,PRESENT,SLEEP_003,UNOBSERVABLE,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"clear yawn posture, mouth wide open; eyes hidden by sunglasses"
+FR000292,SRC003,25-FemaleSunGlasses-Yawning.avi,YD_P25,25-FemaleSunGlasses-Yawning,2035,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000293,SRC003,25-FemaleSunGlasses-Yawning.avi,YD_P25,25-FemaleSunGlasses-Yawning,10210,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth closed
+FR000293,SRC003,25-FemaleSunGlasses-Yawning.avi,YD_P25,25-FemaleSunGlasses-Yawning,10210,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000294,SRC003,25-FemaleSunGlasses-Yawning.avi,YD_P25,25-FemaleSunGlasses-Yawning,18352,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth slightly open
+FR000294,SRC003,25-FemaleSunGlasses-Yawning.avi,YD_P25,25-FemaleSunGlasses-Yawning,18352,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000295,SRC003,26-FemaleGlasses-Normal.avi,YD_P26,26-FemaleGlasses-Normal,2102,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000295,SRC003,26-FemaleGlasses-Normal.avi,YD_P26,26-FemaleGlasses-Normal,2102,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000296,SRC003,26-FemaleGlasses-Normal.avi,YD_P26,26-FemaleGlasses-Normal,10577,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000296,SRC003,26-FemaleGlasses-Normal.avi,YD_P26,26-FemaleGlasses-Normal,10577,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000297,SRC003,26-FemaleGlasses-Normal.avi,YD_P26,26-FemaleGlasses-Normal,19019,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000297,SRC003,26-FemaleGlasses-Normal.avi,YD_P26,26-FemaleGlasses-Normal,19019,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000298,SRC003,26-FemaleGlasses-Talking.avi,YD_P26,26-FemaleGlasses-Talking,3203,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, neutral"
+FR000298,SRC003,26-FemaleGlasses-Talking.avi,YD_P26,26-FemaleGlasses-Talking,3203,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000299,SRC003,26-FemaleGlasses-Talking.avi,YD_P26,26-FemaleGlasses-Talking,16016,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000299,SRC003,26-FemaleGlasses-Talking.avi,YD_P26,26-FemaleGlasses-Talking,16016,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze near-forward with slight rightward drift
+FR000300,SRC003,26-FemaleGlasses-Talking.avi,YD_P26,26-FemaleGlasses-Talking,28829,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000300,SRC003,26-FemaleGlasses-Talking.avi,YD_P26,26-FemaleGlasses-Talking,28829,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000301,SRC003,26-FemaleGlasses-Yawning.avi,YD_P26,26-FemaleGlasses-Yawning,1101,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000301,SRC003,26-FemaleGlasses-Yawning.avi,YD_P26,26-FemaleGlasses-Yawning,1101,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze near-forward
+FR000302,SRC003,26-FemaleGlasses-Yawning.avi,YD_P26,26-FemaleGlasses-Yawning,5639,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted"
+FR000302,SRC003,26-FemaleGlasses-Yawning.avi,YD_P26,26-FemaleGlasses-Yawning,5639,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000303,SRC003,26-FemaleGlasses-Yawning.avi,YD_P26,26-FemaleGlasses-Yawning,10143,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within slight smile, not clearly drowsy"
+FR000303,SRC003,26-FemaleGlasses-Yawning.avi,YD_P26,26-FemaleGlasses-Yawning,10143,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000304,SRC003,26-FemaleSunGlasses-Normal.avi,YD_P26,26-FemaleSunGlasses-Normal,1535,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000304,SRC003,26-FemaleSunGlasses-Normal.avi,YD_P26,26-FemaleSunGlasses-Normal,1535,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000305,SRC003,26-FemaleSunGlasses-Normal.avi,YD_P26,26-FemaleSunGlasses-Normal,7741,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000305,SRC003,26-FemaleSunGlasses-Normal.avi,YD_P26,26-FemaleSunGlasses-Normal,7741,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000306,SRC003,26-FemaleSunGlasses-Normal.avi,YD_P26,26-FemaleSunGlasses-Normal,13914,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000306,SRC003,26-FemaleSunGlasses-Normal.avi,YD_P26,26-FemaleSunGlasses-Normal,13914,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000307,SRC003,26-FemaleSunGlasses-Yawning.avi,YD_P26,26-FemaleSunGlasses-Yawning,1635,SLEEPINESS,PRESENT,SLEEP_003,UNOBSERVABLE,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"clear yawn posture, mouth wide open; eyes hidden by sunglasses"
+FR000307,SRC003,26-FemaleSunGlasses-Yawning.avi,YD_P26,26-FemaleSunGlasses-Yawning,1635,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000308,SRC003,26-FemaleSunGlasses-Yawning.avi,YD_P26,26-FemaleSunGlasses-Yawning,8242,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open in smile
+FR000308,SRC003,26-FemaleSunGlasses-Yawning.avi,YD_P26,26-FemaleSunGlasses-Yawning,8242,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000309,SRC003,26-FemaleSunGlasses-Yawning.avi,YD_P26,26-FemaleSunGlasses-Yawning,14848,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000309,SRC003,26-FemaleSunGlasses-Yawning.avi,YD_P26,26-FemaleSunGlasses-Yawning,14848,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000310,SRC003,27-FemaleNoGlasses-Normal.avi,YD_P27,27-FemaleNoGlasses-Normal,3003,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000310,SRC003,27-FemaleNoGlasses-Normal.avi,YD_P27,27-FemaleNoGlasses-Normal,3003,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000311,SRC003,27-FemaleNoGlasses-Normal.avi,YD_P27,27-FemaleNoGlasses-Normal,15082,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or fully lowered lids; may be blink
+FR000311,SRC003,27-FemaleNoGlasses-Normal.avi,YD_P27,27-FemaleNoGlasses-Normal,15082,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000312,SRC003,27-FemaleNoGlasses-Normal.avi,YD_P27,27-FemaleNoGlasses-Normal,27127,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or lowered with hand on forehead; may be blink or fatigue gesture
+FR000312,SRC003,27-FemaleNoGlasses-Normal.avi,YD_P27,27-FemaleNoGlasses-Normal,27127,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"hand on forehead, no phone, no external target"
+FR000313,SRC003,27-FemaleNoGlasses-Talking&Yawning.avi,YD_P27,27-FemaleNoGlasses-Talking&Yawning,2336,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth open in O-shape with eyes open; ambiguous between talking and yawning
+FR000313,SRC003,27-FemaleNoGlasses-Talking&Yawning.avi,YD_P27,27-FemaleNoGlasses-Talking&Yawning,2336,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000314,SRC003,27-FemaleNoGlasses-Talking&Yawning.avi,YD_P27,27-FemaleNoGlasses-Talking&Yawning,11745,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, hand at temple"
+FR000314,SRC003,27-FemaleNoGlasses-Talking&Yawning.avi,YD_P27,27-FemaleNoGlasses-Talking&Yawning,11745,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right with grooming gesture; persistence unknown
+FR000315,SRC003,27-FemaleNoGlasses-Talking&Yawning.avi,YD_P27,27-FemaleNoGlasses-Talking&Yawning,21154,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000315,SRC003,27-FemaleNoGlasses-Talking&Yawning.avi,YD_P27,27-FemaleNoGlasses-Talking&Yawning,21154,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,gaze near-forward
+FR000316,SRC003,27-FemaleSunGlasses-Normal.avi,YD_P27,27-FemaleSunGlasses-Normal,2569,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000316,SRC003,27-FemaleSunGlasses-Normal.avi,YD_P27,27-FemaleSunGlasses-Normal,2569,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000317,SRC003,27-FemaleSunGlasses-Normal.avi,YD_P27,27-FemaleSunGlasses-Normal,12946,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000317,SRC003,27-FemaleSunGlasses-Normal.avi,YD_P27,27-FemaleSunGlasses-Normal,12946,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000318,SRC003,27-FemaleSunGlasses-Normal.avi,YD_P27,27-FemaleSunGlasses-Normal,23290,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000318,SRC003,27-FemaleSunGlasses-Normal.avi,YD_P27,27-FemaleSunGlasses-Normal,23290,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000319,SRC003,27-FemaleSunGlasses-Talking.avi,YD_P27,27-FemaleSunGlasses-Talking,2402,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open (talking)
+FR000319,SRC003,27-FemaleSunGlasses-Talking.avi,YD_P27,27-FemaleSunGlasses-Talking,2402,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000320,SRC003,27-FemaleSunGlasses-Talking.avi,YD_P27,27-FemaleSunGlasses-Talking,12079,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open in smile
+FR000320,SRC003,27-FemaleSunGlasses-Talking.avi,YD_P27,27-FemaleSunGlasses-Talking,12079,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000321,SRC003,27-FemaleSunGlasses-Talking.avi,YD_P27,27-FemaleSunGlasses-Talking,21722,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open in smile
+FR000321,SRC003,27-FemaleSunGlasses-Talking.avi,YD_P27,27-FemaleSunGlasses-Talking,21722,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000322,SRC003,27-FemaleSunGlasses-Yawning.avi,YD_P27,27-FemaleSunGlasses-Yawning,1401,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000322,SRC003,27-FemaleSunGlasses-Yawning.avi,YD_P27,27-FemaleSunGlasses-Yawning,1401,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000323,SRC003,27-FemaleSunGlasses-Yawning.avi,YD_P27,27-FemaleSunGlasses-Yawning,7140,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,"sunglasses hide eyes; mouth open in O-shape, yawn vs talking ambiguous"
+FR000323,SRC003,27-FemaleSunGlasses-Yawning.avi,YD_P27,27-FemaleSunGlasses-Yawning,7140,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000324,SRC003,27-FemaleSunGlasses-Yawning.avi,YD_P27,27-FemaleSunGlasses-Yawning,12880,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000324,SRC003,27-FemaleSunGlasses-Yawning.avi,YD_P27,27-FemaleSunGlasses-Yawning,12880,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000325,SRC003,28-FemaleNoGlasses-Normal.avi,YD_P28,28-FemaleNoGlasses-Normal,1635,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000325,SRC003,28-FemaleNoGlasses-Normal.avi,YD_P28,28-FemaleNoGlasses-Normal,1635,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000326,SRC003,28-FemaleNoGlasses-Normal.avi,YD_P28,28-FemaleNoGlasses-Normal,8308,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000326,SRC003,28-FemaleNoGlasses-Normal.avi,YD_P28,28-FemaleNoGlasses-Normal,8308,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000327,SRC003,28-FemaleNoGlasses-Normal.avi,YD_P28,28-FemaleNoGlasses-Normal,14982,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000327,SRC003,28-FemaleNoGlasses-Normal.avi,YD_P28,28-FemaleNoGlasses-Normal,14982,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000328,SRC003,28-FemaleNoGlasses-Talking.avi,YD_P28,28-FemaleNoGlasses-Talking,2803,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000328,SRC003,28-FemaleNoGlasses-Talking.avi,YD_P28,28-FemaleNoGlasses-Talking,2803,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000329,SRC003,28-FemaleNoGlasses-Talking.avi,YD_P28,28-FemaleNoGlasses-Talking,14147,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000329,SRC003,28-FemaleNoGlasses-Talking.avi,YD_P28,28-FemaleNoGlasses-Talking,14147,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000330,SRC003,28-FemaleNoGlasses-Talking.avi,YD_P28,28-FemaleNoGlasses-Talking,25459,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000330,SRC003,28-FemaleNoGlasses-Talking.avi,YD_P28,28-FemaleNoGlasses-Talking,25459,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000331,SRC003,28-FemaleNoGlasses-Yawning.avi,YD_P28,28-FemaleNoGlasses-Yawning,1568,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000331,SRC003,28-FemaleNoGlasses-Yawning.avi,YD_P28,28-FemaleNoGlasses-Yawning,1568,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000332,SRC003,28-FemaleNoGlasses-Yawning.avi,YD_P28,28-FemaleNoGlasses-Yawning,7875,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth open with squinted eyes; ambiguous between talking and yawning
+FR000332,SRC003,28-FemaleNoGlasses-Yawning.avi,YD_P28,28-FemaleNoGlasses-Yawning,7875,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000333,SRC003,28-FemaleNoGlasses-Yawning.avi,YD_P28,28-FemaleNoGlasses-Yawning,14147,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within slight smile, not clearly drowsy"
+FR000333,SRC003,28-FemaleNoGlasses-Yawning.avi,YD_P28,28-FemaleNoGlasses-Yawning,14147,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000334,SRC003,29-FemaleNoGlasses-Normal.avi,YD_P29,29-FemaleNoGlasses-Normal,1969,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000334,SRC003,29-FemaleNoGlasses-Normal.avi,YD_P29,29-FemaleNoGlasses-Normal,1969,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000335,SRC003,29-FemaleNoGlasses-Normal.avi,YD_P29,29-FemaleNoGlasses-Normal,9977,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000335,SRC003,29-FemaleNoGlasses-Normal.avi,YD_P29,29-FemaleNoGlasses-Normal,9977,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000336,SRC003,29-FemaleNoGlasses-Normal.avi,YD_P29,29-FemaleNoGlasses-Normal,17985,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000336,SRC003,29-FemaleNoGlasses-Normal.avi,YD_P29,29-FemaleNoGlasses-Normal,17985,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000337,SRC003,29-FemaleNoGlasses-Talking.avi,YD_P29,29-FemaleNoGlasses-Talking,3070,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000337,SRC003,29-FemaleNoGlasses-Talking.avi,YD_P29,29-FemaleNoGlasses-Talking,3070,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000338,SRC003,29-FemaleNoGlasses-Talking.avi,YD_P29,29-FemaleNoGlasses-Talking,15482,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000338,SRC003,29-FemaleNoGlasses-Talking.avi,YD_P29,29-FemaleNoGlasses-Talking,15482,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000339,SRC003,29-FemaleNoGlasses-Talking.avi,YD_P29,29-FemaleNoGlasses-Talking,27861,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000339,SRC003,29-FemaleNoGlasses-Talking.avi,YD_P29,29-FemaleNoGlasses-Talking,27861,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000340,SRC003,29-FemaleNoGlasses-Yawning.avi,YD_P29,29-FemaleNoGlasses-Yawning,1301,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within smile, not drowsy"
+FR000340,SRC003,29-FemaleNoGlasses-Yawning.avi,YD_P29,29-FemaleNoGlasses-Yawning,1301,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within smile, no measurable gaze deviation"
+FR000341,SRC003,29-FemaleNoGlasses-Yawning.avi,YD_P29,29-FemaleNoGlasses-Yawning,6507,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted"
+FR000341,SRC003,29-FemaleNoGlasses-Yawning.avi,YD_P29,29-FemaleNoGlasses-Yawning,6507,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000342,SRC003,29-FemaleNoGlasses-Yawning.avi,YD_P29,29-FemaleNoGlasses-Yawning,11712,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000342,SRC003,29-FemaleNoGlasses-Yawning.avi,YD_P29,29-FemaleNoGlasses-Yawning,11712,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000343,SRC003,3-FemaleGlasses-Normal.avi,YD_P3,3-FemaleGlasses-Normal,1702,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000343,SRC003,3-FemaleGlasses-Normal.avi,YD_P3,3-FemaleGlasses-Normal,1702,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000344,SRC003,3-FemaleGlasses-Normal.avi,YD_P3,3-FemaleGlasses-Normal,8509,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed behind glasses; may be blink
+FR000344,SRC003,3-FemaleGlasses-Normal.avi,YD_P3,3-FemaleGlasses-Normal,8509,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000345,SRC003,3-FemaleGlasses-Normal.avi,YD_P3,3-FemaleGlasses-Normal,15315,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000345,SRC003,3-FemaleGlasses-Normal.avi,YD_P3,3-FemaleGlasses-Normal,15315,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000346,SRC003,3-FemaleGlasses-Talking.avi,YD_P3,3-FemaleGlasses-Talking,2703,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000346,SRC003,3-FemaleGlasses-Talking.avi,YD_P3,3-FemaleGlasses-Talking,2703,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000347,SRC003,3-FemaleGlasses-Talking.avi,YD_P3,3-FemaleGlasses-Talking,13580,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000347,SRC003,3-FemaleGlasses-Talking.avi,YD_P3,3-FemaleGlasses-Talking,13580,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000348,SRC003,3-FemaleGlasses-Talking.avi,YD_P3,3-FemaleGlasses-Talking,24424,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000348,SRC003,3-FemaleGlasses-Talking.avi,YD_P3,3-FemaleGlasses-Talking,24424,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000349,SRC003,3-FemaleGlasses-Yawning.avi,YD_P3,3-FemaleGlasses-Yawning,1201,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes appear closed or fully lowered behind glasses, mouth slightly open; may be blink"
+FR000349,SRC003,3-FemaleGlasses-Yawning.avi,YD_P3,3-FemaleGlasses-Yawning,1201,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000350,SRC003,3-FemaleGlasses-Yawning.avi,YD_P3,3-FemaleGlasses-Yawning,6039,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000350,SRC003,3-FemaleGlasses-Yawning.avi,YD_P3,3-FemaleGlasses-Yawning,6039,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000351,SRC003,3-FemaleGlasses-Yawning.avi,YD_P3,3-FemaleGlasses-Yawning,10878,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000351,SRC003,3-FemaleGlasses-Yawning.avi,YD_P3,3-FemaleGlasses-Yawning,10878,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000352,SRC003,30-FemaleNoGlasses-Normal.avi,YD_P30,30-FemaleNoGlasses-Normal,1635,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000352,SRC003,30-FemaleNoGlasses-Normal.avi,YD_P30,30-FemaleNoGlasses-Normal,1635,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000353,SRC003,30-FemaleNoGlasses-Normal.avi,YD_P30,30-FemaleNoGlasses-Normal,8308,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000353,SRC003,30-FemaleNoGlasses-Normal.avi,YD_P30,30-FemaleNoGlasses-Normal,8308,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000354,SRC003,30-FemaleNoGlasses-Normal.avi,YD_P30,30-FemaleNoGlasses-Normal,14982,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000354,SRC003,30-FemaleNoGlasses-Normal.avi,YD_P30,30-FemaleNoGlasses-Normal,14982,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000355,SRC003,30-FemaleNoGlasses-Talking.avi,YD_P30,30-FemaleNoGlasses-Talking,3303,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000355,SRC003,30-FemaleNoGlasses-Talking.avi,YD_P30,30-FemaleNoGlasses-Talking,3303,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000356,SRC003,30-FemaleNoGlasses-Talking.avi,YD_P30,30-FemaleNoGlasses-Talking,16617,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000356,SRC003,30-FemaleNoGlasses-Talking.avi,YD_P30,30-FemaleNoGlasses-Talking,16617,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000357,SRC003,30-FemaleNoGlasses-Talking.avi,YD_P30,30-FemaleNoGlasses-Talking,29897,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000357,SRC003,30-FemaleNoGlasses-Talking.avi,YD_P30,30-FemaleNoGlasses-Talking,29897,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000358,SRC003,30-FemaleNoGlasses-Yawning.avi,YD_P30,30-FemaleNoGlasses-Yawning,1869,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000358,SRC003,30-FemaleNoGlasses-Yawning.avi,YD_P30,30-FemaleNoGlasses-Yawning,1869,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000359,SRC003,30-FemaleNoGlasses-Yawning.avi,YD_P30,30-FemaleNoGlasses-Yawning,9476,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000359,SRC003,30-FemaleNoGlasses-Yawning.avi,YD_P30,30-FemaleNoGlasses-Yawning,9476,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000360,SRC003,30-FemaleNoGlasses-Yawning.avi,YD_P30,30-FemaleNoGlasses-Yawning,17050,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000360,SRC003,30-FemaleNoGlasses-Yawning.avi,YD_P30,30-FemaleNoGlasses-Yawning,17050,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000361,SRC003,31-FemaleGlasses-Normal.avi,YD_P31,31-FemaleGlasses-Normal,2169,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000361,SRC003,31-FemaleGlasses-Normal.avi,YD_P31,31-FemaleGlasses-Normal,2169,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000362,SRC003,31-FemaleGlasses-Normal.avi,YD_P31,31-FemaleGlasses-Normal,10944,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000362,SRC003,31-FemaleGlasses-Normal.avi,YD_P31,31-FemaleGlasses-Normal,10944,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000363,SRC003,31-FemaleGlasses-Normal.avi,YD_P31,31-FemaleGlasses-Normal,19720,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000363,SRC003,31-FemaleGlasses-Normal.avi,YD_P31,31-FemaleGlasses-Normal,19720,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000364,SRC003,31-FemaleGlasses-Talking.avi,YD_P31,31-FemaleGlasses-Talking,3837,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000364,SRC003,31-FemaleGlasses-Talking.avi,YD_P31,31-FemaleGlasses-Talking,3837,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000365,SRC003,31-FemaleGlasses-Talking.avi,YD_P31,31-FemaleGlasses-Talking,19253,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000365,SRC003,31-FemaleGlasses-Talking.avi,YD_P31,31-FemaleGlasses-Talking,19253,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000366,SRC003,31-FemaleGlasses-Talking.avi,YD_P31,31-FemaleGlasses-Talking,34635,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000366,SRC003,31-FemaleGlasses-Talking.avi,YD_P31,31-FemaleGlasses-Talking,34635,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000367,SRC003,31-FemaleGlasses-Yawning.avi,YD_P31,31-FemaleGlasses-Yawning,1935,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000367,SRC003,31-FemaleGlasses-Yawning.avi,YD_P31,31-FemaleGlasses-Yawning,1935,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000368,SRC003,31-FemaleGlasses-Yawning.avi,YD_P31,31-FemaleGlasses-Yawning,9810,SLEEPINESS,PRESENT,SLEEP_003,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted behind glasses"
+FR000368,SRC003,31-FemaleGlasses-Yawning.avi,YD_P31,31-FemaleGlasses-Yawning,9810,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes squinted during yawn, no measurable gaze deviation"
+FR000369,SRC003,31-FemaleGlasses-Yawning.avi,YD_P31,31-FemaleGlasses-Yawning,17651,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000369,SRC003,31-FemaleGlasses-Yawning.avi,YD_P31,31-FemaleGlasses-Yawning,17651,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000370,SRC003,31-FemaleNoGlasses-Normal.avi,YD_P31,31-FemaleNoGlasses-Normal,2669,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000370,SRC003,31-FemaleNoGlasses-Normal.avi,YD_P31,31-FemaleNoGlasses-Normal,2669,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000371,SRC003,31-FemaleNoGlasses-Normal.avi,YD_P31,31-FemaleNoGlasses-Normal,13347,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000371,SRC003,31-FemaleNoGlasses-Normal.avi,YD_P31,31-FemaleNoGlasses-Normal,13347,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000372,SRC003,31-FemaleNoGlasses-Normal.avi,YD_P31,31-FemaleNoGlasses-Normal,24024,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000372,SRC003,31-FemaleNoGlasses-Normal.avi,YD_P31,31-FemaleNoGlasses-Normal,24024,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000373,SRC003,31-FemaleNoGlasses-Talking.avi,YD_P31,31-FemaleNoGlasses-Talking,4137,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000373,SRC003,31-FemaleNoGlasses-Talking.avi,YD_P31,31-FemaleNoGlasses-Talking,4137,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000374,SRC003,31-FemaleNoGlasses-Talking.avi,YD_P31,31-FemaleNoGlasses-Talking,20787,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000374,SRC003,31-FemaleNoGlasses-Talking.avi,YD_P31,31-FemaleNoGlasses-Talking,20787,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000375,SRC003,31-FemaleNoGlasses-Talking.avi,YD_P31,31-FemaleNoGlasses-Talking,37437,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000375,SRC003,31-FemaleNoGlasses-Talking.avi,YD_P31,31-FemaleNoGlasses-Talking,37437,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000376,SRC003,31-FemaleNoGlasses-Yawning.avi,YD_P31,31-FemaleNoGlasses-Yawning,1802,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000376,SRC003,31-FemaleNoGlasses-Yawning.avi,YD_P31,31-FemaleNoGlasses-Yawning,1802,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000377,SRC003,31-FemaleNoGlasses-Yawning.avi,YD_P31,31-FemaleNoGlasses-Yawning,9009,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted"
+FR000377,SRC003,31-FemaleNoGlasses-Yawning.avi,YD_P31,31-FemaleNoGlasses-Yawning,9009,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000378,SRC003,31-FemaleNoGlasses-Yawning.avi,YD_P31,31-FemaleNoGlasses-Yawning,16216,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000378,SRC003,31-FemaleNoGlasses-Yawning.avi,YD_P31,31-FemaleNoGlasses-Yawning,16216,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000379,SRC003,32-FemaleSunGlasses-Normal.avi,YD_P32,32-FemaleSunGlasses-Normal,2202,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000379,SRC003,32-FemaleSunGlasses-Normal.avi,YD_P32,32-FemaleSunGlasses-Normal,2202,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000380,SRC003,32-FemaleSunGlasses-Normal.avi,YD_P32,32-FemaleSunGlasses-Normal,11111,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000380,SRC003,32-FemaleSunGlasses-Normal.avi,YD_P32,32-FemaleSunGlasses-Normal,11111,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000381,SRC003,32-FemaleSunGlasses-Normal.avi,YD_P32,32-FemaleSunGlasses-Normal,19987,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000381,SRC003,32-FemaleSunGlasses-Normal.avi,YD_P32,32-FemaleSunGlasses-Normal,19987,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000382,SRC003,32-FemaleSunGlasses-Talking.avi,YD_P32,32-FemaleSunGlasses-Talking,2503,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; smiling
+FR000382,SRC003,32-FemaleSunGlasses-Talking.avi,YD_P32,32-FemaleSunGlasses-Talking,2503,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000383,SRC003,32-FemaleSunGlasses-Talking.avi,YD_P32,32-FemaleSunGlasses-Talking,12646,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open in smile
+FR000383,SRC003,32-FemaleSunGlasses-Talking.avi,YD_P32,32-FemaleSunGlasses-Talking,12646,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000384,SRC003,32-FemaleSunGlasses-Talking.avi,YD_P32,32-FemaleSunGlasses-Talking,22756,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000384,SRC003,32-FemaleSunGlasses-Talking.avi,YD_P32,32-FemaleSunGlasses-Talking,22756,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000385,SRC003,32-FemaleSunGlasses-Yawning.avi,YD_P32,32-FemaleSunGlasses-Yawning,2970,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000385,SRC003,32-FemaleSunGlasses-Yawning.avi,YD_P32,32-FemaleSunGlasses-Yawning,2970,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000386,SRC003,32-FemaleSunGlasses-Yawning.avi,YD_P32,32-FemaleSunGlasses-Yawning,14882,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes
+FR000386,SRC003,32-FemaleSunGlasses-Yawning.avi,YD_P32,32-FemaleSunGlasses-Yawning,14882,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000387,SRC003,32-FemaleSunGlasses-Yawning.avi,YD_P32,32-FemaleSunGlasses-Yawning,26760,SLEEPINESS,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide eyes; mouth open in smile
+FR000387,SRC003,32-FemaleSunGlasses-Yawning.avi,YD_P32,32-FemaleSunGlasses-Yawning,26760,DISTRACTION,UNOBSERVABLE,,UNOBSERVABLE,NO,ANN_1,HIGH,DAYLIGHT,NONE,sunglasses hide gaze
+FR000388,SRC003,33-FemaleNoGlasses-Normal.avi,YD_P33,33-FemaleNoGlasses-Normal,2636,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, neutral"
+FR000388,SRC003,33-FemaleNoGlasses-Normal.avi,YD_P33,33-FemaleNoGlasses-Normal,2636,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000389,SRC003,33-FemaleNoGlasses-Normal.avi,YD_P33,33-FemaleNoGlasses-Normal,13213,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000389,SRC003,33-FemaleNoGlasses-Normal.avi,YD_P33,33-FemaleNoGlasses-Normal,13213,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000390,SRC003,33-FemaleNoGlasses-Normal.avi,YD_P33,33-FemaleNoGlasses-Normal,23757,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000390,SRC003,33-FemaleNoGlasses-Normal.avi,YD_P33,33-FemaleNoGlasses-Normal,23757,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000391,SRC003,33-FemaleNoGlasses-Talking.avi,YD_P33,33-FemaleNoGlasses-Talking,3604,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000391,SRC003,33-FemaleNoGlasses-Talking.avi,YD_P33,33-FemaleNoGlasses-Talking,3604,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000392,SRC003,33-FemaleNoGlasses-Talking.avi,YD_P33,33-FemaleNoGlasses-Talking,18118,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000392,SRC003,33-FemaleNoGlasses-Talking.avi,YD_P33,33-FemaleNoGlasses-Talking,18118,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000393,SRC003,33-FemaleNoGlasses-Talking.avi,YD_P33,33-FemaleNoGlasses-Talking,32633,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000393,SRC003,33-FemaleNoGlasses-Talking.avi,YD_P33,33-FemaleNoGlasses-Talking,32633,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000394,SRC003,33-FemaleNoGlasses-Yawning.avi,YD_P33,33-FemaleNoGlasses-Yawning,2369,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000394,SRC003,33-FemaleNoGlasses-Yawning.avi,YD_P33,33-FemaleNoGlasses-Yawning,2369,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000395,SRC003,33-FemaleNoGlasses-Yawning.avi,YD_P33,33-FemaleNoGlasses-Yawning,11879,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000395,SRC003,33-FemaleNoGlasses-Yawning.avi,YD_P33,33-FemaleNoGlasses-Yawning,11879,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000396,SRC003,33-FemaleNoGlasses-Yawning.avi,YD_P33,33-FemaleNoGlasses-Yawning,21388,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000396,SRC003,33-FemaleNoGlasses-Yawning.avi,YD_P33,33-FemaleNoGlasses-Yawning,21388,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000397,SRC003,34-FemaleNoGlasses-Normal.avi,YD_P34,34-FemaleNoGlasses-Normal,2135,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000397,SRC003,34-FemaleNoGlasses-Normal.avi,YD_P34,34-FemaleNoGlasses-Normal,2135,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000398,SRC003,34-FemaleNoGlasses-Normal.avi,YD_P34,34-FemaleNoGlasses-Normal,10711,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000398,SRC003,34-FemaleNoGlasses-Normal.avi,YD_P34,34-FemaleNoGlasses-Normal,10711,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000399,SRC003,34-FemaleNoGlasses-Normal.avi,YD_P34,34-FemaleNoGlasses-Normal,19286,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000399,SRC003,34-FemaleNoGlasses-Normal.avi,YD_P34,34-FemaleNoGlasses-Normal,19286,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000400,SRC003,34-FemaleNoGlasses-Talking&Yawning.avi,YD_P34,34-FemaleNoGlasses-Talking&Yawning,1902,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000400,SRC003,34-FemaleNoGlasses-Talking&Yawning.avi,YD_P34,34-FemaleNoGlasses-Talking&Yawning,1902,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000401,SRC003,34-FemaleNoGlasses-Talking&Yawning.avi,YD_P34,34-FemaleNoGlasses-Talking&Yawning,9610,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed or fully lowered lids, neutral face; may be blink"
+FR000401,SRC003,34-FemaleNoGlasses-Talking&Yawning.avi,YD_P34,34-FemaleNoGlasses-Talking&Yawning,9610,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000402,SRC003,34-FemaleNoGlasses-Talking&Yawning.avi,YD_P34,34-FemaleNoGlasses-Talking&Yawning,17284,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000402,SRC003,34-FemaleNoGlasses-Talking&Yawning.avi,YD_P34,34-FemaleNoGlasses-Talking&Yawning,17284,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000403,SRC003,34-FemaleNoGlasses-Talking.avi,YD_P34,34-FemaleNoGlasses-Talking,4805,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000403,SRC003,34-FemaleNoGlasses-Talking.avi,YD_P34,34-FemaleNoGlasses-Talking,4805,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,head and gaze turned right in profile; persistence unknown
+FR000404,SRC003,34-FemaleNoGlasses-Talking.avi,YD_P34,34-FemaleNoGlasses-Talking,24157,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000404,SRC003,34-FemaleNoGlasses-Talking.avi,YD_P34,34-FemaleNoGlasses-Talking,24157,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000405,SRC003,34-FemaleNoGlasses-Talking.avi,YD_P34,34-FemaleNoGlasses-Talking,43477,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000405,SRC003,34-FemaleNoGlasses-Talking.avi,YD_P34,34-FemaleNoGlasses-Talking,43477,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000406,SRC003,34-FemaleNoGlasses-Yawning.avi,YD_P34,34-FemaleNoGlasses-Yawning,1568,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed or fully lowered lids, neutral face; may be blink"
+FR000406,SRC003,34-FemaleNoGlasses-Yawning.avi,YD_P34,34-FemaleNoGlasses-Yawning,1568,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000407,SRC003,34-FemaleNoGlasses-Yawning.avi,YD_P34,34-FemaleNoGlasses-Yawning,7908,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000407,SRC003,34-FemaleNoGlasses-Yawning.avi,YD_P34,34-FemaleNoGlasses-Yawning,7908,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000408,SRC003,34-FemaleNoGlasses-Yawning.avi,YD_P34,34-FemaleNoGlasses-Yawning,14214,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000408,SRC003,34-FemaleNoGlasses-Yawning.avi,YD_P34,34-FemaleNoGlasses-Yawning,14214,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000409,SRC003,35-FemaleNoGlasses-Normal.avi,YD_P35,35-FemaleNoGlasses-Normal,2669,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000409,SRC003,35-FemaleNoGlasses-Normal.avi,YD_P35,35-FemaleNoGlasses-Normal,2669,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000410,SRC003,35-FemaleNoGlasses-Normal.avi,YD_P35,35-FemaleNoGlasses-Normal,13413,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, slight smile"
+FR000410,SRC003,35-FemaleNoGlasses-Normal.avi,YD_P35,35-FemaleNoGlasses-Normal,13413,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right; persistence unknown
+FR000411,SRC003,35-FemaleNoGlasses-Normal.avi,YD_P35,35-FemaleNoGlasses-Normal,24124,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000411,SRC003,35-FemaleNoGlasses-Normal.avi,YD_P35,35-FemaleNoGlasses-Normal,24124,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000412,SRC003,35-FemaleNoGlasses-Talking&Yawning.avi,YD_P35,35-FemaleNoGlasses-Talking&Yawning,2236,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000412,SRC003,35-FemaleNoGlasses-Talking&Yawning.avi,YD_P35,35-FemaleNoGlasses-Talking&Yawning,2236,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000413,SRC003,35-FemaleNoGlasses-Talking&Yawning.avi,YD_P35,35-FemaleNoGlasses-Talking&Yawning,11311,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed while mouth open (talking); may be blink
+FR000413,SRC003,35-FemaleNoGlasses-Talking&Yawning.avi,YD_P35,35-FemaleNoGlasses-Talking&Yawning,11311,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000414,SRC003,35-FemaleNoGlasses-Talking&Yawning.avi,YD_P35,35-FemaleNoGlasses-Talking&Yawning,20387,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000414,SRC003,35-FemaleNoGlasses-Talking&Yawning.avi,YD_P35,35-FemaleNoGlasses-Talking&Yawning,20387,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000415,SRC003,35-FemaleNoGlasses-Talking.avi,YD_P35,35-FemaleNoGlasses-Talking,3203,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000415,SRC003,35-FemaleNoGlasses-Talking.avi,YD_P35,35-FemaleNoGlasses-Talking,3203,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000416,SRC003,35-FemaleNoGlasses-Talking.avi,YD_P35,35-FemaleNoGlasses-Talking,16149,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000416,SRC003,35-FemaleNoGlasses-Talking.avi,YD_P35,35-FemaleNoGlasses-Talking,16149,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000417,SRC003,35-FemaleNoGlasses-Talking.avi,YD_P35,35-FemaleNoGlasses-Talking,29096,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within smile, not drowsy"
+FR000417,SRC003,35-FemaleNoGlasses-Talking.avi,YD_P35,35-FemaleNoGlasses-Talking,29096,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within smile, no measurable gaze deviation"
+FR000418,SRC003,35-FemaleNoGlasses-Yawning.avi,YD_P35,35-FemaleNoGlasses-Yawning,1969,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted"
+FR000418,SRC003,35-FemaleNoGlasses-Yawning.avi,YD_P35,35-FemaleNoGlasses-Yawning,1969,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000419,SRC003,35-FemaleNoGlasses-Yawning.avi,YD_P35,35-FemaleNoGlasses-Yawning,9943,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000419,SRC003,35-FemaleNoGlasses-Yawning.avi,YD_P35,35-FemaleNoGlasses-Yawning,9943,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000420,SRC003,35-FemaleNoGlasses-Yawning.avi,YD_P35,35-FemaleNoGlasses-Yawning,17885,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000420,SRC003,35-FemaleNoGlasses-Yawning.avi,YD_P35,35-FemaleNoGlasses-Yawning,17885,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000421,SRC003,36-FemaleNoGlasses-Normal.avi,YD_P36,36-FemaleNoGlasses-Normal,2369,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000421,SRC003,36-FemaleNoGlasses-Normal.avi,YD_P36,36-FemaleNoGlasses-Normal,2369,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000422,SRC003,36-FemaleNoGlasses-Normal.avi,YD_P36,36-FemaleNoGlasses-Normal,11912,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000422,SRC003,36-FemaleNoGlasses-Normal.avi,YD_P36,36-FemaleNoGlasses-Normal,11912,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000423,SRC003,36-FemaleNoGlasses-Normal.avi,YD_P36,36-FemaleNoGlasses-Normal,21421,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000423,SRC003,36-FemaleNoGlasses-Normal.avi,YD_P36,36-FemaleNoGlasses-Normal,21421,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000424,SRC003,36-FemaleNoGlasses-Talking&Yawning.avi,YD_P36,36-FemaleNoGlasses-Talking&Yawning,2002,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000424,SRC003,36-FemaleNoGlasses-Talking&Yawning.avi,YD_P36,36-FemaleNoGlasses-Talking&Yawning,2002,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000425,SRC003,36-FemaleNoGlasses-Talking&Yawning.avi,YD_P36,36-FemaleNoGlasses-Talking&Yawning,10110,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed while mouth open (talking); may be blink
+FR000425,SRC003,36-FemaleNoGlasses-Talking&Yawning.avi,YD_P36,36-FemaleNoGlasses-Talking&Yawning,10110,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000426,SRC003,36-FemaleNoGlasses-Talking&Yawning.avi,YD_P36,36-FemaleNoGlasses-Talking&Yawning,18218,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within smile, not drowsy"
+FR000426,SRC003,36-FemaleNoGlasses-Talking&Yawning.avi,YD_P36,36-FemaleNoGlasses-Talking&Yawning,18218,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within smile, no measurable gaze deviation"
+FR000427,SRC003,36-FemaleNoGlasses-Talking.avi,YD_P36,36-FemaleNoGlasses-Talking,2636,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000427,SRC003,36-FemaleNoGlasses-Talking.avi,YD_P36,36-FemaleNoGlasses-Talking,2636,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000428,SRC003,36-FemaleNoGlasses-Talking.avi,YD_P36,36-FemaleNoGlasses-Talking,13180,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000428,SRC003,36-FemaleNoGlasses-Talking.avi,YD_P36,36-FemaleNoGlasses-Talking,13180,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000429,SRC003,36-FemaleNoGlasses-Talking.avi,YD_P36,36-FemaleNoGlasses-Talking,23724,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000429,SRC003,36-FemaleNoGlasses-Talking.avi,YD_P36,36-FemaleNoGlasses-Talking,23724,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000430,SRC003,36-FemaleNoGlasses-Yawning.avi,YD_P36,36-FemaleNoGlasses-Yawning,1802,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000430,SRC003,36-FemaleNoGlasses-Yawning.avi,YD_P36,36-FemaleNoGlasses-Yawning,1802,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000431,SRC003,36-FemaleNoGlasses-Yawning.avi,YD_P36,36-FemaleNoGlasses-Yawning,9076,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000431,SRC003,36-FemaleNoGlasses-Yawning.avi,YD_P36,36-FemaleNoGlasses-Yawning,9076,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000432,SRC003,36-FemaleNoGlasses-Yawning.avi,YD_P36,36-FemaleNoGlasses-Yawning,16350,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000432,SRC003,36-FemaleNoGlasses-Yawning.avi,YD_P36,36-FemaleNoGlasses-Yawning,16350,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000433,SRC003,37-FemaleNoGlasses-Normal.avi,YD_P37,37-FemaleNoGlasses-Normal,2135,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000433,SRC003,37-FemaleNoGlasses-Normal.avi,YD_P37,37-FemaleNoGlasses-Normal,2135,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000434,SRC003,37-FemaleNoGlasses-Normal.avi,YD_P37,37-FemaleNoGlasses-Normal,10777,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000434,SRC003,37-FemaleNoGlasses-Normal.avi,YD_P37,37-FemaleNoGlasses-Normal,10777,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000435,SRC003,37-FemaleNoGlasses-Normal.avi,YD_P37,37-FemaleNoGlasses-Normal,19386,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000435,SRC003,37-FemaleNoGlasses-Normal.avi,YD_P37,37-FemaleNoGlasses-Normal,19386,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000436,SRC003,37-FemaleNoGlasses-Talking&Yawning.avi,YD_P37,37-FemaleNoGlasses-Talking&Yawning,2503,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000436,SRC003,37-FemaleNoGlasses-Talking&Yawning.avi,YD_P37,37-FemaleNoGlasses-Talking&Yawning,2503,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000437,SRC003,37-FemaleNoGlasses-Talking&Yawning.avi,YD_P37,37-FemaleNoGlasses-Talking&Yawning,12513,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000437,SRC003,37-FemaleNoGlasses-Talking&Yawning.avi,YD_P37,37-FemaleNoGlasses-Talking&Yawning,12513,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000438,SRC003,37-FemaleNoGlasses-Talking&Yawning.avi,YD_P37,37-FemaleNoGlasses-Talking&Yawning,22523,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or fully lowered while mouth open (talking); may be blink
+FR000438,SRC003,37-FemaleNoGlasses-Talking&Yawning.avi,YD_P37,37-FemaleNoGlasses-Talking&Yawning,22523,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000439,SRC003,37-FemaleNoGlasses-Talking.avi,YD_P37,37-FemaleNoGlasses-Talking,3070,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000439,SRC003,37-FemaleNoGlasses-Talking.avi,YD_P37,37-FemaleNoGlasses-Talking,3070,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000440,SRC003,37-FemaleNoGlasses-Talking.avi,YD_P37,37-FemaleNoGlasses-Talking,15482,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000440,SRC003,37-FemaleNoGlasses-Talking.avi,YD_P37,37-FemaleNoGlasses-Talking,15482,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right while smiling; persistence unknown
+FR000441,SRC003,37-FemaleNoGlasses-Talking.avi,YD_P37,37-FemaleNoGlasses-Talking,27895,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000441,SRC003,37-FemaleNoGlasses-Talking.avi,YD_P37,37-FemaleNoGlasses-Talking,27895,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000442,SRC003,37-FemaleNoGlasses-Yawning.avi,YD_P37,37-FemaleNoGlasses-Yawning,1502,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000442,SRC003,37-FemaleNoGlasses-Yawning.avi,YD_P37,37-FemaleNoGlasses-Yawning,1502,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000443,SRC003,37-FemaleNoGlasses-Yawning.avi,YD_P37,37-FemaleNoGlasses-Yawning,7608,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000443,SRC003,37-FemaleNoGlasses-Yawning.avi,YD_P37,37-FemaleNoGlasses-Yawning,7608,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000444,SRC003,37-FemaleNoGlasses-Yawning.avi,YD_P37,37-FemaleNoGlasses-Yawning,13714,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000444,SRC003,37-FemaleNoGlasses-Yawning.avi,YD_P37,37-FemaleNoGlasses-Yawning,13714,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000445,SRC003,38-FemaleNoGlasses-Normal.avi,YD_P38,38-FemaleNoGlasses-Normal,1935,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000445,SRC003,38-FemaleNoGlasses-Normal.avi,YD_P38,38-FemaleNoGlasses-Normal,1935,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000446,SRC003,38-FemaleNoGlasses-Normal.avi,YD_P38,38-FemaleNoGlasses-Normal,9710,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000446,SRC003,38-FemaleNoGlasses-Normal.avi,YD_P38,38-FemaleNoGlasses-Normal,9710,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000447,SRC003,38-FemaleNoGlasses-Normal.avi,YD_P38,38-FemaleNoGlasses-Normal,17451,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000447,SRC003,38-FemaleNoGlasses-Normal.avi,YD_P38,38-FemaleNoGlasses-Normal,17451,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000448,SRC003,38-FemaleNoGlasses-Talking.avi,YD_P38,38-FemaleNoGlasses-Talking,3237,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000448,SRC003,38-FemaleNoGlasses-Talking.avi,YD_P38,38-FemaleNoGlasses-Talking,3237,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000449,SRC003,38-FemaleNoGlasses-Talking.avi,YD_P38,38-FemaleNoGlasses-Talking,16316,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000449,SRC003,38-FemaleNoGlasses-Talking.avi,YD_P38,38-FemaleNoGlasses-Talking,16316,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000450,SRC003,38-FemaleNoGlasses-Talking.avi,YD_P38,38-FemaleNoGlasses-Talking,29396,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000450,SRC003,38-FemaleNoGlasses-Talking.avi,YD_P38,38-FemaleNoGlasses-Talking,29396,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000451,SRC003,38-FemaleNoGlasses-Yawning.avi,YD_P38,38-FemaleNoGlasses-Yawning,1668,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000451,SRC003,38-FemaleNoGlasses-Yawning.avi,YD_P38,38-FemaleNoGlasses-Yawning,1668,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000452,SRC003,38-FemaleNoGlasses-Yawning.avi,YD_P38,38-FemaleNoGlasses-Yawning,8342,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000452,SRC003,38-FemaleNoGlasses-Yawning.avi,YD_P38,38-FemaleNoGlasses-Yawning,8342,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000453,SRC003,38-FemaleNoGlasses-Yawning.avi,YD_P38,38-FemaleNoGlasses-Yawning,15015,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000453,SRC003,38-FemaleNoGlasses-Yawning.avi,YD_P38,38-FemaleNoGlasses-Yawning,15015,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000454,SRC003,39-FemaleNoGlasses-Normal.avi,YD_P39,39-FemaleNoGlasses-Normal,2202,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000454,SRC003,39-FemaleNoGlasses-Normal.avi,YD_P39,39-FemaleNoGlasses-Normal,2202,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000455,SRC003,39-FemaleNoGlasses-Normal.avi,YD_P39,39-FemaleNoGlasses-Normal,11011,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000455,SRC003,39-FemaleNoGlasses-Normal.avi,YD_P39,39-FemaleNoGlasses-Normal,11011,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000456,SRC003,39-FemaleNoGlasses-Normal.avi,YD_P39,39-FemaleNoGlasses-Normal,19820,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000456,SRC003,39-FemaleNoGlasses-Normal.avi,YD_P39,39-FemaleNoGlasses-Normal,19820,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
+FR000457,SRC003,39-FemaleNoGlasses-Talking&Yawning.avi,YD_P39,39-FemaleNoGlasses-Talking&Yawning,2769,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000457,SRC003,39-FemaleNoGlasses-Talking&Yawning.avi,YD_P39,39-FemaleNoGlasses-Talking&Yawning,2769,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000458,SRC003,39-FemaleNoGlasses-Talking&Yawning.avi,YD_P39,39-FemaleNoGlasses-Talking&Yawning,13847,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000458,SRC003,39-FemaleNoGlasses-Talking&Yawning.avi,YD_P39,39-FemaleNoGlasses-Talking&Yawning,13847,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000459,SRC003,39-FemaleNoGlasses-Talking&Yawning.avi,YD_P39,39-FemaleNoGlasses-Talking&Yawning,24925,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000459,SRC003,39-FemaleNoGlasses-Talking&Yawning.avi,YD_P39,39-FemaleNoGlasses-Talking&Yawning,24925,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000460,SRC003,39-FemaleNoGlasses-Talking.avi,YD_P39,39-FemaleNoGlasses-Talking,3403,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000460,SRC003,39-FemaleNoGlasses-Talking.avi,YD_P39,39-FemaleNoGlasses-Talking,3403,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000461,SRC003,39-FemaleNoGlasses-Talking.avi,YD_P39,39-FemaleNoGlasses-Talking,17017,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000461,SRC003,39-FemaleNoGlasses-Talking.avi,YD_P39,39-FemaleNoGlasses-Talking,17017,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000462,SRC003,39-FemaleNoGlasses-Talking.avi,YD_P39,39-FemaleNoGlasses-Talking,30631,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, talking"
+FR000462,SRC003,39-FemaleNoGlasses-Talking.avi,YD_P39,39-FemaleNoGlasses-Talking,30631,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000463,SRC003,39-FemaleNoGlasses-Yawning.avi,YD_P39,39-FemaleNoGlasses-Yawning,1535,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000463,SRC003,39-FemaleNoGlasses-Yawning.avi,YD_P39,39-FemaleNoGlasses-Yawning,1535,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000464,SRC003,39-FemaleNoGlasses-Yawning.avi,YD_P39,39-FemaleNoGlasses-Yawning,7741,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000464,SRC003,39-FemaleNoGlasses-Yawning.avi,YD_P39,39-FemaleNoGlasses-Yawning,7741,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000465,SRC003,39-FemaleNoGlasses-Yawning.avi,YD_P39,39-FemaleNoGlasses-Yawning,13914,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or fully lowered lids; may be blink
+FR000465,SRC003,39-FemaleNoGlasses-Yawning.avi,YD_P39,39-FemaleNoGlasses-Yawning,13914,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000466,SRC003,4-FemaleGlasses-Normal.avi,YD_P4,4-FemaleGlasses-Normal,2169,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000466,SRC003,4-FemaleGlasses-Normal.avi,YD_P4,4-FemaleGlasses-Normal,2169,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000467,SRC003,4-FemaleGlasses-Normal.avi,YD_P4,4-FemaleGlasses-Normal,10978,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000467,SRC003,4-FemaleGlasses-Normal.avi,YD_P4,4-FemaleGlasses-Normal,10978,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000468,SRC003,4-FemaleGlasses-Normal.avi,YD_P4,4-FemaleGlasses-Normal,19786,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000468,SRC003,4-FemaleGlasses-Normal.avi,YD_P4,4-FemaleGlasses-Normal,19786,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000469,SRC003,4-FemaleGlasses-Talking.avi,YD_P4,4-FemaleGlasses-Talking,4004,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed or fully lowered behind glasses while mouth open; may be blink
+FR000469,SRC003,4-FemaleGlasses-Talking.avi,YD_P4,4-FemaleGlasses-Talking,4004,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000470,SRC003,4-FemaleGlasses-Talking.avi,YD_P4,4-FemaleGlasses-Talking,20053,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, talking"
+FR000470,SRC003,4-FemaleGlasses-Talking.avi,YD_P4,4-FemaleGlasses-Talking,20053,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted right-up; persistence unknown
+FR000471,SRC003,4-FemaleGlasses-Talking.avi,YD_P4,4-FemaleGlasses-Talking,36069,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open behind clear glasses
+FR000471,SRC003,4-FemaleGlasses-Talking.avi,YD_P4,4-FemaleGlasses-Talking,36069,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000472,SRC003,4-FemaleGlasses-Yawning.avi,YD_P4,4-FemaleGlasses-Yawning,2069,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"clear yawn, mouth wide open, eyes squinted behind glasses"
+FR000472,SRC003,4-FemaleGlasses-Yawning.avi,YD_P4,4-FemaleGlasses-Yawning,2069,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,no deviation
+FR000473,SRC003,4-FemaleGlasses-Yawning.avi,YD_P4,4-FemaleGlasses-Yawning,10410,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth open with eyes open behind glasses; ambiguous between talking and yawning
+FR000473,SRC003,4-FemaleGlasses-Yawning.avi,YD_P4,4-FemaleGlasses-Yawning,10410,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000474,SRC003,4-FemaleGlasses-Yawning.avi,YD_P4,4-FemaleGlasses-Yawning,18752,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes appear closed or fully lowered behind glasses, mouth closed; may be blink"
+FR000474,SRC003,4-FemaleGlasses-Yawning.avi,YD_P4,4-FemaleGlasses-Yawning,18752,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,no external deviation
+FR000475,SRC003,40-FemaleNoGlasses-Normal.avi,YD_P40,40-FemaleNoGlasses-Normal,1735,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000475,SRC003,40-FemaleNoGlasses-Normal.avi,YD_P40,40-FemaleNoGlasses-Normal,1735,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000476,SRC003,40-FemaleNoGlasses-Normal.avi,YD_P40,40-FemaleNoGlasses-Normal,8742,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000476,SRC003,40-FemaleNoGlasses-Normal.avi,YD_P40,40-FemaleNoGlasses-Normal,8742,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000477,SRC003,40-FemaleNoGlasses-Normal.avi,YD_P40,40-FemaleNoGlasses-Normal,15749,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,eyes open
+FR000477,SRC003,40-FemaleNoGlasses-Normal.avi,YD_P40,40-FemaleNoGlasses-Normal,15749,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right; persistence unknown
+FR000478,SRC003,40-FemaleNoGlasses-Talking.avi,YD_P40,40-FemaleNoGlasses-Talking,2769,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000478,SRC003,40-FemaleNoGlasses-Talking.avi,YD_P40,40-FemaleNoGlasses-Talking,2769,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000479,SRC003,40-FemaleNoGlasses-Talking.avi,YD_P40,40-FemaleNoGlasses-Talking,13847,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000479,SRC003,40-FemaleNoGlasses-Talking.avi,YD_P40,40-FemaleNoGlasses-Talking,13847,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted down-right while smiling; persistence unknown
+FR000480,SRC003,40-FemaleNoGlasses-Talking.avi,YD_P40,40-FemaleNoGlasses-Talking,24925,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes closed within laugh, not drowsy"
+FR000480,SRC003,40-FemaleNoGlasses-Talking.avi,YD_P40,40-FemaleNoGlasses-Talking,24925,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes closed within laugh, no measurable gaze deviation"
