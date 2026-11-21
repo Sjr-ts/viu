@@ -1,11 +1,11 @@
 # NightEyes — status da anotação e do ground truth
 
-Gerado em 2026-11-21T20:00:37+00:00.
+Gerado em 2026-11-21T21:41:05+00:00.
 
 ## O que é ground truth observado
 
-- 2322 unidades Level-A derivadas de anotação visual humana de frames catalogados (não de nomes de arquivo nem de scores do motor).
-- 2312 janelas Level-B de 5 s apenas onde há episódio anotado; nenhum rótulo ABSENT fabricado para material não revisado.
+- 3036 unidades Level-A derivadas de anotação visual humana de frames catalogados (não de nomes de arquivo nem de scores do motor).
+- 3026 janelas Level-B de 5 s apenas onde há episódio anotado; nenhum rótulo ABSENT fabricado para material não revisado.
 - Rótulos UNCERTAIN/UNOBSERVABLE preservados (nunca convertidos em ABSENT).
 
 ## Arquivos preservados (rascunhos)
@@ -14,10 +14,10 @@ Gerado em 2026-11-21T20:00:37+00:00.
 
 ## Divisão por participante (protocolo §8)
 
-- Semente: `20261121`; participantes: 204.
-- TRAIN: 786 frames / 145 participantes (`data/processed/train.csv`)
-- VALIDATION: 164 frames / 23 participantes (`data/processed/validation.csv`)
-- TEST: 211 frames / 36 participantes (`data/processed/test.csv`)
+- Semente: `20261121`; participantes: 442.
+- TRAIN: 952 frames / 311 participantes (`data/processed/train.csv`)
+- VALIDATION: 213 frames / 72 participantes (`data/processed/validation.csv`)
+- TEST: 234 frames / 59 participantes (`data/processed/test.csv`)
 - TEST está bloqueado para calibração (`test_locked=true`).
 
 ## Limitações conhecidas (declaradas, não ocultadas)
@@ -31,12 +31,13 @@ Gerado em 2026-11-21T20:00:37+00:00.
 
 ## Distribuição de rótulos nos episódios
 
-- ABSENT: 1504
-- PRESENT: 114
-- UNCERTAIN: 462
-- UNOBSERVABLE: 242
+- ABSENT: 1655
+- PRESENT: 201
+- UNCERTAIN: 700
+- UNOBSERVABLE: 480
 
 ## Domínios
 
-- DISTRACTION: 1161 episódios
-- SLEEPINESS: 1161 episódios
+- DISTRACTION: 1399 episódios
+- FATIGUE: 238 episódios
+- SLEEPINESS: 1399 episódios

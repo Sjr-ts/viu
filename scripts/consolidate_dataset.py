@@ -32,14 +32,15 @@ SPLIT_HEADER = [
     "sleepiness_behavior", "sleepiness_confidence", "distraction_label",
     "distraction_behavior", "distraction_confidence", "distraction_gaze",
     "phone_visible",
-    "lighting_condition", "occlusion_condition", "annotation_notes", "split",
+    "lighting_condition", "occlusion_condition", "face_visible",
+    "annotation_notes", "split",
 ]
 
 FRAME_HEADER = [
     "frame_id", "dataset_id", "source_video", "participant_id", "session_id",
     "timestamp_ms", "domain", "reference_label", "behavior_code",
     "gaze_direction", "phone_visible", "annotator_id", "annotation_confidence",
-    "lighting_condition", "occlusion_condition", "annotation_notes",
+    "lighting_condition", "occlusion_condition", "face_visible", "annotation_notes",
 ]
 
 PARTICIPANT_HEADER = [
@@ -148,10 +149,17 @@ def canonicalize(root: Path) -> dict:
 
     new_participants: dict[str, dict] = {}
     new_sessions: dict[str, dict] = {}
-    max_part = max((int(p["participant_id"].split("_")[-1]) for p in participants
-                    if p["participant_id"].startswith("PT_SRC009_")), default=0)
-    max_sess = max((int(s["session_id"].split("_")[-1]) for s in sessions
-                    if s["session_id"].startswith("SS_SRC009_")), default=0)
+    still_datasets = ("SRC009", "SRC010")
+    max_part = {
+        ds: max((int(p["participant_id"].split("_")[-1]) for p in participants
+                 if p["participant_id"].startswith(f"PT_{ds}_")), default=0)
+        for ds in still_datasets
+    }
+    max_sess = {
+        ds: max((int(s["session_id"].split("_")[-1]) for s in sessions
+                 if s["session_id"].startswith(f"SS_{ds}_")), default=0)
+        for ds in still_datasets
+    }
 
     updated = []
     for row in frames:
@@ -167,18 +175,20 @@ def canonicalize(root: Path) -> dict:
                 raise SystemExit(f"no canonical session for frame {fid}: {row['session_id']}")
             row["session_id"] = sess["session_id"]
             row["participant_id"] = sess["participant_id"]
-        elif row["dataset_id"] == "SRC009":
-            source = row["source_video"]
+        elif row["dataset_id"] in still_datasets:
+            ds = row["dataset_id"]
+            source = f"{ds}:{row['source_video']}"
             if source not in new_participants:
                 existing = next((p for p in participants
-                                 if p.get("original_participant_id") == source), None)
+                                 if p.get("dataset_id") == ds
+                                 and p.get("original_participant_id") == source), None)
                 if existing is None:
-                    max_part += 1
+                    max_part[ds] += 1
                     existing = {
-                        "participant_id": f"PT_SRC009_{max_part:03d}",
-                        "dataset_id": "SRC009",
+                        "participant_id": f"PT_{ds}_{max_part[ds]:03d}",
+                        "dataset_id": ds,
                         "original_participant_id": source,
-                        "anonymized_id": f"A9_{max_part:03d}",
+                        "anonymized_id": f"A{ds[-2:]}_{max_part[ds]:03d}",
                         "consent_status": "DOCUMENTED_PUBLIC_LICENSE",
                         "demographic_metadata_availability": "UNKNOWN",
                     }
@@ -186,16 +196,17 @@ def canonicalize(root: Path) -> dict:
                 new_participants[source] = existing
             if source not in new_sessions:
                 existing_s = next((s for s in sessions
-                                   if s.get("original_session_id") == source), None)
+                                   if s.get("dataset_id") == ds
+                                   and s.get("original_session_id") == source), None)
                 if existing_s is None:
-                    max_sess += 1
+                    max_sess[ds] += 1
                     sample = samples.get(fid, {})
                     existing_s = {
-                        "session_id": f"SS_SRC009_{max_sess:04d}",
+                        "session_id": f"SS_{ds}_{max_sess[ds]:04d}",
                         "participant_id": new_participants[source]["participant_id"],
-                        "dataset_id": "SRC009",
-                        "original_session_id": source,
-                        "video_filename": source,
+                        "dataset_id": ds,
+                        "original_session_id": row["source_video"],
+                        "video_filename": row["source_video"],
                         "duration_ms": "1000",
                         "original_fps": "0",
                         "resolution": f"{sample.get('width', '?')}x{sample.get('height', '?')}",
@@ -215,6 +226,7 @@ def canonicalize(root: Path) -> dict:
         row["occlusion_condition"] = _occlusion_from_notes(row)
         row["lighting_condition"] = _lighting_from_row(row)
         row["behavior_code"] = _behavior_from_row(row)
+        row["face_visible"] = row.get("face_visible") or "UNKNOWN"
         updated.append(row)
 
     _write(ann / "participants.csv", PARTICIPANT_HEADER, participants)
@@ -297,6 +309,7 @@ def make_splits(root: Path, frames: list[dict], seed: int) -> dict:
             rec["phone_visible"] = f.get("phone_visible") or ""
         rec["lighting_condition"] = f["lighting_condition"]
         rec["occlusion_condition"] = f["occlusion_condition"]
+        rec["face_visible"] = f.get("face_visible") or "UNKNOWN"
         rec["annotation_notes"] = f.get("annotation_notes") or ""
 
     participants = sorted({r["participant_id"] for r in by_frame.values()})

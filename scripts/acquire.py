@@ -150,6 +150,18 @@ SOURCES: dict[str, dict] = {
             }
         },
     },
+    "SRC010": {
+        "name": "AutoLabeledFaceCrops",
+        "dir": "AutoLabeledFaceCrops",
+        "files": {
+            "dataset_page": {
+                "url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data",
+                "expected_bytes": None,
+                "channel": "Hugging Face MIT sample (deterministic stride via acquire_hf_facecrops.py)",
+                "official": "https://github.com/not-good-keeper/cnn-based-drowsiness-detection",
+            }
+        },
+    },
 
 }
 

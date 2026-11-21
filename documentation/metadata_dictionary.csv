@@ -1,5 +1,5 @@
 schema_name,schema_version,field_name,field_type,required,allowed_values,description
-datasets,v1.0,dataset_id,string,yes,"SRC001..SRC008 (pattern SRC[0-9]{3})","Unique dataset identifier."
+datasets,v1.0,dataset_id,string,yes,"SRC001..SRC010 (pattern SRC[0-9]{3})","Unique dataset identifier."
 datasets,v1.0,dataset_name,string,yes,DMD|UTA-RLDD|YawDD|DROZY|NTHU-DDD|AUC-DISTRACTED|STATE-FARM|UL-DD,Official short dataset name.
 datasets,v1.0,primary_domain,string,yes,FATIGUE|SLEEPINESS|DISTRACTION|MULTI_DOMAIN,Primary NightEyes domain contribution.
 datasets,v1.0,institution,string,yes,free text,Responsible institution.
@@ -21,7 +21,7 @@ datasets,v1.0,derivative_work_permission,string,yes,YES|NO|UNKNOWN or free text,
 datasets,v1.0,access_status,string,yes,AVAILABLE|REQUIRES_PERMISSION|REVIEW_REQUIRED|RESTRICTED|UNKNOWN,Current access situation (enum).
 datasets,v1.0,verification_date,date,yes,YYYY-MM-DD,Date metadata was last verified.
 datasets,v1.0,source_notes,string,no,free text,Provenance notes and caveats.
-compatibility_matrix,v1.0,dataset_id,string,yes,SRC001..SRC008,Foreign key to datasets.dataset_id.
+compatibility_matrix,v1.0,dataset_id,string,yes,SRC001..SRC010,Foreign key to datasets.dataset_id.
 compatibility_matrix,v1.0,source_label,string,yes,free text,Original label/class name from source dataset.
 compatibility_matrix,v1.0,source_label_definition,string,yes,free text,Meaning of the original label as documented by the source.
 compatibility_matrix,v1.0,mapped_domain,string,yes,FATIGUE|SLEEPINESS|DISTRACTION,NightEyes domain of the mapping decision.
@@ -31,7 +31,7 @@ compatibility_matrix,v1.0,mapping_method,string,yes,free text,How the mapping wa
 compatibility_matrix,v1.0,temporal_resolution,string,yes,free text,Temporal granularity of the source label.
 compatibility_matrix,v1.0,requires_reannotation,string,yes,YES|NO,Whether new human annotation is required.
 compatibility_matrix,v1.0,reviewer_notes,string,no,free text,Reviewer caveats (CASO references etc.).
-licenses,v1.0,dataset_id,string,yes,SRC001..SRC008,Foreign key to datasets.dataset_id.
+licenses,v1.0,dataset_id,string,yes,SRC001..SRC010,Foreign key to datasets.dataset_id.
 licenses,v1.0,license_name,string,yes,free text or UNKNOWN,License name.
 licenses,v1.0,license_url,url/no,yes,URL or UNKNOWN,License text URL.
 licenses,v1.0,license_source,string,yes,free text,Where the license info was verified.
@@ -42,7 +42,7 @@ licenses,v1.0,permission_required,string,yes,YES|NO|UNKNOWN + details,Whether in
 licenses,v1.0,verification_date,date,yes,YYYY-MM-DD,License verification date.
 licenses,v1.0,license_notes,string,no,free text,Restrictions and citation requirements.
 sources_registry,v1.0,source_file_id,string,yes,unique pattern SF[0-9]+,Unique id of an imported file.
-sources_registry,v1.0,dataset_id,string,yes,SRC001..SRC008,Origin dataset of the file.
+sources_registry,v1.0,dataset_id,string,yes,SRC001..SRC010,Origin dataset of the file.
 sources_registry,v1.0,original_filename,string,yes,free text,Original file name (never renamed in raw/).
 sources_registry,v1.0,original_path,string,yes,relative path,Path relative to project root.
 sources_registry,v1.0,checksum_sha256,string,yes,64 hex chars,SHA-256 checksum for integrity verification.
@@ -52,14 +52,14 @@ sources_registry,v1.0,import_date,date,yes,YYYY-MM-DD,Date of import into NightE
 sources_registry,v1.0,access_permission,string,yes,free text,Permission status under which the file was obtained.
 sources_registry,v1.0,processing_status,string,yes,REGISTERED|VERIFIED|TRANSFORMED|QUARANTINED,Processing state of the file.
 participants,v1.0,participant_id,string,yes,unique pattern PT_[dataset]_[n],NightEyes anonymized participant key.
-participants,v1.0,dataset_id,string,yes,SRC001..SRC008,Origin dataset (never merged across datasets).
+participants,v1.0,dataset_id,string,yes,SRC001..SRC010,Origin dataset (never merged across datasets).
 participants,v1.0,original_participant_id,string,yes,free text,Participant id as in the source dataset.
 participants,v1.0,anonymized_id,string,yes,free text,Project-level pseudonym (no facial re-identification).
 participants,v1.0,consent_status,string,yes,CONSENTED|UNKNOWN|RESTRICTED,Consent/permission status for use.
 participants,v1.0,demographic_metadata_availability,string,yes,free text|UNKNOWN,Whether source provides demographics.
 sessions,v1.0,session_id,string,yes,unique pattern SS_[dataset]_[n],NightEyes session key.
 sessions,v1.0,participant_id,string,yes,participants.participant_id,Foreign key to participants.
-sessions,v1.0,dataset_id,string,yes,SRC001..SRC008,Origin dataset.
+sessions,v1.0,dataset_id,string,yes,SRC001..SRC010,Origin dataset.
 sessions,v1.0,original_session_id,string,yes|no,free text,Session id in the source dataset (if any).
 sessions,v1.0,video_filename,string,yes,free text,Original video file name.
 sessions,v1.0,duration_ms,int,no,integer ms,Session duration in milliseconds (UNKNOWN if not provided).
@@ -73,7 +73,7 @@ sessions,v1.0,activity_type,string,no,free text|UNKNOWN,Activity performed (only
 episodes,v1.0,episode_id,string,yes,unique,Unique episode id (Level A annotation unit).
 episodes,v1.0,session_id,string,yes,sessions.session_id,Foreign key to sessions.
 episodes,v1.0,participant_id,string,yes,participants.participant_id,Foreign key to participants.
-episodes,v1.0,dataset_id,string,yes,SRC001..SRC008,Origin dataset.
+episodes,v1.0,dataset_id,string,yes,SRC001..SRC010,Origin dataset.
 episodes,v1.0,start_ms,int,yes,>=0,Episode start in milliseconds (session-relative).
 episodes,v1.0,end_ms,int,yes,> start_ms,Episode end in milliseconds (session-relative).
 episodes,v1.0,domain,string,yes,FATIGUE|SLEEPINESS|DISTRACTION|QUALITY,Annotation domain (independent per domain).
@@ -87,7 +87,7 @@ episodes,v1.0,annotation_notes,string,no,free text,Free-form notes.
 windows,v1.0,window_id,string,yes,unique,Unique window id (Level B annotation unit).
 windows,v1.0,session_id,string,yes,sessions.session_id,Foreign key to sessions.
 windows,v1.0,participant_id,string,yes,participants.participant_id,Foreign key to participants.
-windows,v1.0,dataset_id,string,yes,SRC001..SRC008,Origin dataset.
+windows,v1.0,dataset_id,string,yes,SRC001..SRC010,Origin dataset.
 windows,v1.0,window_start_ms,int,yes,>=0,Window start (ms).
 windows,v1.0,window_end_ms,int,yes,> window_start_ms,Window end (ms); default working window = 5000 ms.
 windows,v1.0,domain,string,yes,FATIGUE|SLEEPINESS|DISTRACTION|QUALITY,Annotation domain.

@@ -1,0 +1,1437 @@
+{
+  "dataset_id": "SRC010",
+  "source_dataset": "notgoodkeeper/cnn-based-drowsiness-detection-data",
+  "license": "MIT (Hugging Face dataset card)",
+  "protocol_7_note": "heuristic EAR/MAR/drowsiness labels excluded; human re-annotation required",
+  "selection": "deterministic every 10th image of sorted filename list",
+  "files": [
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013849_966.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013849_966.png",
+      "sha256": "29512cafcea62766340613b5c347a82efe17ec49ab49c8becc37f1cb13d68e1a",
+      "bytes": 99704
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013854_159.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013854_159.png",
+      "sha256": "3ecf0e7b09f1b49c0770a8ae0bd50a304c747d6e72d2a417ea36bb9a95db0683",
+      "bytes": 99111
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013858_182.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013858_182.png",
+      "sha256": "8f7546468f254235be5fcd77ad176dbec50fc4ceb909c35fd000213ed8ed7e1b",
+      "bytes": 97909
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013901_449.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013901_449.png",
+      "sha256": "9d8643d35b929cf8205a5018430a9c2a1c26169a628443817c9c889ada8dbe55",
+      "bytes": 101312
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013907_984.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013907_984.png",
+      "sha256": "91bf68098193b8381fc955578fae53c4523498fc5ccb5a9d0af16c83ff9457f8",
+      "bytes": 102294
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013911_137.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013911_137.png",
+      "sha256": "db6058c655376ea743f7d793bb6f7d972f3a3f40c4c602baa99cc341e1123a95",
+      "bytes": 100516
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013913_741.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013913_741.png",
+      "sha256": "fef55f731b0983838cb44b7cc995873cdd75375c56dd43f03d7da50015065f4c",
+      "bytes": 98840
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013916_119.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013916_119.png",
+      "sha256": "d098d4d2b26d69a5ef7793377600c06658a2e08af8f217fde3fedd9fee35627e",
+      "bytes": 101243
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013917_427.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013917_427.png",
+      "sha256": "fcddced295b927d4d04bece03697a52bcd97610b476f9e7a5ef2083d88a6ae6c",
+      "bytes": 100390
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013917_854.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013917_854.png",
+      "sha256": "7656211c6340459de41b8f7d914ec28ff13e74770eebb7a48b448149e48205d6",
+      "bytes": 101480
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013918_284.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013918_284.png",
+      "sha256": "33f26cd868aff12cb5d373dc943a5cb7454e4a69f9b54c34909c755a397c83ea",
+      "bytes": 99873
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013918_718.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013918_718.png",
+      "sha256": "4761485d1c49aca5066d17ff0ff23e10ab32757f1e7c5c48890c0d6c4c65957e",
+      "bytes": 98536
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013919_144.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013919_144.png",
+      "sha256": "48daa08cb0d320503780f88c9ece81a5a6c0a17c5c9af24b946d37f0d75e4224",
+      "bytes": 98723
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013919_580.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013919_580.png",
+      "sha256": "531c1cfa1f9bd502cee959f19d106ad77f5d5fd56bee079c9022f535ce4658ef",
+      "bytes": 100836
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013919_997.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013919_997.png",
+      "sha256": "da8dc3a3a74cd8a878dce4edd3fb17b4a9351ae6823720a7551db96753d4ab98",
+      "bytes": 101731
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013920_430.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013920_430.png",
+      "sha256": "0e5a496455d90e029ebd48b1dff2af232b8144fbe716e22941ecb5e83ddd0feb",
+      "bytes": 98018
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013920_881.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013920_881.png",
+      "sha256": "3fd3a6bf323c98c12822490c8f7b4998c1430c2d1fd3b6b082200e128b1546a6",
+      "bytes": 101769
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013921_319.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013921_319.png",
+      "sha256": "3d724925910b75c395ffb1e78dc554c99cfbeca92d1fed62b09a69f66d25bd77",
+      "bytes": 100954
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013921_758.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013921_758.png",
+      "sha256": "431b20ab5df3e845dd8065ced264a6b868dcad1a9fc61b284eceb9ec81fe132c",
+      "bytes": 100835
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013922_217.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013922_217.png",
+      "sha256": "7c148bd79208acb9e1149f493b8adda62d8e18ea89d4459bf7e74cbbb842244d",
+      "bytes": 99258
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013922_686.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013922_686.png",
+      "sha256": "17bb8c2992f85f661a7bcc869b1c16083f350449a670cc15ae69400beadbadb7",
+      "bytes": 100329
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013923_114.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013923_114.png",
+      "sha256": "0a387998638803b12ce781a0d00623c0828752031960e19c57e11332fade3210",
+      "bytes": 99866
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013923_540.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013923_540.png",
+      "sha256": "a6af47ac87547c12008aa7d41068c129a54833927d3489bcc4a5891e06d98447",
+      "bytes": 100255
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013923_999.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013923_999.png",
+      "sha256": "22b80085db6fabeb066ba4cd912f6205bc63ef335d69e10f7c6692c92010599d",
+      "bytes": 99839
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013924_513.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013924_513.png",
+      "sha256": "d07d9f95eeaad5d7437f5f11ee5029fa4f600e52c6fd9ded758b38f5d6313d8c",
+      "bytes": 100753
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013924_956.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013924_956.png",
+      "sha256": "99185aab706deb79f391818ef6e8de8e37e6ebb14fef3c25e128948146520434",
+      "bytes": 101963
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013925_383.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013925_383.png",
+      "sha256": "6258fb091b05ca8bf51ae85e7a67ce4c1fd0e3d75ae2812f3026edb2ba768bcf",
+      "bytes": 102301
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013925_848.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013925_848.png",
+      "sha256": "e0c2dccb8826fc1b1cd45a8f48770e8623a65dc52e0e3057fa357607cc0052aa",
+      "bytes": 100170
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013926_271.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013926_271.png",
+      "sha256": "b2919138fb7e8663e941f228b2d7a1bde10c819e4e8a756444b8a50cd7751970",
+      "bytes": 101545
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013926_691.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013926_691.png",
+      "sha256": "87c0ad8f74bb8c23dad18711920a6e14750c74ea7bbe3ffff8c4278769b13df2",
+      "bytes": 102045
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013927_159.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013927_159.png",
+      "sha256": "f62341554e497ff873ce474ac61c609978714e04dcda2e55d72567f58902bc13",
+      "bytes": 100121
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013927_613.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013927_613.png",
+      "sha256": "2a09b065607304be0dcdd1d670be83388ec477f2ffb05ab43790d62c793bc04e",
+      "bytes": 100357
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013928_065.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013928_065.png",
+      "sha256": "e55c02cac2d5fc6732d113801444ea960033976bc78276838e8b5b7f96467dfa",
+      "bytes": 101060
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013928_504.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013928_504.png",
+      "sha256": "885a765b177314f788b52107049000a786229296cf8e77c75edbc26647b5b901",
+      "bytes": 99326
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013928_949.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013928_949.png",
+      "sha256": "00267a2357a11d81a1348560986ae36625d89fdcfe48a0d0ba6331816a132e0e",
+      "bytes": 99852
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013929_395.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013929_395.png",
+      "sha256": "c27b9b4346400fb8ce1e10699b5f7b0c93e33430c13635ef293aa83f22b76227",
+      "bytes": 100724
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013929_852.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013929_852.png",
+      "sha256": "a3c1a6b54dd2c62d9f4aaa31cbe0f10fcb3d8487fa4aac86ea3465d322a5b42a",
+      "bytes": 100611
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013930_312.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013930_312.png",
+      "sha256": "38a41cd1bf7e03b783684466db027fed1518124f627d1387d877b696d14ceab8",
+      "bytes": 101051
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013930_775.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013930_775.png",
+      "sha256": "fded65149f4330437e5120fe9c95946471134cf3d6e8b91ac957a15a60380ab8",
+      "bytes": 101064
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013931_236.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013931_236.png",
+      "sha256": "c887730934d96aab3b109d6b08edbbf50e5dc41c4d9405280ea5c65de3af180e",
+      "bytes": 102059
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013931_712.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013931_712.png",
+      "sha256": "0e7be3bbfefd42cb38d1ece8417b0d0e13bc1331c6980dd1c75fced541b27a61",
+      "bytes": 100266
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013932_158.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013932_158.png",
+      "sha256": "b853fd94d02e167b5a3018d21bf84d80d1605b0ef6530f44720dbb00c33f7b47",
+      "bytes": 100485
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013932_645.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013932_645.png",
+      "sha256": "3b5627976f8bb1593cb5549d2682aecff0ff947efb8124aa0e3f3472be6ea9b5",
+      "bytes": 100458
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013933_096.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013933_096.png",
+      "sha256": "6ff9cba7a68273289e7713a98b1f52d8c49d46f9916cd1e4ca77d1057370ec1b",
+      "bytes": 100279
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013933_562.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013933_562.png",
+      "sha256": "94fcd95397d7590b87e20807728e29cc5aac71ce79584815d1d5fa28a63ad8fa",
+      "bytes": 100137
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013934_021.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013934_021.png",
+      "sha256": "d69ea66b2c8a5e870ed262041c8c03a6bdcb71d3d9645a1d987951701be66e01",
+      "bytes": 100149
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013934_494.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013934_494.png",
+      "sha256": "1793f4bc3ecd7b4f32048acb24cb6e3850d49bda27ee46004575c2138d78d2ef",
+      "bytes": 100530
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013934_993.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013934_993.png",
+      "sha256": "2db836a0f11587e713e4a30c174e7c0144e019e1d2f34e17a4ed4c6843710033",
+      "bytes": 98894
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013935_453.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013935_453.png",
+      "sha256": "ef42ad6b71e180dd8bbb6725dae77b0730b9c6cd6275231c4a937654ac4f077c",
+      "bytes": 101178
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013935_906.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013935_906.png",
+      "sha256": "d07287c180f67d64250ce319aedba832667c6ec7ec406e357a32ef993d5725ce",
+      "bytes": 100215
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013939_621.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013939_621.png",
+      "sha256": "5bc45bddcd54581a5f6784c90337a4bf9089a91910b2e01c52f9cc5d65e84bb4",
+      "bytes": 100361
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013940_062.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013940_062.png",
+      "sha256": "29627ce5c47e8f895cc24a92a0a4f4aca33f6107b2fd3626758f1d6fe9364d73",
+      "bytes": 99646
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013940_503.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013940_503.png",
+      "sha256": "859bc609af86ce7ae425727d5b442e2e9b6f147122af005f20161a95acaaac9f",
+      "bytes": 99690
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013940_985.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013940_985.png",
+      "sha256": "61ce0c2e4cefba43128001cff1e3bfb3729ea553375f0b28e2d7cf47d00b7e80",
+      "bytes": 100099
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013941_421.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013941_421.png",
+      "sha256": "2b7661c6795748f2b0f42d5684ee892c3518fb1f163779ff202ace491f1774c7",
+      "bytes": 98262
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013941_880.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013941_880.png",
+      "sha256": "2c828c3491f821516646e9edd46d8064f938356bb7977fbabbe9e5a08c69b0ac",
+      "bytes": 96730
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013942_344.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013942_344.png",
+      "sha256": "5c9890bade24315f32e2528f26cca622799027a4e3ab530bcfe61a5a55360d40",
+      "bytes": 98229
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013942_781.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013942_781.png",
+      "sha256": "abcb1b67b2a008549455ee88a295a1f0706b5f7673cc6230c60eaaf4119ae121",
+      "bytes": 98996
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013943_247.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013943_247.png",
+      "sha256": "3d3b2b29511933f0ed0a5cdb10e21edb7ba6f80819294653367eb215a3c289a0",
+      "bytes": 98921
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013943_692.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013943_692.png",
+      "sha256": "a6eb715b6198f9897a4c294f6b4d49c07702890d0bb45308f867a82c1b090463",
+      "bytes": 97750
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013944_142.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013944_142.png",
+      "sha256": "840c5e1b5c75b3b815ce51e4227d49adf9e2e58524194e924e0f2cb14167cd56",
+      "bytes": 97546
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013944_586.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013944_586.png",
+      "sha256": "639f5db26c801a827a2a820a9e656b0d2e782de45b1c6e209210fda6ed1364da",
+      "bytes": 97291
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013945_054.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013945_054.png",
+      "sha256": "79229e3e0ed63a82f3bb4c23d3257bdfac7aeaa4b0669b4ab6cb58dca25baaa5",
+      "bytes": 95821
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013945_516.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013945_516.png",
+      "sha256": "d918b9a24bdc688464657ab6a2808c3c31d58b665609e12b25cdba38240ee1e5",
+      "bytes": 98023
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013945_953.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013945_953.png",
+      "sha256": "926bd5a39ba6e01ff8094bf5f66a4823458724dcd31b2754db97de2ca98f31ea",
+      "bytes": 98561
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013946_410.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013946_410.png",
+      "sha256": "bd50388ca776b5913c180181ffa8da3c506ea6a7a688e8ecbcd380dad3b8fdab",
+      "bytes": 99019
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013946_870.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013946_870.png",
+      "sha256": "bcfe69c2cfd9cf2afb2aafd6a70874a8d934d61fc15fdb0a0b96f3018f4e33b0",
+      "bytes": 98199
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013947_319.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013947_319.png",
+      "sha256": "185369f8ce0c03c7a35c5f962fd93a488236a05cbe0adc343193e2ded94480f2",
+      "bytes": 97191
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013947_776.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013947_776.png",
+      "sha256": "0b4c1b768c7b345c7be2e688df947ce67a4889630b489edf5d26ccc346b43291",
+      "bytes": 98806
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013948_237.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013948_237.png",
+      "sha256": "afd3249e456ed3814cc96872d2e763dfca8ac25860857357c2d40ffbe95319b1",
+      "bytes": 97932
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013948_695.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013948_695.png",
+      "sha256": "df189a48bf75a06bbd2fea8e9c3505569b4a3fb0dd6b799fcd8c99a81d47da12",
+      "bytes": 97034
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013949_132.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013949_132.png",
+      "sha256": "1423d0ea67a892e0390096cff23b7efceb3c990b37c0b596ec6f21a269347440",
+      "bytes": 97013
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013949_586.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013949_586.png",
+      "sha256": "6ce56400ca2c291cc5871c4152b0cfdb287a3fe74489540a7671f80bc4b01dfe",
+      "bytes": 97851
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013950_045.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013950_045.png",
+      "sha256": "eee866f013a870562a24504f76997b736d325abfe12032a75026508b52efe8a7",
+      "bytes": 97418
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013950_509.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013950_509.png",
+      "sha256": "13c8554431205d21bc729e66f45f2d7b0abcf8cffad6c209cfddbe2fe0cb9a4b",
+      "bytes": 96451
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013950_994.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013950_994.png",
+      "sha256": "f5b33dda3252a8b10d0fcba33a1e3dacd2caf0f60e6831c28eb60d8fbef6ea13",
+      "bytes": 97207
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013951_460.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013951_460.png",
+      "sha256": "61eff8eeb20508797b2f60d41a7eb64036e78cfb85e1d9baabe56fd05bb703e5",
+      "bytes": 98083
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013951_904.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013951_904.png",
+      "sha256": "31c84cd564b4af47316222eff389ea3cdc8643e7948126a98a79e0c11b52ec57",
+      "bytes": 97943
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013952_347.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013952_347.png",
+      "sha256": "e379133e1ad81b7ad7ff1799a5669d427f6b5030798e768b0ffcd8e6536782d0",
+      "bytes": 97453
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013952_806.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013952_806.png",
+      "sha256": "31b0e38acde354935f49712a368fbcaf03f277ed3e413b7c1452ed58a106f2c9",
+      "bytes": 98137
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013953_265.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013953_265.png",
+      "sha256": "f31458b50f1224494a6a65a370c098cac196d04d32d66afc9bb94a903ae02eb3",
+      "bytes": 95578
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013953_722.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013953_722.png",
+      "sha256": "130aa2f00be4ed9d3c12a1a0b26bf8dbad654479156b11cf3d0715dfba240608",
+      "bytes": 96597
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013954_184.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013954_184.png",
+      "sha256": "6be081ee91ec074a54ca6f25be40f445b560a9d21736cd7cb08c5cc618d83174",
+      "bytes": 95938
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013954_651.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013954_651.png",
+      "sha256": "a6a636a24510c3ceaa56e01be79d2f9d4ac6fe01efaed2d97893ca5361f8a074",
+      "bytes": 97196
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013955_112.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013955_112.png",
+      "sha256": "f1fbe61f9f67db4b68b6b53a6b48dd92c187eb05abc0e931d0b1ee2d3a249638",
+      "bytes": 95023
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013955_579.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013955_579.png",
+      "sha256": "6fa6a0b81623e83724c28b6d79a735a1d1698efc8d6463d9db66ca07e762b755",
+      "bytes": 94244
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013956_031.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013956_031.png",
+      "sha256": "b8d93f40dbde5e9994cd3b48145d3cee7d754509486389171cde7ffa308df26f",
+      "bytes": 91808
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013956_497.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013956_497.png",
+      "sha256": "404d2d4453ba9ec8938b9e22bb3b8ac8902d9a9b9f51e41162ca889beef38f96",
+      "bytes": 93754
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013956_949.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013956_949.png",
+      "sha256": "b9bae013c1e27b37530afdd3120b49084d20d8957ab2857187f6090b15a06e06",
+      "bytes": 94968
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013957_405.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013957_405.png",
+      "sha256": "e1822af0b18f59c3bc8f43aa7fd62cdd1463e27c07e6f07c607ccfa6673b2732",
+      "bytes": 94479
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013957_865.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013957_865.png",
+      "sha256": "6ed551f056298fc921b37758998cf7fd3626558a365314aac82a9826b8939a25",
+      "bytes": 96274
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013958_310.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013958_310.png",
+      "sha256": "4e1e61716b2d5c295f99840c2cc7499fdfe662bd4b1ac537c8894e080aa213c1",
+      "bytes": 94720
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013958_804.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013958_804.png",
+      "sha256": "c12180e574d080e4489bf6b88610da7c9e0cea7301446e94f02b0ad445279aad",
+      "bytes": 96566
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013959_291.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013959_291.png",
+      "sha256": "6b0a1dd681930b455f095fd157f5f236da2d6452bad69da958ef49b43cac553d",
+      "bytes": 94083
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_013959_762.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_013959_762.png",
+      "sha256": "3ac6890df4975772ca3cc7086f49e9cc14425d7ade24d2d57df032402030104b",
+      "bytes": 96532
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014000_287.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014000_287.png",
+      "sha256": "551cb486183c4ba38f9ddb41546b027547762bbfcdd71cc91dbe322c24d9685f",
+      "bytes": 91089
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014000_750.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014000_750.png",
+      "sha256": "794de436e7b8aa0eea9024ecc19da5310ca9e6c6b5fd6363934c69a19830d294",
+      "bytes": 96073
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014001_242.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014001_242.png",
+      "sha256": "84502ecbf05848f5e20f6b60769e82c49cbae89bc732734c91b4da44a5509387",
+      "bytes": 90731
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014001_694.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014001_694.png",
+      "sha256": "f3d1a9a8457a9b085dd4aabae8804e4697f65a19cce3957d53b5ba33b118cbf6",
+      "bytes": 92512
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014002_136.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014002_136.png",
+      "sha256": "e592ea9cc23696cda62657f6ff3a9389e6d147b5edcb2b1c340280ce8a8e9e6e",
+      "bytes": 93988
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014002_625.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014002_625.png",
+      "sha256": "e1cf63ef6b24df1d8f3a3dea9193a603ae1b300fcf88093f7ed299ea45c319be",
+      "bytes": 91894
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014003_082.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014003_082.png",
+      "sha256": "c6d34e8296b3da355f89785b8fb7d014a420c18dfb689a0b8341d7e6ee6491a2",
+      "bytes": 92863
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014003_559.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014003_559.png",
+      "sha256": "c16ae6267238d124cd643f498247443facf8774cf1d0219697b3e9cf5ad59664",
+      "bytes": 94296
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014004_011.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014004_011.png",
+      "sha256": "31a51b83f062e9c864181f7457ac67549abf0f12cf0307294153196ed413779d",
+      "bytes": 91808
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014004_479.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014004_479.png",
+      "sha256": "af6cc11d2d68fd05ff66dcd3966400c35f48e96fbaf6426ef56186daeae40159",
+      "bytes": 91676
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014004_959.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014004_959.png",
+      "sha256": "8b24d4c07268642413d8667f45e666c1c7b1ef1714189410c64e3118eaf8416d",
+      "bytes": 91658
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014005_416.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014005_416.png",
+      "sha256": "f7093aed222ca58d8e70872154b5680a0b0bbe76738251bb60db749ed3703fab",
+      "bytes": 89882
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014005_890.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014005_890.png",
+      "sha256": "da3d07f17022bb7a8d605c2aa82cfcbb0d8f31362f66ae1aa040eec0a57c92f1",
+      "bytes": 91686
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014006_349.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014006_349.png",
+      "sha256": "0b4a4f037f98c96df5d2db73067f72d08bbda8455616dacef3cc7ec789f827cf",
+      "bytes": 91154
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014006_818.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014006_818.png",
+      "sha256": "80f45b0fcacd6f401dfd46c36bc1ccb2b65ae4d9a5b80f9baa2efb96f2fc8add",
+      "bytes": 93002
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014007_287.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014007_287.png",
+      "sha256": "1fac1cf1db951e4be2fec73fdca9ddea50a8b34cfd12bbd2c999869d30600d69",
+      "bytes": 90705
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014007_717.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014007_717.png",
+      "sha256": "ce47cc4b37ef80657cbd070d441545d9391f868c7e1504c4b75a6f434c0a0afd",
+      "bytes": 92222
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014008_260.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014008_260.png",
+      "sha256": "592aa79ccd61f4ae85fa4528aeaf69648c3a82f92ad077eefea1633dde63e142",
+      "bytes": 95832
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014008_759.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014008_759.png",
+      "sha256": "1d5131a2fe65f8822bd81acc10f94fe38b4a98904fe86f098bfe82f7a61ba778",
+      "bytes": 92204
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014009_216.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014009_216.png",
+      "sha256": "d69ed3593649fe4df37736487dc8006c48ac8d4cce513b9e4d631885995d50fa",
+      "bytes": 92995
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014009_673.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014009_673.png",
+      "sha256": "fd6cdaeaa5f0238f112c503bcdbe5220b4669b5b6ae805b4eabbf87cd24bba79",
+      "bytes": 96144
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014010_154.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014010_154.png",
+      "sha256": "4df55bf678f5f5390d6ab5c30b750c7c2a9d81971dff5dca2d5811bc0996228c",
+      "bytes": 93453
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014010_630.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014010_630.png",
+      "sha256": "c29ca0666da7e72a99132ffd31f0dddcfb82baecf5ed63946780c699b2c33b8d",
+      "bytes": 90993
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014011_114.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014011_114.png",
+      "sha256": "8aa8d342f00ee6491bfd4bd4c16b554ae243db518e3ce2b0a63882a072fd7e91",
+      "bytes": 92767
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014011_576.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014011_576.png",
+      "sha256": "9bb09a2d9122ca038c0ff2f38a0d40fe6d42b758893b78448372493c63892ecc",
+      "bytes": 91547
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014012_054.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014012_054.png",
+      "sha256": "1501af1a6bfde3eb495512549396ee9173ce4ec122b092a1a701d168a614a091",
+      "bytes": 95493
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014016_701.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014016_701.png",
+      "sha256": "0383d42d7c1c6af8e15caac2baae8e7c97867e82aa46380393e9249cae8d5c49",
+      "bytes": 98966
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014017_171.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014017_171.png",
+      "sha256": "c1169ed68a64970a86b053b616729923ed28470d46343a9f5d2a942bf165969f",
+      "bytes": 98425
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014017_647.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014017_647.png",
+      "sha256": "3aea6af53916cce3679529846d77177ab559b9cb0f0f36ebd64abacf7f24f85c",
+      "bytes": 94497
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014018_132.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014018_132.png",
+      "sha256": "6fd0ae0f3ba88baa39e8ec66513a12f5db5466d9eaf890973defbb7a8f8ce916",
+      "bytes": 86974
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014018_573.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014018_573.png",
+      "sha256": "c23208271251ab1d6bf606883cced59c774b2490369676c52679b5c44647a08a",
+      "bytes": 84740
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014019_047.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014019_047.png",
+      "sha256": "a7bdb802ae3029d77b8ee90a6fd37eeac3e3825ece944cdb77268be36bafcaaf",
+      "bytes": 84986
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014019_534.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014019_534.png",
+      "sha256": "36ce2148320794e6c53e1f7e14db1fd816039ea5e34f1f1acd24d915c8f403e3",
+      "bytes": 80328
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014019_997.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014019_997.png",
+      "sha256": "dcc9df3defc80fc4779afe43cc8cb3089373326b37866a7e86da3c604fed222f",
+      "bytes": 77310
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014020_454.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014020_454.png",
+      "sha256": "79aa49f0f3902e1018300c49bd54670a44cadc4e6631c217dff9b296aaa331e1",
+      "bytes": 77981
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014020_919.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014020_919.png",
+      "sha256": "761b0b43d9d2dba5ddd2381c0c936f20bedf3000f53c279c62a27967b8231905",
+      "bytes": 80939
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014021_361.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014021_361.png",
+      "sha256": "31aab1fce469a3a71daafab5b4a6240a64a65845ae11227b6cbc511a6066358f",
+      "bytes": 82409
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014021_838.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014021_838.png",
+      "sha256": "d2edaf4e411d0954602c93d5d2dc70e461eba49551608560574b2f0e420edc2d",
+      "bytes": 82978
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014022_314.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014022_314.png",
+      "sha256": "4fdcd8668417156319aa42fde1154c6633a6fbb4ac733592280f99b571551038",
+      "bytes": 89788
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014022_799.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014022_799.png",
+      "sha256": "368514e94f054473bcbb70e5b7a75c723dbeac785bb7d40d19ea03d1d09595e8",
+      "bytes": 94471
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014023_259.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014023_259.png",
+      "sha256": "e1896a9666f28fae17da20e3bcb443a1c6ddb5a43aa8de05dc9ac4eb387c0dda",
+      "bytes": 97796
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014023_734.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014023_734.png",
+      "sha256": "800997d51646318f2ed704b6e2813e51f41375740e5b18907592c1a093863897",
+      "bytes": 98663
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014024_254.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014024_254.png",
+      "sha256": "97c60585b7339f4335e7b3e9f6fe09f7ba5bea9211b2e5becaee00c4ac976073",
+      "bytes": 98883
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014025_775.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014025_775.png",
+      "sha256": "6035bc2cce39ec3b943a409d3cdf233877e51d7669ac3b5581ff1345347830b1",
+      "bytes": 101388
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014026_288.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014026_288.png",
+      "sha256": "8a998697a28fd90744cf7eece5204737b6e089b8a5627a4ea526502f7c5380d1",
+      "bytes": 98939
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014026_751.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014026_751.png",
+      "sha256": "a40dc4460b68ea45c158f45a2dbf4381958718f3ef06304c5a59b366ea717d63",
+      "bytes": 100248
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014027_206.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014027_206.png",
+      "sha256": "ed524959d855caac09b32e289f4eafd670692e5bcaa2d51794d8586d08ffd4fe",
+      "bytes": 99559
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014027_678.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014027_678.png",
+      "sha256": "fd58bc942ff0c317c3af9a474de67330141c0ce9b08c593a7ff19c284680c481",
+      "bytes": 101185
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014028_156.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014028_156.png",
+      "sha256": "fd6a4ba797f5333196be70f118a3a36af809b9af8b1342f315e470e42d65b80f",
+      "bytes": 108906
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014030_396.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014030_396.png",
+      "sha256": "5dd48afcd7bbde7714e6f06d1225a624fff1477a4668532c8b90a1e770d91a3c",
+      "bytes": 88045
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014030_837.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014030_837.png",
+      "sha256": "9e342ba42f9baaf9ae35a9bd9754a504246aa2d8278d4dcfb440cb2839399a4e",
+      "bytes": 99189
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014031_322.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014031_322.png",
+      "sha256": "68ee86955203e88451ec5b6b05857aa014f04686bdf256f2c50922b321b3518e",
+      "bytes": 96936
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014031_790.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014031_790.png",
+      "sha256": "47622a6b635fb2312df6b2c4178d2619e75d1bb59c950906f6ded11c1af4826b",
+      "bytes": 96166
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014032_273.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014032_273.png",
+      "sha256": "cdf1c082b94c433a49e4c7d52b72b36b11b36883f40c82c84468757e42007d4c",
+      "bytes": 96260
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014032_712.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014032_712.png",
+      "sha256": "61f6015c09efd4fed740949d1eba0bdb34091d79c1015b567448a571b43b4af3",
+      "bytes": 98329
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014033_177.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014033_177.png",
+      "sha256": "6cfb2c30a1c18415a14879f7b471a15543274d0224547d6dbc3b99ca670f465f",
+      "bytes": 95464
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014033_641.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014033_641.png",
+      "sha256": "ebab67ca1c2b0e96bd08e89d31117c74329c3e61ab126746ce1b5b27e539e317",
+      "bytes": 101711
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014035_192.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014035_192.png",
+      "sha256": "d508b6f956736f4dbb802f5303f7911d09ad49a1e133f94cb0d36747a70c6de0",
+      "bytes": 90728
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014035_628.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014035_628.png",
+      "sha256": "9c1b1087a2e316c11f066d4ae6cdb1feda807eb1438ec54eaad565dcedbcee6b",
+      "bytes": 94267
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014036_122.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014036_122.png",
+      "sha256": "8c3e2934428d3167f8593c60f5f5e59e82d3b95aeadaec2eeca4dc91902f5596",
+      "bytes": 87995
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014036_573.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014036_573.png",
+      "sha256": "addfe736a096ba99bdf3caa1574422a0dfe133a6af517511ae2511658050c53c",
+      "bytes": 82803
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014037_069.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014037_069.png",
+      "sha256": "2787e030fb2e64ecee78de358de61f3b63e5eb1e043b8d24a36fde939716a38c",
+      "bytes": 101098
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014037_505.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014037_505.png",
+      "sha256": "235eb7d37349535e48372105f3892a6a7eb2cc052cc988937eed0c645cecd0c5",
+      "bytes": 92841
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014038_946.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014038_946.png",
+      "sha256": "1cf7d4ac0d34bfd30033495946fce53aa5670c91115c2aa0b75c4ccd2c9ddf76",
+      "bytes": 78503
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014039_380.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014039_380.png",
+      "sha256": "a8315d42fa62225f4d4cd57bb6552fe3ebc82ebe0226b2f1c86d2b70e2f0311d",
+      "bytes": 73365
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014041_807.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014041_807.png",
+      "sha256": "ae3c54bf43beae2e92577973ffbfc7e67f8c6dee230c88186581b928522a4a62",
+      "bytes": 101622
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014042_612.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014042_612.png",
+      "sha256": "9e5845cdbcc1d6526f88d947007bb97956e252be7a57eab2ccdc88897188ceaa",
+      "bytes": 97998
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014043_104.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014043_104.png",
+      "sha256": "a766278f5d97f1bb381fe314af3bfbb0a2a6b438d61f9507b5f132fcef11dcbb",
+      "bytes": 97747
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014048_702.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014048_702.png",
+      "sha256": "8e8ec90853ba3aecaea6800012612c51fb18d4d60240afe3314890fd5e4eb59d",
+      "bytes": 98281
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014049_152.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014049_152.png",
+      "sha256": "f1cf9c32f881014ff644553b5b391b9f2a5990c171e7f960556a9f496a72f27f",
+      "bytes": 98159
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014049_579.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014049_579.png",
+      "sha256": "3407f92e595102957afe8067cbf730a73bd83eebdf761a5497350e4ba1b7bf6f",
+      "bytes": 97098
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014050_042.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014050_042.png",
+      "sha256": "361679abab0fa1082536c2bf13a3474179fca13b453b3231018df3d37f71d5d3",
+      "bytes": 99241
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014050_499.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014050_499.png",
+      "sha256": "275f604f62d3204f41fc2a432ed3a1125f0c222d22c93c7b000ccb93cffa3f82",
+      "bytes": 95313
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014050_975.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014050_975.png",
+      "sha256": "6b3b824402167e992d3c5f46ef130a05e770a575bba632d8c5e028313a088418",
+      "bytes": 97310
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014051_431.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014051_431.png",
+      "sha256": "579329197c69f34ec7de2b72dd9d8f64d3d945c71f05d10478efb106c39babe8",
+      "bytes": 98791
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014051_896.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014051_896.png",
+      "sha256": "5829cb3d83cb5eef1822bc5b7a3ec8fab032851da46996193c5c1287af3ff378",
+      "bytes": 99956
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014052_382.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014052_382.png",
+      "sha256": "d67db3b92cc3bb2d5220475fe8c405696819704d640e0572fad822db60c7859e",
+      "bytes": 98397
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014052_829.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014052_829.png",
+      "sha256": "40ccbbfd8ebe5d2ea94510f07c174d043c694297bc9430fbb719254db5fb5869",
+      "bytes": 98538
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014053_331.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014053_331.png",
+      "sha256": "bb60db4c90e4b9bf396bf5b37a93768f1b4bdfa9567bf53f369f0a4231a39c46",
+      "bytes": 96786
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014053_775.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014053_775.png",
+      "sha256": "4927f63448636fd345a9c7bf8b6f31984cff927f89150245a53165dba2aaf455",
+      "bytes": 99955
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014054_240.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014054_240.png",
+      "sha256": "56c74f0f6905a3f6ffa36d569648fa3784f1d1a60f2993f15f4a9eff6b81190c",
+      "bytes": 99423
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014054_701.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014054_701.png",
+      "sha256": "b16f5ef57e9463cf9b14b9bfe95001602fe9e0e7368c8d901e658a72409bb8c9",
+      "bytes": 97801
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014055_148.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014055_148.png",
+      "sha256": "f0686a56597e393007ec68322937b165529a1f7348bef24351c01ea9fe4530ca",
+      "bytes": 97786
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014055_626.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014055_626.png",
+      "sha256": "4b51f1106d908408fd09533e5c7762cb34ddf5bcd73690aef9fcc92ccd460d12",
+      "bytes": 96231
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014056_069.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014056_069.png",
+      "sha256": "7cb526a8b29ab68b9a9f3ac7352de011d4b049fbd23d15234081db5099387972",
+      "bytes": 95285
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014056_540.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014056_540.png",
+      "sha256": "b25054cee027d68f5d93842f915ec6f2772201b69f26b02e1779bf474b45cad8",
+      "bytes": 96680
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014057_018.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014057_018.png",
+      "sha256": "911f419680a1b197c57382b4daede6a3d4eda61f2dc6da53190dd906c1de4981",
+      "bytes": 98772
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014057_455.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014057_455.png",
+      "sha256": "ac7262eb09acc02f429f7835c84cd0521b0c54978b80d96073265f5216f0c2ed",
+      "bytes": 98937
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014057_944.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014057_944.png",
+      "sha256": "d4a433c9169ffed4a69c3de03ee16e0568471c78154857ba9dac9702e1bd7a19",
+      "bytes": 96168
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014058_390.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014058_390.png",
+      "sha256": "f8d19208b1a5c0eb8cfff18e7d9019ae11bd9ae858a11c437d1b3a706ea5d4f2",
+      "bytes": 99144
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014058_864.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014058_864.png",
+      "sha256": "5d0b109a4e519310f362d3a9b816cddd815f0f36c013b2fa7640d905ada991b1",
+      "bytes": 98772
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014059_329.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014059_329.png",
+      "sha256": "b1fa393ef5de5345032168deead75adbcc9b22f8a63f561a6df6a70b8be3d868",
+      "bytes": 98033
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014059_770.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014059_770.png",
+      "sha256": "fb63a6129218d389b04c7fe86fcf5d95071e57a4c2215d0c149e0c597954a0cf",
+      "bytes": 93326
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014100_236.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014100_236.png",
+      "sha256": "8ee5976c0bd27f956304de276f62e684c125683edfce5c4f98d3d99ec73387a1",
+      "bytes": 95471
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014100_684.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014100_684.png",
+      "sha256": "f6f647782f100c46b1163355a17cb3891a2c5442bac11f1d4526ff3d533ed3e8",
+      "bytes": 95937
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014101_145.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014101_145.png",
+      "sha256": "86b8899dfc493b543f026c24788f2e0126805a5afdf174e7142dd0a8b3f07494",
+      "bytes": 96129
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014101_594.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014101_594.png",
+      "sha256": "dcaa92bcfd63b57b4486934112e5ad81cff468537cb61f54a6f5098bde12a14b",
+      "bytes": 98265
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014102_018.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014102_018.png",
+      "sha256": "c9ab94389d2ba03ed6c2ae79cf2784e93cb3e46b12296431a3b9df12caaaa817",
+      "bytes": 97678
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014106_386.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014106_386.png",
+      "sha256": "0c9998cd90ffa5b15d0686361f09413e91ecded523d06c07958cd9df0dce9ceb",
+      "bytes": 83798
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014106_836.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014106_836.png",
+      "sha256": "8b99b271a187a382bdff22d1816d8057731c9acde1052692ca7d226ea82e8859",
+      "bytes": 85474
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014107_272.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014107_272.png",
+      "sha256": "c38453ce7140ffc0f0767c97df430bcc4ab37df349bbdef711765812fcab1316",
+      "bytes": 79650
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014107_689.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014107_689.png",
+      "sha256": "dc4f171fb4db3b67708a7d5fae9f848d07cafd1d81884e819cf613a653e6c054",
+      "bytes": 80729
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014108_193.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014108_193.png",
+      "sha256": "0ccd65b9c4d2366c626a793395b387583acf81f196df4cd28a5d1e8ae3d96a38",
+      "bytes": 81935
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014108_640.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014108_640.png",
+      "sha256": "3a1d970e2e62fe3c1db41b11fc25b8a5203841125a0c582402fafb47bb913970",
+      "bytes": 91621
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014109_187.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014109_187.png",
+      "sha256": "144a2fd436b88d1db136e936fb2f2b0bfdeee9abe21338e5d698037211132fa1",
+      "bytes": 78907
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014110_065.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014110_065.png",
+      "sha256": "227d64dad2355b77f166667916261c69f115fd7fa3636002a98e8f70a36b5bc3",
+      "bytes": 69775
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014116_780.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014116_780.png",
+      "sha256": "775a42b6b91d6b2c430ea6b24bbdb0e9c6af093a8034f2c75b549274815bd926",
+      "bytes": 72226
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014117_227.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014117_227.png",
+      "sha256": "193f59b4dbb13d2350b3c3606625030f286e0a8af6dc6fa777997b9ff134446b",
+      "bytes": 70772
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014117_691.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014117_691.png",
+      "sha256": "6dbba3372bcdcc93edb2de07402333989b5b339d73a30ba1269ab4c10924f8e5",
+      "bytes": 72031
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014123_874.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014123_874.png",
+      "sha256": "be2324f04b2e0957a9090c314e1f1e935128f4538d0109ce22f6ad9f2da44616",
+      "bytes": 39832
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014124_302.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014124_302.png",
+      "sha256": "fb1e9c70c32d00e46a9a8c9e56d94d746f0de08bf10068fc38e28490ffbef950",
+      "bytes": 37929
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014124_771.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014124_771.png",
+      "sha256": "d156fd3fd2c37d7835552d4ec5acfe1f047a68b17d51ec7ac19b750185d7e31a",
+      "bytes": 37649
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014125_222.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014125_222.png",
+      "sha256": "537ac7169dc7d50abbe6240702c412b1006eb68e98d515f91f0707b54c355b20",
+      "bytes": 37658
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014125_670.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014125_670.png",
+      "sha256": "57d415bd4f0e33e2bbded90ca4d19c15be584d76ab5fcd34d1b93e90e5ca2105",
+      "bytes": 37662
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014126_930.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014126_930.png",
+      "sha256": "29a47820309453290ab4120f8d7f5ceeaf5585ce2a0dbe8d47b77e75e85d2fb8",
+      "bytes": 87446
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014129_155.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014129_155.png",
+      "sha256": "1ce3c755eb4fc9a8bff227dbd349b4872bb76a1d3b22bf90d7d18be70fc39f08",
+      "bytes": 78949
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014129_649.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014129_649.png",
+      "sha256": "ab6e1b4bd34c1c81a326c08ee24092f842b614a33c2fbe987526f6655b33b6c7",
+      "bytes": 59640
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014130_124.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014130_124.png",
+      "sha256": "88a0046def282c552445dca902d33573dabbd7201fb9ba0e512d9d0116308626",
+      "bytes": 77819
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014130_593.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014130_593.png",
+      "sha256": "dd0a9961d5ae369ecc853527489f758553e3ea5b623842a9f87535f39fed349b",
+      "bytes": 81273
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014131_034.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014131_034.png",
+      "sha256": "1f0a451abb4d47497dc9e20af4872f5cbd582aaa7b483cdd094f7ba88a106c37",
+      "bytes": 79154
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014131_503.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014131_503.png",
+      "sha256": "3f013fc84d3f422bfde68fba65540e71533ae522ddd15de057059e9abba495b3",
+      "bytes": 76471
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014131_959.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014131_959.png",
+      "sha256": "2096c37a4a6b7bd2df48f41fc42fdc15776c1d725c07741dbc7178741f0797bd",
+      "bytes": 75555
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014132_425.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014132_425.png",
+      "sha256": "6b28988f1c2368771be2d9169835fc197379686f2dbc8721dd56552a286bc217",
+      "bytes": 71028
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014132_863.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014132_863.png",
+      "sha256": "ab49b19bf271a3792e0ee3976d039594944af6b5f8a940078f7e4ff58f16f7ec",
+      "bytes": 67274
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014151_353.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014151_353.png",
+      "sha256": "af66564b4dbf65c344f07ec54a63c3569eded34fe6604f4818da348e2b7f677f",
+      "bytes": 81467
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014151_828.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014151_828.png",
+      "sha256": "abbf265a8cdee322068f2368629c649117ee7ae5ea6351fba457fc830fcb0a22",
+      "bytes": 80561
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014152_277.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014152_277.png",
+      "sha256": "7430c7f2219365749e8ace79ce969d272e14e801acc27224bf9e1ad5eb4991a8",
+      "bytes": 80029
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014152_733.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014152_733.png",
+      "sha256": "3a54f0a4a1378f3ab5cff3ecba778ca2a1a2dff9d37cca54fb83d8f5f965a623",
+      "bytes": 76911
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014153_206.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014153_206.png",
+      "sha256": "7a318779aab62f33ffd5da4a1cdd73c8f9b021e185f592b166a6c11a4dbf5194",
+      "bytes": 78553
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014153_685.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014153_685.png",
+      "sha256": "596e33196c42e9c091709917da5f617b15ddb942606999f9e8dafca045425ac6",
+      "bytes": 73099
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014154_101.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014154_101.png",
+      "sha256": "f05cfc60c879d2c1af99d16babd3ed91242204992e3246eaad2be3020ac1ca32",
+      "bytes": 70909
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014154_569.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014154_569.png",
+      "sha256": "bdab866024a60298a648ba30681dbf13fb2391d16c06e2508f6cda311a32664e",
+      "bytes": 72888
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014155_023.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014155_023.png",
+      "sha256": "d7d80e287925add7ae02910c7d9e1f7fdbb96ae0f8131f3dece3dc5b174b21e8",
+      "bytes": 73011
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014155_451.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014155_451.png",
+      "sha256": "52ffad5cdb95a7597840ec63c9c97807a3b9467f4dc7668eb65915e9b0f8cb09",
+      "bytes": 75028
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014155_903.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014155_903.png",
+      "sha256": "30bc50894d20c1b45c760d584f1f7f1c96280ccde15ffe2642c1aa1a914de56a",
+      "bytes": 80767
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014156_406.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014156_406.png",
+      "sha256": "ebfcdfc5beae718bc1f56ef0b7b7ce41191815ab6304f8ed4d7a0d4324b312ab",
+      "bytes": 79121
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014156_876.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014156_876.png",
+      "sha256": "74ba936cdc2c59e3ce4f4d49b4b1b1c9370be606fbd8f8385f7dee60ed78373e",
+      "bytes": 80756
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014157_332.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014157_332.png",
+      "sha256": "87a1201a6c13e0823d4adff2e96839d0582378516f2bdd64c00c2c318755be90",
+      "bytes": 78608
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014202_231.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014202_231.png",
+      "sha256": "c831c72b35f09a70b2f81a6763fa3dd7c78e13592f2d9b635234ad88233ce1f1",
+      "bytes": 77479
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014202_646.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014202_646.png",
+      "sha256": "784b23428a96c341f1e7a8044008872a5d877219435dbfa6a131b6fc1fa4653a",
+      "bytes": 77182
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014203_120.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014203_120.png",
+      "sha256": "a3f2c134c099b39a3f51df6eef0c8b45626e68a20c5571070fb3e125558b1590",
+      "bytes": 75462
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014203_570.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014203_570.png",
+      "sha256": "783d77a6768b3a59fe720a5c18dee3d43bbd52456e07903522dd567b70d1a79c",
+      "bytes": 74346
+    },
+    {
+      "source_url": "https://huggingface.co/datasets/notgoodkeeper/cnn-based-drowsiness-detection-data/resolve/main/images/face_processed_20251007_014203_999.png?download=true",
+      "local_path": "data/raw/AutoLabeledFaceCrops/images/face_processed_20251007_014203_999.png",
+      "sha256": "2440b5fa6f9a2f04cb0013a30eb87767cf7dfd52027ad41f91c940c4a846cbbd",
+      "bytes": 73645
+    }
+  ]
+}

@@ -41,6 +41,7 @@ DIR_TO_DATASET = {
     "DROZY": "SRC004", "NTHU_DDD": "SRC005", "AUC_Distracted": "SRC006",
     "State_Farm": "SRC007", "UL_DD": "SRC008",
     "DrowsinessEdge": "SRC009",
+    "AutoLabeledFaceCrops": "SRC010",
 }
 
 

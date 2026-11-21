@@ -698,6 +698,147 @@ def _check_v14_sessions(files: dict, issues: list) -> None:
 
 
 # ---------------------------------------------------------------------------
+# V15–V22 — protocol V0.1 integrity checks (ground truth quality & §8/§12)
+# ---------------------------------------------------------------------------
+
+def _check_v15_auto_derived(root: Path, issues: list) -> None:
+    df = _read_csv(root / "data" / "annotation" / "episodes.csv")
+    if df is None or "annotation_notes" not in df.columns:
+        return
+    bad = df[df["annotation_notes"].str.contains(
+        r"auto-derived|from filename|low confidence draft", case=False, regex=True
+    )]
+    for _, row in bad.iterrows():
+        issues.append(Issue(
+            "V15", "ERROR", "episodes.csv", str(row.get("episode_id", "-")),
+            "episode label derived from filename/metadata, not human observation",
+        ))
+
+
+def _check_v16_domain_coverage(root: Path, issues: list) -> None:
+    df = _read_csv(root / "data" / "annotation" / "episodes.csv")
+    if df is None or df.empty or "domain" not in df.columns:
+        return
+    for domain in ("FATIGUE", "SLEEPINESS", "DISTRACTION"):
+        subset = df[df["domain"] == domain]
+        if subset.empty:
+            issues.append(Issue(
+                "V16", "WARNING", "episodes.csv", domain,
+                "no annotated episode for protocol domain; coverage incomplete",
+            ))
+        elif not subset["reference_label"].isin(["PRESENT", "UNCERTAIN"]).any():
+            issues.append(Issue(
+                "V16", "WARNING", "episodes.csv", domain,
+                "no PRESENT/UNCERTAIN observation; domain cannot be evaluated",
+            ))
+
+
+def _check_v17_dual_annotation(root: Path, issues: list) -> None:
+    ann = root / "data" / "annotation"
+    eps = _read_csv(ann / "episodes.csv")
+    if eps is None or eps.empty or "annotator_id" not in eps.columns:
+        return
+    ids = set(eps["annotator_id"].astype(str).str.strip())
+    if "AN_CONSOLIDATED" in ids and "ANN_2" not in ids:
+        issues.append(Issue(
+            "V17", "WARNING", "episodes.csv", "AN_CONSOLIDATED",
+            "consolidated labels exist but no second independent annotator rows",
+        ))
+
+
+def _check_v18_frame_annotations(root: Path, files: dict, issues: list) -> None:
+    frames = _read_csv(root / "data" / "annotation" / "frame_annotations.csv")
+    if frames is None or frames.empty:
+        return
+    valid_labels = set(NIGHTEYES_STATES)
+    valid_domains = set(PROTOCOL_DOMAINS) if "PROTOCOL_DOMAINS" in globals() else {
+        "FATIGUE", "SLEEPINESS", "DISTRACTION",
+    }
+    sessions = files.get("sessions.csv")
+    participants = files.get("participants.csv")
+    session_ids = set(sessions["session_id"].astype(str).str.strip()) if sessions is not None else set()
+    participant_ids = set(participants["participant_id"].astype(str).str.strip()) if participants is not None else set()
+    for _, row in frames.iterrows():
+        rid = str(row.get("frame_id", "-"))
+        if str(row.get("reference_label", "")).strip() not in valid_labels:
+            issues.append(Issue("V18", "ERROR", "frame_annotations.csv", rid, "invalid reference_label"))
+        if str(row.get("domain", "")).strip() not in valid_domains:
+            issues.append(Issue("V18", "ERROR", "frame_annotations.csv", rid, "invalid domain"))
+        if session_ids and str(row.get("session_id", "")).strip() not in session_ids:
+            issues.append(Issue("V18", "ERROR", "frame_annotations.csv", rid, "dangling session_id"))
+        if participant_ids and str(row.get("participant_id", "")).strip() not in participant_ids:
+            issues.append(Issue("V18", "ERROR", "frame_annotations.csv", rid, "dangling participant_id"))
+        face = str(row.get("face_visible", "") or "").strip()
+        if face and face not in {"YES", "NO", "PARTIAL", "UNKNOWN"}:
+            issues.append(Issue("V18", "ERROR", "frame_annotations.csv", rid, "invalid face_visible"))
+
+
+def _check_v19_default_metadata(root: Path, issues: list) -> None:
+    eps = _read_csv(root / "data" / "annotation" / "episodes.csv")
+    if eps is None or eps.empty:
+        return
+    for col in ("lighting_condition", "occlusion_condition"):
+        if col not in eps.columns:
+            continue
+        n = int(eps[col].astype(str).str.strip().eq("UNKNOWN").sum())
+        if n:
+            issues.append(Issue(
+                "V19", "WARNING", "episodes.csv", col,
+                f"{n} episode(s) have UNKNOWN {col}; capture conditions incomplete (§9)",
+            ))
+
+
+def _check_v20_consent(root: Path, files: dict, issues: list) -> None:
+    parts = files.get("participants.csv")
+    eps = _read_csv(root / "data" / "annotation" / "episodes.csv")
+    if parts is None or eps is None or eps.empty:
+        return
+    restricted = set(parts.loc[parts["consent_status"].astype(str).str.strip() == "RESTRICTED",
+                               "participant_id"].astype(str).str.strip())
+    used = set(eps["participant_id"].astype(str).str.strip()) & restricted
+    if used:
+        issues.append(Issue(
+            "V20", "WARNING", "episodes.csv", "consent",
+            f"{len(used)} participant(s) with RESTRICTED consent appear in episodes (§12.7)",
+        ))
+
+
+def _check_v21_splits(root: Path, issues: list) -> None:
+    processed = root / "data" / "processed"
+    paths = [processed / f"{s}.csv" for s in ("train", "validation", "test")]
+    if not any(p.exists() for p in paths):
+        issues.append(Issue(
+            "V21", "WARNING", "data/processed", "splits",
+            "TRAIN/VALIDATION/TEST split not generated (protocol §8)",
+        ))
+        return
+    seen: dict[str, str] = {}
+    for path in paths:
+        if not path.exists():
+            issues.append(Issue("V21", "ERROR", "data/processed", path.name, "missing split file"))
+            continue
+        df = _read_csv(path)
+        if df is None or "participant_id" not in df.columns:
+            continue
+        for pid in df["participant_id"].astype(str).str.strip():
+            if pid in seen and seen[pid] != path.name:
+                issues.append(Issue(
+                    "V21", "ERROR", "data/processed", pid,
+                    f"participant appears in both {seen[pid]} and {path.name}",
+                ))
+            seen[pid] = path.name
+
+
+def _check_v22_self_report(root: Path, issues: list) -> None:
+    path = root / "data" / "annotation" / "self_reports.csv"
+    if not path.exists():
+        issues.append(Issue(
+            "V22", "WARNING", "self_reports.csv", "KSS",
+            "self-report schema absent; KSS cannot be stored separately (§2.2)",
+        ))
+
+
+# ---------------------------------------------------------------------------
 # Orchestration
 # ---------------------------------------------------------------------------
 
@@ -749,11 +890,19 @@ def validate_project(root: Path) -> ValidationReport:
     _check_v12_domain_compatibility(files, behavior_map, issues)
     _check_v13_overlaps(files, issues)
     _check_v14_sessions(files, issues)
+    _check_v15_auto_derived(root, issues)
+    _check_v16_domain_coverage(root, issues)
+    _check_v17_dual_annotation(root, issues)
+    _check_v18_frame_annotations(root, files, issues)
+    _check_v19_default_metadata(root, issues)
+    _check_v20_consent(root, files, issues)
+    _check_v21_splits(root, issues)
+    _check_v22_self_report(root, issues)
 
     errors = [i for i in issues if i.severity == "ERROR"]
     warnings = [i for i in issues if i.severity == "WARNING"]
 
-    check_ids = [f"V{n:02d}" for n in range(1, 15)]
+    check_ids = [f"V{n:02d}" for n in range(1, 23)]
     per_check = {}
     for cid in check_ids:
         per_check[cid] = {

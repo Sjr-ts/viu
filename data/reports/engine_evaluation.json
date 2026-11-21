@@ -1,0 +1,14 @@
+{
+  "protocol": "NightEyes V0.1 §10",
+  "generated_at": "2026-11-21T21:22:03+00:00",
+  "scores_file": null,
+  "threshold": 0.5,
+  "ground_truth_frames": 1399,
+  "independence_note": "reference labels frozen before engine scores were read (§7)",
+  "status": "NOT_EVALUATED",
+  "per_domain": {},
+  "excluded_from_binary_metrics": {},
+  "by_capture_condition": {},
+  "latency": {},
+  "reason": "no engine score file supplied; evaluation pending"
+}

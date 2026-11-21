@@ -20,7 +20,7 @@ HEADER = [
     "frame_id", "dataset_id", "source_video", "participant_id", "session_id",
     "timestamp_ms", "domain", "reference_label", "behavior_code",
     "gaze_direction", "phone_visible", "annotator_id", "annotation_confidence",
-    "lighting_condition", "occlusion_condition", "annotation_notes",
+    "lighting_condition", "occlusion_condition", "face_visible", "annotation_notes",
 ]
 
 VALID_LABELS = {"PRESENT", "ABSENT", "UNCERTAIN", "UNOBSERVABLE"}
@@ -81,8 +81,9 @@ def main() -> None:
                 item.get("behavior_code", ""), item.get("gaze_direction", ""),
                 item.get("phone_visible", ""), item.get("annotator_id", "ANN_1"),
                 item.get("annotation_confidence", "MEDIUM"),
-                item.get("lighting_condition", "DAYLIGHT"),
-                item.get("occlusion_condition", "NONE"),
+                item.get("lighting_condition", "UNKNOWN"),
+                item.get("occlusion_condition", "UNKNOWN"),
+                item.get("face_visible", "UNKNOWN"),
                 item.get("annotation_notes", ""),
             ])
             written += 1

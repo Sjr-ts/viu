@@ -1,1 +1,2 @@
 check_id,severity,file,record_id,message
+V20,WARNING,episodes.csv,consent,29 participant(s) with RESTRICTED consent appear in episodes (§12.7)

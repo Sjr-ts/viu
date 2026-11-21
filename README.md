@@ -2,11 +2,17 @@
 # NightEyes Dataset V1.0 — Infraestrutura de Inventário, Anotação e Validação (Parte 1)
 
 **Projeto:** NightEyes — Risk Lab
-**Etapa:** Parte 1 CONCLUÍDA · Parte 2 EM ANDAMENTO (aquisição + ferramentas de anotação)
+**Etapa:** Parte 1 CONCLUÍDA · Parte 2 — dataset supervisionado consolidado (ground truth observado + splits)
 **Protocolo de referência:** *NightEyes — Anotação de Dataset V0.1* (texto integral, enviado na abertura do projeto)
-**Data de verificação dos metadados:** 2026-11-19
+**Data de verificação dos metadados:** 2026-11-21
 **Repositório:** https://github.com/Sjr-ts/viu (branch `main`)
-**Status:** validação `PASS` (0 erros) · **68 testes aprovados** · interface local operacional · gate de legalidade ativo (`acquire.py`) · download YawDD em andamento (~5 GB)
+**Status:** validação `PASS` · **68 testes aprovados** · 1399 frames catalogados e anotados manualmente · 10 fontes inventariadas (3 adquiridas) · splits TRAIN/VALIDATION/TEST por participante · avaliação do engine pronta (`NOT_EVALUATED` até scores serem fornecidos)
+
+> **Estado real dos dados (2026-11-21):** os rascunhos de episódios derivados de nome
+> de arquivo foram preservados em `data/original_labels/` e **não** são ground truth.
+> Episódios e janelas atuais foram reconstruídos apenas a partir de anotação visual
+> humana de frames (`scripts/consolidate_dataset.py`). Limitações declaradas em
+> `data/reports/annotation_status.md`.
 **Snapshot para continuação:** ver **[§11 HANDOFF](#11-handoff--guia-de-continuação-para-outro-operadoroutra-ia)** — leia antes de executar qualquer coisa.
 
 ---
@@ -17,7 +23,7 @@
 2. [Protocolo NightEyes V0.1 — especificação técnica integral](#2-protocolo-nighteyes-v01--especificação-técnica)
 3. [Avanços implementados (Parte 1) — detalhamento técnico](#3-avanços-implementados-parte-1)
 4. [Guia de aquisição rápida dos datasets (sites, GitHub, Kaggle)](#4-guia-de-aquisição-rápida-dos-datasets)
-5. [Situação das 8 fontes — acesso, licença e pendências](#5-situação-das-8-fontes)
+5. [Situação das 10 fontes — acesso, licença e pendências](#5-situação-das-8-fontes)
 6. [Estrutura de diretórios do repositório](#6-estrutura-de-diretórios)
 7. [Como executar (validação, testes, interface)](#7-como-executar)
 8. [Vocabulários controlados e integridade de dados](#8-vocabulários-controlados-e-integridade)

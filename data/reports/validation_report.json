@@ -1,11 +1,11 @@
 {
   "report_version": "1.0",
-  "generated_at": "2026-11-21T20:02:16+00:00",
+  "generated_at": "2026-11-21T21:42:15+00:00",
   "project_root": "C:\\Users\\sergi\\.cache\\viu-main",
   "status": "PASS",
   "summary": {
     "errors": 0,
-    "warnings": 0,
+    "warnings": 1,
     "checks": {
       "V01": {
         "errors": 0,
@@ -62,8 +62,48 @@
       "V14": {
         "errors": 0,
         "warnings": 0
+      },
+      "V15": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "V16": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "V17": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "V18": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "V19": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "V20": {
+        "errors": 0,
+        "warnings": 1
+      },
+      "V21": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "V22": {
+        "errors": 0,
+        "warnings": 0
       }
     }
   },
-  "issues": []
+  "issues": [
+    {
+      "check_id": "V20",
+      "severity": "WARNING",
+      "file": "episodes.csv",
+      "record_id": "consent",
+      "message": "29 participant(s) with RESTRICTED consent appear in episodes (§12.7)"
+    }
+  ]
 }
