@@ -27,6 +27,7 @@ from pathlib import Path
 
 LABEL_PRIORITY = {"ABSENT": 0, "UNOBSERVABLE": 1, "UNCERTAIN": 2, "PRESENT": 3}
 ALL_DOMAINS = ("FATIGUE", "SLEEPINESS", "DISTRACTION", "QUALITY")
+PROTOCOL_DOMAINS = ("FATIGUE", "SLEEPINESS", "DISTRACTION")
 CONF_ORDER = {"": 0, "LOW": 1, "MEDIUM": 2, "HIGH": 3}
 
 WINDOWS_HEADER = [
@@ -57,6 +58,7 @@ def build_windows(
     window_ms: int = 5000,
     annotator: str = "AN_CONSOLIDATED",
     domains: tuple[str, ...] = ALL_DOMAINS,
+    annotated_only: bool = False,
 ) -> list[dict]:
     ann_dir = root / "data" / "annotation"
     sessions = _read(ann_dir / "sessions.csv")
@@ -100,6 +102,8 @@ def build_windows(
                 by_key.get((sid, domain), []),
                 key=lambda e: int(e["start_ms"]),
             )
+            if annotated_only and not eps:
+                continue
             starts = range(0, duration, window_ms)
             for start in starts:
                 end = min(start + window_ms, duration)
@@ -109,6 +113,8 @@ def build_windows(
                     e for e in eps
                     if int(e["start_ms"]) < end and int(e["end_ms"]) > start
                 ]
+                if annotated_only and not overlapping:
+                    continue
                 label = "ABSENT"
                 if overlapping:
                     label = max(
@@ -155,11 +161,15 @@ def main(argv: list[str] | None = None) -> int:
                    help="window size in ms (protocol initial value: 5000)")
     p.add_argument("--annotator", default="AN_CONSOLIDATED",
                    help="consolidator annotator_id (must exist in annotators.csv)")
+    p.add_argument("--annotated-only", action="store_true",
+                   help="emit only windows supported by a human annotated episode "
+                        "(never fabricate ABSENT for unannotated material)")
     p.add_argument("--out", type=Path, default=None,
                    help="output CSV (default: data/annotation/windows.csv)")
     args = p.parse_args(argv)
 
-    rows = build_windows(args.root, args.window_ms, args.annotator)
+    rows = build_windows(args.root, args.window_ms, args.annotator,
+                         annotated_only=args.annotated_only)
     out = args.out or (args.root / "data" / "annotation" / "windows.csv")
     _write(out, WINDOWS_HEADER, rows)
     by_label: dict[str, int] = {}
