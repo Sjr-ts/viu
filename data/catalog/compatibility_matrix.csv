@@ -63,3 +63,7 @@ SRC008,session condition: Drowsy,Session recorded with signs of sleepiness,SLEEP
 SRC008,gradual drowsiness change,Continuous state evolution without discrete labels (per publication),SLEEPINESS,SLEEP_001,UNVERIFIED,Scientific Data publication,continuous (no discrete labels),YES,"No discrete visual labels exist - full visual annotation required for NightEyes ground truth."
 SRC008,(no fatigue ocular labels),No blink/ocular-behavior labels,FATIGUE,EYE_004,UNVERIFIED,Publication analysis,UNKNOWN,YES,"Video available but no fatigue labels - visual reannotation required."
 SRC008,(no distraction labels),Distraction outside dataset scope,DISTRACTION,DIST_001,UNVERIFIED,Publication analysis,UNKNOWN,YES,"Distraction not covered."
+SRC009,Closed Eye,YOLO class: closed eye (drowsiness),SLEEPINESS,SLEEP_001,PARTIAL,Zenodo data card,image-level (single frames),YES,Image-level; requires temporal verification for NightEyes episodes (CASO 1/3).
+SRC009,Yawning,YOLO class: yawning,SLEEPINESS,SLEEP_003,PARTIAL,Zenodo data card,image-level,YES,CASO 3: temporal verification required.
+SRC009,Hand,YOLO class: hand (manual distraction),DISTRACTION,DIST_001,PARTIAL,Zenodo data card,image-level,YES,Manual distraction; gaze not annotated.
+SRC009,Object,YOLO class: object (e.g. phone),DISTRACTION,DIST_004,PARTIAL,Zenodo data card,image-level,YES,CASO 4: phone presence alone not distraction; usage+attention deviation required.

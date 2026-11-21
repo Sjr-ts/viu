@@ -138,6 +138,19 @@ SOURCES: dict[str, dict] = {
             }
         },
     },
+    "SRC009": {
+        "name": "DrowsinessEdge",
+        "dir": "DrowsinessEdge",
+        "files": {
+            "Drowsiness Dataset.zip": {
+                "url": "https://zenodo.org/records/17317199/files/Drowsiness%20Dataset.zip?download=1",
+                "expected_bytes": None,
+                "channel": "Zenodo CC BY 4.0 direct download",
+                "official": "https://zenodo.org/records/17317199",
+            }
+        },
+    },
+
 }
 
 
