@@ -7,7 +7,7 @@
     "VALIDATION": 15,
     "TEST": 15
   },
-  "generated_at": "2026-11-21T21:41:05+00:00",
+  "generated_at": "2026-11-21T21:57:06+00:00",
   "test_locked": true,
   "test_lock_note": "TEST must not be used for calibration until final evaluation.",
   "splits": {
@@ -15,19 +15,19 @@
       "path": "data/processed/train.csv",
       "frames": 952,
       "participants": 311,
-      "sha256": "e3348adea8177ba7a689f4f5f4783966ff6c4d289800667627ce50a664c8e46d"
+      "sha256": "4bb40a4b2bac668c52638d864d8704e70bcc6545763041b3a3d77c457e5037bc"
     },
     "VALIDATION": {
       "path": "data/processed/validation.csv",
       "frames": 213,
       "participants": 72,
-      "sha256": "dc69252596b63f20c8ab06576560999f2199d2758bcb8c793b7b49f98e1c77d1"
+      "sha256": "52a4c32708fa9e2b71339829e9930c3a44af507b8c774701d2aae21cb48d3fb7"
     },
     "TEST": {
       "path": "data/processed/test.csv",
       "frames": 234,
       "participants": 59,
-      "sha256": "9978f6cb211e656e7285e8cc7524b4eb42dd1ca3a3cd445690ea8fd995a66809"
+      "sha256": "ad685210867609cf5f561602ca133a161091236c42fb3b7b1609e5487d211197"
     }
   },
   "participants_total": 442,

@@ -370,9 +370,17 @@ def write_status(root: Path, manifest: dict, episodes: list[dict],
     reports.mkdir(parents=True, exist_ok=True)
     domains = defaultdict(int)
     labels = defaultdict(int)
+    phone_counts = defaultdict(int)
+    face_counts = defaultdict(int)
     for ep in episodes:
         domains[ep["domain"]] += 1
         labels[ep["reference_label"]] += 1
+    frames = _read(root / "data" / "annotation" / "frame_annotations.csv")
+    for row in frames:
+        if row["domain"] != "SLEEPINESS":
+            continue
+        phone_counts[row.get("phone_visible") or "UNKNOWN"] += 1
+        face_counts[row.get("face_visible") or "UNKNOWN"] += 1
     lines = [
         "# NightEyes — status da anotação e do ground truth",
         "",
@@ -388,9 +396,10 @@ def write_status(root: Path, manifest: dict, episodes: list[dict],
         "",
         "## Arquivos preservados (rascunhos)",
         "",
-        *([f"- `data/original_labels/{name}` — rascunho automático por filename; "
-           "não usar para avaliação." for name in archived]
-          or ["- (rascunhos já arquivados em execução anterior)"]),
+        *[f"- `data/original_labels/{p.name}` — rascunho automático por filename; "
+          "não usar para avaliação."
+          for p in sorted((root / "data" / "original_labels").glob("*_draft_auto.csv"))
+          if p.exists()],
         "",
         "## Divisão por participante (protocolo §8)",
         "",
@@ -404,16 +413,18 @@ def write_status(root: Path, manifest: dict, episodes: list[dict],
         "- **Avaliação cega dupla pendente**: apenas ANN_1 produziu anotações visuais; "
         "ANN_2 não tem linhas. Um segundo avaliador independente é necessário "
         "antes de uso como referência final.",
-        "- **Fadiga**: sem episódios anotados; domínio documentado mas não rotulado. "
-        "Nenhuma janela FATIGUE foi fabricada.",
+        "- **Fadiga**: episódios UNCERTAIN de frame isolado (sem persistência observável); "
+        "critérios em `documentation/fatigue_criteria.md`. Nenhum episódio "
+        "FATIGUE=PRESENT fabricado.",
         "- **KSS/autorrelato**: esquema `data/annotation/self_reports.csv` criado, "
         "sem registros (fonte atual não fornece KSS).",
         "- **Episódios pontuais**: cada unidade Level-A cobre apenas o frame observado "
         "(`end_ms = start_ms + 1`); extensão temporal não foi inferida.",
         "- **Iluminação SRC003**: `UNVERIFIED_DAYLIGHT` indica valor herdado do lote, "
         "não verificado quadro a quadro.",
-        "- **Consentimento SRC009**: imagens públicas sob CC BY 4.0 "
-        "(`DOCUMENTED_PUBLIC_LICENSE`), sem consentimento individual documentado.",
+        "- **Consentimento SRC009/SRC010**: imagens públicas sob CC BY 4.0 / MIT "
+        "(`DOCUMENTED_PUBLIC_LICENSE`), sem consentimento individual documentado. "
+        "SRC010 descarta rótulos EAR/MAR da fonte (protocolo §7).",
         "",
         "## Distribuição de rótulos nos episódios",
         "",
@@ -422,6 +433,12 @@ def write_status(root: Path, manifest: dict, episodes: list[dict],
         "## Domínios",
         "",
         *[f"- {k}: {v} episódios" for k, v in sorted(domains.items())],
+        "",
+        "## Detecção de rosto e celular (por frame catalogado)",
+        "",
+        *[f"- face_visible={k}: {v}" for k, v in sorted(face_counts.items())],
+        *[f"- phone_visible={k}: {v}" for k, v in sorted(phone_counts.items())],
+        "- `phone_visible=YES` sozinho nunca gera `DISTRACTION=PRESENT` (protocolo §2.3).",
         "",
     ]
     (reports / "annotation_status.md").write_text("\n".join(lines), encoding="utf-8")
