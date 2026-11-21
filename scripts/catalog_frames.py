@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import shutil
 import sys
 from datetime import date
 from pathlib import Path
@@ -26,6 +27,7 @@ from pathlib import Path
 import cv2
 
 VIDEO_EXTS = {".avi", ".mp4", ".mov", ".mkv", ".mjpeg", ".mpg", ".mpeg"}
+IMAGE_EXTS = {".jpg", ".jpeg", ".png"}
 
 FRAME_HEADER = [
     "frame_id", "dataset_id", "source_video", "source_rel_path",
@@ -38,6 +40,7 @@ DIR_TO_DATASET = {
     "DMD": "SRC001", "UTA_RLDD": "SRC002", "YawDD": "SRC003",
     "DROZY": "SRC004", "NTHU_DDD": "SRC005", "AUC_Distracted": "SRC006",
     "State_Farm": "SRC007", "UL_DD": "SRC008",
+    "DrowsinessEdge": "SRC009",
 }
 
 
@@ -73,7 +76,8 @@ def _next_frame_id(rows: list[dict]) -> int:
     return n
 
 
-def catalog(root: Path, positions: list[float], rebuild: bool = False) -> list[dict]:
+def catalog(root: Path, positions: list[float], rebuild: bool = False,
+            image_stride: int = 10) -> list[dict]:
     raw = root / "data" / "raw"
     out_dir = root / "data" / "quality_control" / "frame_catalog"
     csv_path = root / "data" / "catalog" / "frame_samples.csv"
@@ -92,8 +96,7 @@ def catalog(root: Path, positions: list[float], rebuild: bool = False) -> list[d
         if p.is_file() and p.suffix.lower() in VIDEO_EXTS
     ]
     if not videos:
-        print("no videos found under data/raw/ (nothing to catalog)")
-        return rows
+        print("no videos found under data/raw/ (only static images will be cataloged)")
 
     for video in videos:
         rel = video.relative_to(root).as_posix()
@@ -140,6 +143,42 @@ def catalog(root: Path, positions: list[float], rebuild: bool = False) -> list[d
             })
             existing.add(key)
         cap.release()
+
+    images = sorted(
+        p for p in raw.rglob("*")
+        if p.is_file() and p.suffix.lower() in IMAGE_EXTS
+        and "frame_catalog" not in p.parts
+    )
+    for image in images[::image_stride]:
+        rel = image.relative_to(root).as_posix()
+        key = (rel, "0")
+        if key in existing:
+            continue
+        img = cv2.imread(str(image))
+        if img is None:
+            print(f"WARNING: image {rel} unreadable — skipped")
+            continue
+        dataset_dir = image.relative_to(raw).parts[0]
+        dataset_id = DIR_TO_DATASET.get(dataset_dir, "SRC000")
+        dest_dir = out_dir / dataset_dir
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dest = dest_dir / f"{image.stem}__0ms.jpg"
+        shutil.copyfile(image, dest)
+        counter += 1
+        rows.append({
+            "frame_id": f"FR{counter:06d}",
+            "dataset_id": dataset_id,
+            "source_video": image.name,
+            "source_rel_path": rel,
+            "timestamp_ms": "0",
+            "frame_file": dest.relative_to(root).as_posix(),
+            "width": str(img.shape[1]),
+            "height": str(img.shape[0]),
+            "frame_sha256": _sha256(dest),
+            "extraction_date": date.today().isoformat(),
+            "tool": f"catalog_frames.py image-stride-{image_stride}",
+        })
+        existing.add(key)
     return rows
 
 
@@ -151,7 +190,11 @@ def main(argv: list[str] | None = None) -> int:
                    help="comma-separated frame positions (0..1)")
     p.add_argument("--rebuild", action="store_true",
                    help="drop existing catalog and regenerate")
+    p.add_argument("--image-stride", type=int, default=10,
+                   help="keep every Nth static image (default: 10)")
     args = p.parse_args(argv)
+    if args.image_stride < 1:
+        raise SystemExit("ERROR: --image-stride must be >= 1")
 
     try:
         positions = [float(x) for x in args.positions.split(",")]
@@ -160,7 +203,8 @@ def main(argv: list[str] | None = None) -> int:
     if not positions or any(not 0.0 <= x < 1.0 for x in positions):
         raise SystemExit("ERROR: positions must be in [0.0, 1.0)")
 
-    rows = catalog(args.root, positions, rebuild=args.rebuild)
+    rows = catalog(args.root, positions, rebuild=args.rebuild,
+                   image_stride=args.image_stride)
     out = args.root / "data" / "catalog" / "frame_samples.csv"
     _write_frames_csv(out, rows)
     by_ds: dict[str, int] = {}

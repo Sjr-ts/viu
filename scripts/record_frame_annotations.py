@@ -32,6 +32,16 @@ def participant_from_video(video_stem: str) -> str:
     return f"YD_P{head}" if head.isdigit() else f"YD_{head}"
 
 
+def identity_for_row(row: dict, frame_stem: str) -> tuple[str, str]:
+    stem = frame_stem.rsplit("__", 1)[0]
+    if row["dataset_id"] == "SRC009":
+        parts = row["source_rel_path"].split("/")
+        split = parts[-3].upper() if len(parts) >= 3 else "UNK"
+        head = stem.split("_jpg.")[0]
+        return f"D9_{head}", f"D9_{split}"
+    return participant_from_video(stem), stem
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--batch", required=True, help="JSON file with list of annotation dicts")
@@ -56,7 +66,7 @@ def main() -> None:
             idx = int(item["idx"])
             row = catalog[idx]
             stem = Path(row["frame_file"]).stem
-            video_stem = stem.rsplit("__", 1)[0]
+            participant_id, session_id = identity_for_row(row, stem)
             key = (row["frame_id"], item["domain"])
             if key in existing:
                 continue
@@ -66,7 +76,7 @@ def main() -> None:
                 raise SystemExit(f"invalid label: {item['reference_label']}")
             w.writerow([
                 row["frame_id"], row["dataset_id"], row["source_video"],
-                participant_from_video(video_stem), video_stem,
+                participant_id, session_id,
                 row["timestamp_ms"], item["domain"], item["reference_label"],
                 item.get("behavior_code", ""), item.get("gaze_direction", ""),
                 item.get("phone_visible", ""), item.get("annotator_id", "ANN_1"),
