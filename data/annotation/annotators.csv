@@ -1,1 +1,4 @@
 annotator_id,name,training_status,independent_annotation_enabled,access_to_engine_scores,notes
+ANN_1,Annotator One,TRAINED,YES,NO,2026-11-19: read annotation manual + distraction criteria (PROPOSED)
+ANN_2,Annotator Two,TRAINED,YES,NO,2026-11-19: read annotation manual + distraction criteria (PROPOSED)
+AN_CONSOLIDATED,Consolidated ground truth,TRAINED,YES,NO,consolidator - created from merge of ANN_1 + ANN_2; access_to_engine_scores=NO

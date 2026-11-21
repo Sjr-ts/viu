@@ -385,7 +385,8 @@ def cmd_extract(dataset_id: str) -> int:
     while True:
         archives = [
             p for p in sorted(base.rglob("*"))
-            if p.is_file() and p.suffix.lower() in (".tar", ".rar", ".zip")
+            if p.is_file() and not p.name.startswith(".")
+            and p.suffix.lower() in (".tar", ".rar", ".zip")
             and p not in processed
         ]
         if not archives:
