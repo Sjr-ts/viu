@@ -1655,3 +1655,441 @@ FR000827,SRC003,32-MaleGlasses-Normal.avi,YD_P32,32-MaleGlasses-Normal,12212,SLE
 FR000827,SRC003,32-MaleGlasses-Normal.avi,YD_P32,32-MaleGlasses-Normal,12212,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
 FR000828,SRC003,32-MaleGlasses-Normal.avi,YD_P32,32-MaleGlasses-Normal,21989,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
 FR000828,SRC003,32-MaleGlasses-Normal.avi,YD_P32,32-MaleGlasses-Normal,21989,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000829,SRC003,32-MaleGlasses-Talking&Yawning.avi,YD_P32,32-MaleGlasses-Talking&Yawning,2102,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth slightly open"
+FR000829,SRC003,32-MaleGlasses-Talking&Yawning.avi,YD_P32,32-MaleGlasses-Talking&Yawning,2102,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000830,SRC003,32-MaleGlasses-Talking&Yawning.avi,YD_P32,32-MaleGlasses-Talking&Yawning,10611,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth moderately open; ambiguous between talking and yawning
+FR000830,SRC003,32-MaleGlasses-Talking&Yawning.avi,YD_P32,32-MaleGlasses-Talking&Yawning,10611,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000831,SRC003,32-MaleGlasses-Talking&Yawning.avi,YD_P32,32-MaleGlasses-Talking&Yawning,19086,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000831,SRC003,32-MaleGlasses-Talking&Yawning.avi,YD_P32,32-MaleGlasses-Talking&Yawning,19086,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000832,SRC003,32-MaleGlasses-Talking.avi,YD_P32,32-MaleGlasses-Talking,1702,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth open (talking)"
+FR000832,SRC003,32-MaleGlasses-Talking.avi,YD_P32,32-MaleGlasses-Talking,1702,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000833,SRC003,32-MaleGlasses-Talking.avi,YD_P32,32-MaleGlasses-Talking,8609,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth slightly open"
+FR000833,SRC003,32-MaleGlasses-Talking.avi,YD_P32,32-MaleGlasses-Talking,8609,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000834,SRC003,32-MaleGlasses-Talking.avi,YD_P32,32-MaleGlasses-Talking,15482,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth open (talking)"
+FR000834,SRC003,32-MaleGlasses-Talking.avi,YD_P32,32-MaleGlasses-Talking,15482,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000835,SRC003,32-MaleGlasses-Yawning.avi,YD_P32,32-MaleGlasses-Yawning,2102,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR000835,SRC003,32-MaleGlasses-Yawning.avi,YD_P32,32-MaleGlasses-Yawning,2102,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000836,SRC003,32-MaleGlasses-Yawning.avi,YD_P32,32-MaleGlasses-Yawning,10544,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,clear yawn: mouth wide open
+FR000836,SRC003,32-MaleGlasses-Yawning.avi,YD_P32,32-MaleGlasses-Yawning,10544,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000837,SRC003,32-MaleGlasses-Yawning.avi,YD_P32,32-MaleGlasses-Yawning,18986,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling; no visible yawn"
+FR000837,SRC003,32-MaleGlasses-Yawning.avi,YD_P32,32-MaleGlasses-Yawning,18986,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000838,SRC003,33-MaleGlasses-Normal.avi,YD_P33,33-MaleGlasses-Normal,2436,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000838,SRC003,33-MaleGlasses-Normal.avi,YD_P33,33-MaleGlasses-Normal,2436,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000839,SRC003,33-MaleGlasses-Normal.avi,YD_P33,33-MaleGlasses-Normal,12279,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000839,SRC003,33-MaleGlasses-Normal.avi,YD_P33,33-MaleGlasses-Normal,12279,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000840,SRC003,33-MaleGlasses-Normal.avi,YD_P33,33-MaleGlasses-Normal,22089,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000840,SRC003,33-MaleGlasses-Normal.avi,YD_P33,33-MaleGlasses-Normal,22089,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000841,SRC003,33-MaleGlasses-Talking&Yawning.avi,YD_P33,33-MaleGlasses-Talking&Yawning,1668,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth slightly open"
+FR000841,SRC003,33-MaleGlasses-Talking&Yawning.avi,YD_P33,33-MaleGlasses-Talking&Yawning,1668,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000842,SRC003,33-MaleGlasses-Talking&Yawning.avi,YD_P33,33-MaleGlasses-Talking&Yawning,8408,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes squinted/closed behind glasses; may be blink
+FR000842,SRC003,33-MaleGlasses-Talking&Yawning.avi,YD_P33,33-MaleGlasses-Talking&Yawning,8408,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,no external deviation while eyes closed
+FR000843,SRC003,33-MaleGlasses-Talking&Yawning.avi,YD_P33,33-MaleGlasses-Talking&Yawning,15115,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000843,SRC003,33-MaleGlasses-Talking&Yawning.avi,YD_P33,33-MaleGlasses-Talking&Yawning,15115,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000844,SRC003,33-MaleGlasses-Talking.avi,YD_P33,33-MaleGlasses-Talking,2903,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000844,SRC003,33-MaleGlasses-Talking.avi,YD_P33,33-MaleGlasses-Talking,2903,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000845,SRC003,33-MaleGlasses-Talking.avi,YD_P33,33-MaleGlasses-Talking,14581,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth open (talking)"
+FR000845,SRC003,33-MaleGlasses-Talking.avi,YD_P33,33-MaleGlasses-Talking,14581,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000846,SRC003,33-MaleGlasses-Talking.avi,YD_P33,33-MaleGlasses-Talking,26260,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000846,SRC003,33-MaleGlasses-Talking.avi,YD_P33,33-MaleGlasses-Talking,26260,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000847,SRC003,33-MaleGlasses-Yawning.avi,YD_P33,33-MaleGlasses-Yawning,1969,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR000847,SRC003,33-MaleGlasses-Yawning.avi,YD_P33,33-MaleGlasses-Yawning,1969,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000848,SRC003,33-MaleGlasses-Yawning.avi,YD_P33,33-MaleGlasses-Yawning,9843,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling; no visible yawn"
+FR000848,SRC003,33-MaleGlasses-Yawning.avi,YD_P33,33-MaleGlasses-Yawning,9843,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000849,SRC003,33-MaleGlasses-Yawning.avi,YD_P33,33-MaleGlasses-Yawning,17718,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR000849,SRC003,33-MaleGlasses-Yawning.avi,YD_P33,33-MaleGlasses-Yawning,17718,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000850,SRC003,34-MaleNoGlasses-Normal.avi,YD_P34,34-MaleNoGlasses-Normal,2269,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000850,SRC003,34-MaleNoGlasses-Normal.avi,YD_P34,34-MaleNoGlasses-Normal,2269,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000851,SRC003,34-MaleNoGlasses-Normal.avi,YD_P34,34-MaleNoGlasses-Normal,11478,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000851,SRC003,34-MaleNoGlasses-Normal.avi,YD_P34,34-MaleNoGlasses-Normal,11478,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000852,SRC003,34-MaleNoGlasses-Normal.avi,YD_P34,34-MaleNoGlasses-Normal,20687,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000852,SRC003,34-MaleNoGlasses-Normal.avi,YD_P34,34-MaleNoGlasses-Normal,20687,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000853,SRC003,34-MaleNoGlasses-Talking.avi,YD_P34,34-MaleNoGlasses-Talking,4071,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000853,SRC003,34-MaleNoGlasses-Talking.avi,YD_P34,34-MaleNoGlasses-Talking,4071,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000854,SRC003,34-MaleNoGlasses-Talking.avi,YD_P34,34-MaleNoGlasses-Talking,20420,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000854,SRC003,34-MaleNoGlasses-Talking.avi,YD_P34,34-MaleNoGlasses-Talking,20420,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000855,SRC003,34-MaleNoGlasses-Talking.avi,YD_P34,34-MaleNoGlasses-Talking,36737,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000855,SRC003,34-MaleNoGlasses-Talking.avi,YD_P34,34-MaleNoGlasses-Talking,36737,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000856,SRC003,34-MaleNoGlasses-Yawning.avi,YD_P34,34-MaleNoGlasses-Yawning,2236,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000856,SRC003,34-MaleNoGlasses-Yawning.avi,YD_P34,34-MaleNoGlasses-Yawning,2236,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000857,SRC003,34-MaleNoGlasses-Yawning.avi,YD_P34,34-MaleNoGlasses-Yawning,11178,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000857,SRC003,34-MaleNoGlasses-Yawning.avi,YD_P34,34-MaleNoGlasses-Yawning,11178,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000858,SRC003,34-MaleNoGlasses-Yawning.avi,YD_P34,34-MaleNoGlasses-Yawning,20120,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000858,SRC003,34-MaleNoGlasses-Yawning.avi,YD_P34,34-MaleNoGlasses-Yawning,20120,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000859,SRC003,35-MaleNoGlasses-Normal.avi,YD_P35,35-MaleNoGlasses-Normal,1568,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000859,SRC003,35-MaleNoGlasses-Normal.avi,YD_P35,35-MaleNoGlasses-Normal,1568,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000860,SRC003,35-MaleNoGlasses-Normal.avi,YD_P35,35-MaleNoGlasses-Normal,7908,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000860,SRC003,35-MaleNoGlasses-Normal.avi,YD_P35,35-MaleNoGlasses-Normal,7908,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000861,SRC003,35-MaleNoGlasses-Normal.avi,YD_P35,35-MaleNoGlasses-Normal,14214,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000861,SRC003,35-MaleNoGlasses-Normal.avi,YD_P35,35-MaleNoGlasses-Normal,14214,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000862,SRC003,35-MaleNoGlasses-Talking.avi,YD_P35,35-MaleNoGlasses-Talking,2903,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000862,SRC003,35-MaleNoGlasses-Talking.avi,YD_P35,35-MaleNoGlasses-Talking,2903,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000863,SRC003,35-MaleNoGlasses-Talking.avi,YD_P35,35-MaleNoGlasses-Talking,14581,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000863,SRC003,35-MaleNoGlasses-Talking.avi,YD_P35,35-MaleNoGlasses-Talking,14581,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000864,SRC003,35-MaleNoGlasses-Talking.avi,YD_P35,35-MaleNoGlasses-Talking,26260,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000864,SRC003,35-MaleNoGlasses-Talking.avi,YD_P35,35-MaleNoGlasses-Talking,26260,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000865,SRC003,35-MaleNoGlasses-Yawning.avi,YD_P35,35-MaleNoGlasses-Yawning,1735,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000865,SRC003,35-MaleNoGlasses-Yawning.avi,YD_P35,35-MaleNoGlasses-Yawning,1735,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000866,SRC003,35-MaleNoGlasses-Yawning.avi,YD_P35,35-MaleNoGlasses-Yawning,8675,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000866,SRC003,35-MaleNoGlasses-Yawning.avi,YD_P35,35-MaleNoGlasses-Yawning,8675,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000867,SRC003,35-MaleNoGlasses-Yawning.avi,YD_P35,35-MaleNoGlasses-Yawning,15616,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling; no visible yawn"
+FR000867,SRC003,35-MaleNoGlasses-Yawning.avi,YD_P35,35-MaleNoGlasses-Yawning,15616,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000868,SRC003,36-MaleNoGlasses-Normal.avi,YD_P36,36-MaleNoGlasses-Normal,1702,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth slightly open"
+FR000868,SRC003,36-MaleNoGlasses-Normal.avi,YD_P36,36-MaleNoGlasses-Normal,1702,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000869,SRC003,36-MaleNoGlasses-Normal.avi,YD_P36,36-MaleNoGlasses-Normal,8609,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000869,SRC003,36-MaleNoGlasses-Normal.avi,YD_P36,36-MaleNoGlasses-Normal,8609,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000870,SRC003,36-MaleNoGlasses-Normal.avi,YD_P36,36-MaleNoGlasses-Normal,15482,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000870,SRC003,36-MaleNoGlasses-Normal.avi,YD_P36,36-MaleNoGlasses-Normal,15482,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000871,SRC003,36-MaleNoGlasses-Talking.avi,YD_P36,36-MaleNoGlasses-Talking,2002,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000871,SRC003,36-MaleNoGlasses-Talking.avi,YD_P36,36-MaleNoGlasses-Talking,2002,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000872,SRC003,36-MaleNoGlasses-Talking.avi,YD_P36,36-MaleNoGlasses-Talking,10143,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000872,SRC003,36-MaleNoGlasses-Talking.avi,YD_P36,36-MaleNoGlasses-Talking,10143,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000873,SRC003,36-MaleNoGlasses-Talking.avi,YD_P36,36-MaleNoGlasses-Talking,18252,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000873,SRC003,36-MaleNoGlasses-Talking.avi,YD_P36,36-MaleNoGlasses-Talking,18252,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000874,SRC003,36-MaleNoGlasses-Yawning.avi,YD_P36,36-MaleNoGlasses-Yawning,1401,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000874,SRC003,36-MaleNoGlasses-Yawning.avi,YD_P36,36-MaleNoGlasses-Yawning,1401,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000875,SRC003,36-MaleNoGlasses-Yawning.avi,YD_P36,36-MaleNoGlasses-Yawning,7140,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,clear yawn: mouth wide open
+FR000875,SRC003,36-MaleNoGlasses-Yawning.avi,YD_P36,36-MaleNoGlasses-Yawning,7140,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000876,SRC003,36-MaleNoGlasses-Yawning.avi,YD_P36,36-MaleNoGlasses-Yawning,12880,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000876,SRC003,36-MaleNoGlasses-Yawning.avi,YD_P36,36-MaleNoGlasses-Yawning,12880,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000877,SRC003,36-MaleSunGlasses-Normal.avi,YD_P36,36-MaleSunGlasses-Normal,2469,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR000877,SRC003,36-MaleSunGlasses-Normal.avi,YD_P36,36-MaleSunGlasses-Normal,2469,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000878,SRC003,36-MaleSunGlasses-Normal.avi,YD_P36,36-MaleSunGlasses-Normal,12346,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth slightly open
+FR000878,SRC003,36-MaleSunGlasses-Normal.avi,YD_P36,36-MaleSunGlasses-Normal,12346,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000879,SRC003,36-MaleSunGlasses-Normal.avi,YD_P36,36-MaleSunGlasses-Normal,22222,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR000879,SRC003,36-MaleSunGlasses-Normal.avi,YD_P36,36-MaleSunGlasses-Normal,22222,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000880,SRC003,36-MaleSunGlasses-Talking.avi,YD_P36,36-MaleSunGlasses-Talking,3237,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth open (talking)
+FR000880,SRC003,36-MaleSunGlasses-Talking.avi,YD_P36,36-MaleSunGlasses-Talking,3237,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000881,SRC003,36-MaleSunGlasses-Talking.avi,YD_P36,36-MaleSunGlasses-Talking,16216,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth open (talking)
+FR000881,SRC003,36-MaleSunGlasses-Talking.avi,YD_P36,36-MaleSunGlasses-Talking,16216,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000882,SRC003,36-MaleSunGlasses-Talking.avi,YD_P36,36-MaleSunGlasses-Talking,29196,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth open (talking)
+FR000882,SRC003,36-MaleSunGlasses-Talking.avi,YD_P36,36-MaleSunGlasses-Talking,29196,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000883,SRC003,36-MaleSunGlasses-Yawning.avi,YD_P36,36-MaleSunGlasses-Yawning,1468,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes covered by dark sunglasses; mouth moderately open, ambiguous"
+FR000883,SRC003,36-MaleSunGlasses-Yawning.avi,YD_P36,36-MaleSunGlasses-Yawning,1468,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000884,SRC003,36-MaleSunGlasses-Yawning.avi,YD_P36,36-MaleSunGlasses-Yawning,7441,SLEEPINESS,PRESENT,SLEEP_003,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,clear yawn visible via mouth wide open despite dark sunglasses covering eyes
+FR000884,SRC003,36-MaleSunGlasses-Yawning.avi,YD_P36,36-MaleSunGlasses-Yawning,7441,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000885,SRC003,36-MaleSunGlasses-Yawning.avi,YD_P36,36-MaleSunGlasses-Yawning,13380,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR000885,SRC003,36-MaleSunGlasses-Yawning.avi,YD_P36,36-MaleSunGlasses-Yawning,13380,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000886,SRC003,37-MaleNoGlasses-Normal.avi,YD_P37,37-MaleNoGlasses-Normal,1802,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000886,SRC003,37-MaleNoGlasses-Normal.avi,YD_P37,37-MaleNoGlasses-Normal,1802,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000887,SRC003,37-MaleNoGlasses-Normal.avi,YD_P37,37-MaleNoGlasses-Normal,9009,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes closed with head slightly down; may be blink
+FR000887,SRC003,37-MaleNoGlasses-Normal.avi,YD_P37,37-MaleNoGlasses-Normal,9009,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"head forward, no external deviation while eyes closed"
+FR000888,SRC003,37-MaleNoGlasses-Normal.avi,YD_P37,37-MaleNoGlasses-Normal,16216,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000888,SRC003,37-MaleNoGlasses-Normal.avi,YD_P37,37-MaleNoGlasses-Normal,16216,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000889,SRC003,37-MaleNoGlasses-Talking.avi,YD_P37,37-MaleNoGlasses-Talking,3670,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000889,SRC003,37-MaleNoGlasses-Talking.avi,YD_P37,37-MaleNoGlasses-Talking,3670,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000890,SRC003,37-MaleNoGlasses-Talking.avi,YD_P37,37-MaleNoGlasses-Talking,18485,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000890,SRC003,37-MaleNoGlasses-Talking.avi,YD_P37,37-MaleNoGlasses-Talking,18485,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000891,SRC003,37-MaleNoGlasses-Talking.avi,YD_P37,37-MaleNoGlasses-Talking,33267,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000891,SRC003,37-MaleNoGlasses-Talking.avi,YD_P37,37-MaleNoGlasses-Talking,33267,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000892,SRC003,37-MaleNoGlasses-Yawning.avi,YD_P37,37-MaleNoGlasses-Yawning,1502,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000892,SRC003,37-MaleNoGlasses-Yawning.avi,YD_P37,37-MaleNoGlasses-Yawning,1502,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000893,SRC003,37-MaleNoGlasses-Yawning.avi,YD_P37,37-MaleNoGlasses-Yawning,7641,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,clear yawn: mouth wide open with squinted eyes
+FR000893,SRC003,37-MaleNoGlasses-Yawning.avi,YD_P37,37-MaleNoGlasses-Yawning,7641,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000894,SRC003,37-MaleNoGlasses-Yawning.avi,YD_P37,37-MaleNoGlasses-Yawning,13780,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000894,SRC003,37-MaleNoGlasses-Yawning.avi,YD_P37,37-MaleNoGlasses-Yawning,13780,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000895,SRC003,38-MaleNoGlasses-Normal.avi,YD_P38,38-MaleNoGlasses-Normal,2035,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000895,SRC003,38-MaleNoGlasses-Normal.avi,YD_P38,38-MaleNoGlasses-Normal,2035,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000896,SRC003,38-MaleNoGlasses-Normal.avi,YD_P38,38-MaleNoGlasses-Normal,10310,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000896,SRC003,38-MaleNoGlasses-Normal.avi,YD_P38,38-MaleNoGlasses-Normal,10310,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000897,SRC003,38-MaleNoGlasses-Normal.avi,YD_P38,38-MaleNoGlasses-Normal,18552,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000897,SRC003,38-MaleNoGlasses-Normal.avi,YD_P38,38-MaleNoGlasses-Normal,18552,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000898,SRC003,38-MaleNoGlasses-Talking.avi,YD_P38,38-MaleNoGlasses-Talking,2503,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000898,SRC003,38-MaleNoGlasses-Talking.avi,YD_P38,38-MaleNoGlasses-Talking,2503,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000899,SRC003,38-MaleNoGlasses-Talking.avi,YD_P38,38-MaleNoGlasses-Talking,12646,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000899,SRC003,38-MaleNoGlasses-Talking.avi,YD_P38,38-MaleNoGlasses-Talking,12646,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000900,SRC003,38-MaleNoGlasses-Talking.avi,YD_P38,38-MaleNoGlasses-Talking,22789,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000900,SRC003,38-MaleNoGlasses-Talking.avi,YD_P38,38-MaleNoGlasses-Talking,22789,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000901,SRC003,38-MaleNoGlasses-Yawning.avi,YD_P38,38-MaleNoGlasses-Yawning,1535,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000901,SRC003,38-MaleNoGlasses-Yawning.avi,YD_P38,38-MaleNoGlasses-Yawning,1535,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000902,SRC003,38-MaleNoGlasses-Yawning.avi,YD_P38,38-MaleNoGlasses-Yawning,7674,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,clear yawn: mouth wide open
+FR000902,SRC003,38-MaleNoGlasses-Yawning.avi,YD_P38,38-MaleNoGlasses-Yawning,7674,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000903,SRC003,38-MaleNoGlasses-Yawning.avi,YD_P38,38-MaleNoGlasses-Yawning,13814,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling; no visible yawn"
+FR000903,SRC003,38-MaleNoGlasses-Yawning.avi,YD_P38,38-MaleNoGlasses-Yawning,13814,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000904,SRC003,38-MaleSunGlasses-Normal.avi,YD_P38,38-MaleSunGlasses-Normal,1869,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR000904,SRC003,38-MaleSunGlasses-Normal.avi,YD_P38,38-MaleSunGlasses-Normal,1869,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000905,SRC003,38-MaleSunGlasses-Normal.avi,YD_P38,38-MaleSunGlasses-Normal,9443,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses
+FR000905,SRC003,38-MaleSunGlasses-Normal.avi,YD_P38,38-MaleSunGlasses-Normal,9443,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000906,SRC003,38-MaleSunGlasses-Normal.avi,YD_P38,38-MaleSunGlasses-Normal,17017,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses
+FR000906,SRC003,38-MaleSunGlasses-Normal.avi,YD_P38,38-MaleSunGlasses-Normal,17017,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000907,SRC003,38-MaleSunGlasses-Talking.avi,YD_P38,38-MaleSunGlasses-Talking,2903,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth open smiling
+FR000907,SRC003,38-MaleSunGlasses-Talking.avi,YD_P38,38-MaleSunGlasses-Talking,2903,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000908,SRC003,38-MaleSunGlasses-Talking.avi,YD_P38,38-MaleSunGlasses-Talking,14615,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth open smiling
+FR000908,SRC003,38-MaleSunGlasses-Talking.avi,YD_P38,38-MaleSunGlasses-Talking,14615,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000909,SRC003,38-MaleSunGlasses-Talking.avi,YD_P38,38-MaleSunGlasses-Talking,26326,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth slightly open
+FR000909,SRC003,38-MaleSunGlasses-Talking.avi,YD_P38,38-MaleSunGlasses-Talking,26326,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000910,SRC003,38-MaleSunGlasses-Yawning.avi,YD_P38,38-MaleSunGlasses-Yawning,1468,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR000910,SRC003,38-MaleSunGlasses-Yawning.avi,YD_P38,38-MaleSunGlasses-Yawning,1468,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000911,SRC003,38-MaleSunGlasses-Yawning.avi,YD_P38,38-MaleSunGlasses-Yawning,7441,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed smile
+FR000911,SRC003,38-MaleSunGlasses-Yawning.avi,YD_P38,38-MaleSunGlasses-Yawning,7441,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000912,SRC003,38-MaleSunGlasses-Yawning.avi,YD_P38,38-MaleSunGlasses-Yawning,13413,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR000912,SRC003,38-MaleSunGlasses-Yawning.avi,YD_P38,38-MaleSunGlasses-Yawning,13413,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR000913,SRC003,39-MaleGlasses-Normal.avi,YD_P39,39-MaleGlasses-Normal,2636,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000913,SRC003,39-MaleGlasses-Normal.avi,YD_P39,39-MaleGlasses-Normal,2636,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000914,SRC003,39-MaleGlasses-Normal.avi,YD_P39,39-MaleGlasses-Normal,13280,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000914,SRC003,39-MaleGlasses-Normal.avi,YD_P39,39-MaleGlasses-Normal,13280,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000915,SRC003,39-MaleGlasses-Normal.avi,YD_P39,39-MaleGlasses-Normal,23924,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR000915,SRC003,39-MaleGlasses-Normal.avi,YD_P39,39-MaleGlasses-Normal,23924,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000916,SRC003,39-MaleGlasses-Talking.avi,YD_P39,39-MaleGlasses-Talking,5038,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth open (talking)"
+FR000916,SRC003,39-MaleGlasses-Talking.avi,YD_P39,39-MaleGlasses-Talking,5038,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000917,SRC003,39-MaleGlasses-Talking.avi,YD_P39,39-MaleGlasses-Talking,25325,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth open (talking)"
+FR000917,SRC003,39-MaleGlasses-Talking.avi,YD_P39,39-MaleGlasses-Talking,25325,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000918,SRC003,39-MaleGlasses-Talking.avi,YD_P39,39-MaleGlasses-Talking,45612,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR000918,SRC003,39-MaleGlasses-Talking.avi,YD_P39,39-MaleGlasses-Talking,45612,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000919,SRC003,39-MaleGlasses-Yawning.avi,YD_P39,39-MaleGlasses-Yawning,2669,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR000919,SRC003,39-MaleGlasses-Yawning.avi,YD_P39,39-MaleGlasses-Yawning,2669,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000920,SRC003,39-MaleGlasses-Yawning.avi,YD_P39,39-MaleGlasses-Yawning,13347,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth moderately open; ambiguous between talking and yawning
+FR000920,SRC003,39-MaleGlasses-Yawning.avi,YD_P39,39-MaleGlasses-Yawning,13347,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000921,SRC003,39-MaleGlasses-Yawning.avi,YD_P39,39-MaleGlasses-Yawning,24024,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR000921,SRC003,39-MaleGlasses-Yawning.avi,YD_P39,39-MaleGlasses-Yawning,24024,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000922,SRC003,4-MaleNoGlasses-Normal.avi,YD_P4,4-MaleNoGlasses-Normal,1301,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000922,SRC003,4-MaleNoGlasses-Normal.avi,YD_P4,4-MaleNoGlasses-Normal,1301,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000923,SRC003,4-MaleNoGlasses-Normal.avi,YD_P4,4-MaleNoGlasses-Normal,6573,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000923,SRC003,4-MaleNoGlasses-Normal.avi,YD_P4,4-MaleNoGlasses-Normal,6573,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000924,SRC003,4-MaleNoGlasses-Normal.avi,YD_P4,4-MaleNoGlasses-Normal,11845,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000924,SRC003,4-MaleNoGlasses-Normal.avi,YD_P4,4-MaleNoGlasses-Normal,11845,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000925,SRC003,4-MaleNoGlasses-Talking.avi,YD_P4,4-MaleNoGlasses-Talking,1335,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth slightly open"
+FR000925,SRC003,4-MaleNoGlasses-Talking.avi,YD_P4,4-MaleNoGlasses-Talking,1335,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000926,SRC003,4-MaleNoGlasses-Talking.avi,YD_P4,4-MaleNoGlasses-Talking,6773,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000926,SRC003,4-MaleNoGlasses-Talking.avi,YD_P4,4-MaleNoGlasses-Talking,6773,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000927,SRC003,4-MaleNoGlasses-Talking.avi,YD_P4,4-MaleNoGlasses-Talking,12212,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000927,SRC003,4-MaleNoGlasses-Talking.avi,YD_P4,4-MaleNoGlasses-Talking,12212,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000928,SRC003,4-MaleNoGlasses-Yawning.avi,YD_P4,4-MaleNoGlasses-Yawning,1435,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth slightly open; no clear yawn"
+FR000928,SRC003,4-MaleNoGlasses-Yawning.avi,YD_P4,4-MaleNoGlasses-Yawning,1435,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000929,SRC003,4-MaleNoGlasses-Yawning.avi,YD_P4,4-MaleNoGlasses-Yawning,7174,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000929,SRC003,4-MaleNoGlasses-Yawning.avi,YD_P4,4-MaleNoGlasses-Yawning,7174,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000930,SRC003,4-MaleNoGlasses-Yawning.avi,YD_P4,4-MaleNoGlasses-Yawning,12913,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000930,SRC003,4-MaleNoGlasses-Yawning.avi,YD_P4,4-MaleNoGlasses-Yawning,12913,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000931,SRC003,40-MaleNoGlasses-Normal.avi,YD_P40,40-MaleNoGlasses-Normal,2402,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000931,SRC003,40-MaleNoGlasses-Normal.avi,YD_P40,40-MaleNoGlasses-Normal,2402,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000932,SRC003,40-MaleNoGlasses-Normal.avi,YD_P40,40-MaleNoGlasses-Normal,12112,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000932,SRC003,40-MaleNoGlasses-Normal.avi,YD_P40,40-MaleNoGlasses-Normal,12112,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000933,SRC003,40-MaleNoGlasses-Normal.avi,YD_P40,40-MaleNoGlasses-Normal,21788,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000933,SRC003,40-MaleNoGlasses-Normal.avi,YD_P40,40-MaleNoGlasses-Normal,21788,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000934,SRC003,40-MaleNoGlasses-Talking.avi,YD_P40,40-MaleNoGlasses-Talking,4004,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000934,SRC003,40-MaleNoGlasses-Talking.avi,YD_P40,40-MaleNoGlasses-Talking,4004,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000935,SRC003,40-MaleNoGlasses-Talking.avi,YD_P40,40-MaleNoGlasses-Talking,20153,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000935,SRC003,40-MaleNoGlasses-Talking.avi,YD_P40,40-MaleNoGlasses-Talking,20153,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000936,SRC003,40-MaleNoGlasses-Talking.avi,YD_P40,40-MaleNoGlasses-Talking,36270,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000936,SRC003,40-MaleNoGlasses-Talking.avi,YD_P40,40-MaleNoGlasses-Talking,36270,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000937,SRC003,40-MaleNoGlasses-Yawning.avi,YD_P40,40-MaleNoGlasses-Yawning,2169,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000937,SRC003,40-MaleNoGlasses-Yawning.avi,YD_P40,40-MaleNoGlasses-Yawning,2169,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000938,SRC003,40-MaleNoGlasses-Yawning.avi,YD_P40,40-MaleNoGlasses-Yawning,10944,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth slightly open; no clear yawn"
+FR000938,SRC003,40-MaleNoGlasses-Yawning.avi,YD_P40,40-MaleNoGlasses-Yawning,10944,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000939,SRC003,40-MaleNoGlasses-Yawning.avi,YD_P40,40-MaleNoGlasses-Yawning,19720,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000939,SRC003,40-MaleNoGlasses-Yawning.avi,YD_P40,40-MaleNoGlasses-Yawning,19720,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000940,SRC003,41-MaleNoGlasses-Normal.avi,YD_P41,41-MaleNoGlasses-Normal,2970,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000940,SRC003,41-MaleNoGlasses-Normal.avi,YD_P41,41-MaleNoGlasses-Normal,2970,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000941,SRC003,41-MaleNoGlasses-Normal.avi,YD_P41,41-MaleNoGlasses-Normal,14948,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000941,SRC003,41-MaleNoGlasses-Normal.avi,YD_P41,41-MaleNoGlasses-Normal,14948,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000942,SRC003,41-MaleNoGlasses-Normal.avi,YD_P41,41-MaleNoGlasses-Normal,26894,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000942,SRC003,41-MaleNoGlasses-Normal.avi,YD_P41,41-MaleNoGlasses-Normal,26894,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000943,SRC003,41-MaleNoGlasses-Talking.avi,YD_P41,41-MaleNoGlasses-Talking,3337,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000943,SRC003,41-MaleNoGlasses-Talking.avi,YD_P41,41-MaleNoGlasses-Talking,3337,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000944,SRC003,41-MaleNoGlasses-Talking.avi,YD_P41,41-MaleNoGlasses-Talking,16717,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000944,SRC003,41-MaleNoGlasses-Talking.avi,YD_P41,41-MaleNoGlasses-Talking,16717,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000945,SRC003,41-MaleNoGlasses-Talking.avi,YD_P41,41-MaleNoGlasses-Talking,30063,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000945,SRC003,41-MaleNoGlasses-Talking.avi,YD_P41,41-MaleNoGlasses-Talking,30063,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000946,SRC003,41-MaleNoGlasses-Yawning.avi,YD_P41,41-MaleNoGlasses-Yawning,2002,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000946,SRC003,41-MaleNoGlasses-Yawning.avi,YD_P41,41-MaleNoGlasses-Yawning,2002,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000947,SRC003,41-MaleNoGlasses-Yawning.avi,YD_P41,41-MaleNoGlasses-Yawning,10010,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000947,SRC003,41-MaleNoGlasses-Yawning.avi,YD_P41,41-MaleNoGlasses-Yawning,10010,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000948,SRC003,41-MaleNoGlasses-Yawning.avi,YD_P41,41-MaleNoGlasses-Yawning,18018,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000948,SRC003,41-MaleNoGlasses-Yawning.avi,YD_P41,41-MaleNoGlasses-Yawning,18018,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000949,SRC003,42-MaleNoGlasses-Normal.avi,YD_P42,42-MaleNoGlasses-Normal,2302,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000949,SRC003,42-MaleNoGlasses-Normal.avi,YD_P42,42-MaleNoGlasses-Normal,2302,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000950,SRC003,42-MaleNoGlasses-Normal.avi,YD_P42,42-MaleNoGlasses-Normal,11545,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000950,SRC003,42-MaleNoGlasses-Normal.avi,YD_P42,42-MaleNoGlasses-Normal,11545,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000951,SRC003,42-MaleNoGlasses-Normal.avi,YD_P42,42-MaleNoGlasses-Normal,20754,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000951,SRC003,42-MaleNoGlasses-Normal.avi,YD_P42,42-MaleNoGlasses-Normal,20754,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000952,SRC003,42-MaleNoGlasses-Talking.avi,YD_P42,42-MaleNoGlasses-Talking,4538,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000952,SRC003,42-MaleNoGlasses-Talking.avi,YD_P42,42-MaleNoGlasses-Talking,4538,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000953,SRC003,42-MaleNoGlasses-Talking.avi,YD_P42,42-MaleNoGlasses-Talking,22789,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000953,SRC003,42-MaleNoGlasses-Talking.avi,YD_P42,42-MaleNoGlasses-Talking,22789,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR000954,SRC003,42-MaleNoGlasses-Talking.avi,YD_P42,42-MaleNoGlasses-Talking,41041,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000954,SRC003,42-MaleNoGlasses-Talking.avi,YD_P42,42-MaleNoGlasses-Talking,41041,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000955,SRC003,42-MaleNoGlasses-Yawning.avi,YD_P42,42-MaleNoGlasses-Yawning,2269,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000955,SRC003,42-MaleNoGlasses-Yawning.avi,YD_P42,42-MaleNoGlasses-Yawning,2269,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000956,SRC003,42-MaleNoGlasses-Yawning.avi,YD_P42,42-MaleNoGlasses-Yawning,11411,SLEEPINESS,PRESENT,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully closed with head tilted down; may be blink
+FR000956,SRC003,42-MaleNoGlasses-Yawning.avi,YD_P42,42-MaleNoGlasses-Yawning,11411,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"head tilted down, no external deviation while eyes closed"
+FR000957,SRC003,42-MaleNoGlasses-Yawning.avi,YD_P42,42-MaleNoGlasses-Yawning,20554,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000957,SRC003,42-MaleNoGlasses-Yawning.avi,YD_P42,42-MaleNoGlasses-Yawning,20554,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000958,SRC003,43-MaleNoGlasses-Normal.avi,YD_P43,43-MaleNoGlasses-Normal,2503,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000958,SRC003,43-MaleNoGlasses-Normal.avi,YD_P43,43-MaleNoGlasses-Normal,2503,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000959,SRC003,43-MaleNoGlasses-Normal.avi,YD_P43,43-MaleNoGlasses-Normal,12579,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"heavy lids but eyes open, mouth closed"
+FR000959,SRC003,43-MaleNoGlasses-Normal.avi,YD_P43,43-MaleNoGlasses-Normal,12579,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000960,SRC003,43-MaleNoGlasses-Normal.avi,YD_P43,43-MaleNoGlasses-Normal,22623,SLEEPINESS,UNCERTAIN,SLEEP_001,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes appear mostly closed with head down; drowsiness possible but not clearly closed
+FR000960,SRC003,43-MaleNoGlasses-Normal.avi,YD_P43,43-MaleNoGlasses-Normal,22623,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"head down, no external deviation"
+FR000961,SRC003,43-MaleNoGlasses-Talking.avi,YD_P43,43-MaleNoGlasses-Talking,3804,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000961,SRC003,43-MaleNoGlasses-Talking.avi,YD_P43,43-MaleNoGlasses-Talking,3804,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000962,SRC003,43-MaleNoGlasses-Talking.avi,YD_P43,43-MaleNoGlasses-Talking,19019,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000962,SRC003,43-MaleNoGlasses-Talking.avi,YD_P43,43-MaleNoGlasses-Talking,19019,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000963,SRC003,43-MaleNoGlasses-Talking.avi,YD_P43,43-MaleNoGlasses-Talking,34234,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth slightly open"
+FR000963,SRC003,43-MaleNoGlasses-Talking.avi,YD_P43,43-MaleNoGlasses-Talking,34234,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000964,SRC003,43-MaleNoGlasses-Yawning.avi,YD_P43,43-MaleNoGlasses-Yawning,2135,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000964,SRC003,43-MaleNoGlasses-Yawning.avi,YD_P43,43-MaleNoGlasses-Yawning,2135,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000965,SRC003,43-MaleNoGlasses-Yawning.avi,YD_P43,43-MaleNoGlasses-Yawning,10677,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000965,SRC003,43-MaleNoGlasses-Yawning.avi,YD_P43,43-MaleNoGlasses-Yawning,10677,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000966,SRC003,43-MaleNoGlasses-Yawning.avi,YD_P43,43-MaleNoGlasses-Yawning,19219,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000966,SRC003,43-MaleNoGlasses-Yawning.avi,YD_P43,43-MaleNoGlasses-Yawning,19219,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000967,SRC003,44-MaleNoGlasses-Normal.avi,YD_P44,44-MaleNoGlasses-Normal,2302,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000967,SRC003,44-MaleNoGlasses-Normal.avi,YD_P44,44-MaleNoGlasses-Normal,2302,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000968,SRC003,44-MaleNoGlasses-Normal.avi,YD_P44,44-MaleNoGlasses-Normal,11612,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000968,SRC003,44-MaleNoGlasses-Normal.avi,YD_P44,44-MaleNoGlasses-Normal,11612,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000969,SRC003,44-MaleNoGlasses-Normal.avi,YD_P44,44-MaleNoGlasses-Normal,20888,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000969,SRC003,44-MaleNoGlasses-Normal.avi,YD_P44,44-MaleNoGlasses-Normal,20888,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000970,SRC003,44-MaleNoGlasses-Talking.avi,YD_P44,44-MaleNoGlasses-Talking,2669,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000970,SRC003,44-MaleNoGlasses-Talking.avi,YD_P44,44-MaleNoGlasses-Talking,2669,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000971,SRC003,44-MaleNoGlasses-Talking.avi,YD_P44,44-MaleNoGlasses-Talking,13380,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR000971,SRC003,44-MaleNoGlasses-Talking.avi,YD_P44,44-MaleNoGlasses-Talking,13380,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000972,SRC003,44-MaleNoGlasses-Talking.avi,YD_P44,44-MaleNoGlasses-Talking,24091,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes squinted closed within smile, not drowsiness"
+FR000972,SRC003,44-MaleNoGlasses-Talking.avi,YD_P44,44-MaleNoGlasses-Talking,24091,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,no external deviation while smiling
+FR000973,SRC003,44-MaleNoGlasses-Yawning.avi,YD_P44,44-MaleNoGlasses-Yawning,2402,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,clear yawn: mouth wide open
+FR000973,SRC003,44-MaleNoGlasses-Yawning.avi,YD_P44,44-MaleNoGlasses-Yawning,2402,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000974,SRC003,44-MaleNoGlasses-Yawning.avi,YD_P44,44-MaleNoGlasses-Yawning,12145,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling; no visible yawn"
+FR000974,SRC003,44-MaleNoGlasses-Yawning.avi,YD_P44,44-MaleNoGlasses-Yawning,12145,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000975,SRC003,44-MaleNoGlasses-Yawning.avi,YD_P44,44-MaleNoGlasses-Yawning,21889,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling; no visible yawn"
+FR000975,SRC003,44-MaleNoGlasses-Yawning.avi,YD_P44,44-MaleNoGlasses-Yawning,21889,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000976,SRC003,45-MaleNoGlasses-Normal.avi,YD_P45,45-MaleNoGlasses-Normal,2202,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000976,SRC003,45-MaleNoGlasses-Normal.avi,YD_P45,45-MaleNoGlasses-Normal,2202,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000977,SRC003,45-MaleNoGlasses-Normal.avi,YD_P45,45-MaleNoGlasses-Normal,11011,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000977,SRC003,45-MaleNoGlasses-Normal.avi,YD_P45,45-MaleNoGlasses-Normal,11011,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR000978,SRC003,45-MaleNoGlasses-Normal.avi,YD_P45,45-MaleNoGlasses-Normal,19820,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000978,SRC003,45-MaleNoGlasses-Normal.avi,YD_P45,45-MaleNoGlasses-Normal,19820,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000979,SRC003,45-MaleNoGlasses-Talking.avi,YD_P45,45-MaleNoGlasses-Talking,3437,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000979,SRC003,45-MaleNoGlasses-Talking.avi,YD_P45,45-MaleNoGlasses-Talking,3437,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000980,SRC003,45-MaleNoGlasses-Talking.avi,YD_P45,45-MaleNoGlasses-Talking,17217,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000980,SRC003,45-MaleNoGlasses-Talking.avi,YD_P45,45-MaleNoGlasses-Talking,17217,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000981,SRC003,45-MaleNoGlasses-Talking.avi,YD_P45,45-MaleNoGlasses-Talking,30964,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000981,SRC003,45-MaleNoGlasses-Talking.avi,YD_P45,45-MaleNoGlasses-Talking,30964,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000982,SRC003,45-MaleNoGlasses-Yawning.avi,YD_P45,45-MaleNoGlasses-Yawning,2202,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000982,SRC003,45-MaleNoGlasses-Yawning.avi,YD_P45,45-MaleNoGlasses-Yawning,2202,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000983,SRC003,45-MaleNoGlasses-Yawning.avi,YD_P45,45-MaleNoGlasses-Yawning,11144,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR000983,SRC003,45-MaleNoGlasses-Yawning.avi,YD_P45,45-MaleNoGlasses-Yawning,11144,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000984,SRC003,45-MaleNoGlasses-Yawning.avi,YD_P45,45-MaleNoGlasses-Yawning,20053,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth slightly open; no clear yawn"
+FR000984,SRC003,45-MaleNoGlasses-Yawning.avi,YD_P45,45-MaleNoGlasses-Yawning,20053,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000985,SRC003,46-MaleGlasses-Normal.avi,YD_P46,46-MaleGlasses-Normal,2035,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes visible behind lightly tinted glasses, smiling"
+FR000985,SRC003,46-MaleGlasses-Normal.avi,YD_P46,46-MaleGlasses-Normal,2035,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000986,SRC003,46-MaleGlasses-Normal.avi,YD_P46,46-MaleGlasses-Normal,10244,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes obscured by reflective tinted glasses, head turned to image-right"
+FR000986,SRC003,46-MaleGlasses-Normal.avi,YD_P46,46-MaleGlasses-Normal,10244,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind reflective glasses
+FR000987,SRC003,46-MaleGlasses-Normal.avi,YD_P46,46-MaleGlasses-Normal,18418,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes visible behind lightly tinted glasses, mouth closed"
+FR000987,SRC003,46-MaleGlasses-Normal.avi,YD_P46,46-MaleGlasses-Normal,18418,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR000988,SRC003,46-MaleGlasses-Talking.avi,YD_P46,46-MaleGlasses-Talking,1635,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"head turned to image-right, eyes obscured by reflective glasses"
+FR000988,SRC003,46-MaleGlasses-Talking.avi,YD_P46,46-MaleGlasses-Talking,1635,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind reflective glasses
+FR000989,SRC003,46-MaleGlasses-Talking.avi,YD_P46,46-MaleGlasses-Talking,8208,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes squinted within smile, not drowsiness"
+FR000989,SRC003,46-MaleGlasses-Talking.avi,YD_P46,46-MaleGlasses-Talking,8208,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,no external deviation while smiling
+FR000990,SRC003,46-MaleGlasses-Talking.avi,YD_P46,46-MaleGlasses-Talking,14781,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes visible behind lightly tinted glasses, mouth closed"
+FR000990,SRC003,46-MaleGlasses-Talking.avi,YD_P46,46-MaleGlasses-Talking,14781,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000991,SRC003,46-MaleGlasses-Yawning.avi,YD_P46,46-MaleGlasses-Yawning,1935,SLEEPINESS,ABSENT,,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes open and visible behind lightly tinted glasses
+FR000991,SRC003,46-MaleGlasses-Yawning.avi,YD_P46,46-MaleGlasses-Yawning,1935,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000992,SRC003,46-MaleGlasses-Yawning.avi,YD_P46,46-MaleGlasses-Yawning,9676,SLEEPINESS,PRESENT,SLEEP_003,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,clear yawn: mouth wide open
+FR000992,SRC003,46-MaleGlasses-Yawning.avi,YD_P46,46-MaleGlasses-Yawning,9676,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR000993,SRC003,46-MaleGlasses-Yawning.avi,YD_P46,46-MaleGlasses-Yawning,17417,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"eyes visible behind lightly tinted glasses, mouth closed; no yawn"
+FR000993,SRC003,46-MaleGlasses-Yawning.avi,YD_P46,46-MaleGlasses-Yawning,17417,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000994,SRC003,47-MaleNoGlasses-Normal.avi,YD_P47,47-MaleNoGlasses-Normal,2369,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000994,SRC003,47-MaleNoGlasses-Normal.avi,YD_P47,47-MaleNoGlasses-Normal,2369,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000995,SRC003,47-MaleNoGlasses-Normal.avi,YD_P47,47-MaleNoGlasses-Normal,11845,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000995,SRC003,47-MaleNoGlasses-Normal.avi,YD_P47,47-MaleNoGlasses-Normal,11845,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000996,SRC003,47-MaleNoGlasses-Normal.avi,YD_P47,47-MaleNoGlasses-Normal,21321,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000996,SRC003,47-MaleNoGlasses-Normal.avi,YD_P47,47-MaleNoGlasses-Normal,21321,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR000997,SRC003,47-MaleNoGlasses-Talking.avi,YD_P47,47-MaleNoGlasses-Talking,3704,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000997,SRC003,47-MaleNoGlasses-Talking.avi,YD_P47,47-MaleNoGlasses-Talking,3704,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000998,SRC003,47-MaleNoGlasses-Talking.avi,YD_P47,47-MaleNoGlasses-Talking,18519,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR000998,SRC003,47-MaleNoGlasses-Talking.avi,YD_P47,47-MaleNoGlasses-Talking,18519,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR000999,SRC003,47-MaleNoGlasses-Talking.avi,YD_P47,47-MaleNoGlasses-Talking,33333,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR000999,SRC003,47-MaleNoGlasses-Talking.avi,YD_P47,47-MaleNoGlasses-Talking,33333,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR001000,SRC003,47-MaleNoGlasses-Yawning.avi,YD_P47,47-MaleNoGlasses-Yawning,1802,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR001000,SRC003,47-MaleNoGlasses-Yawning.avi,YD_P47,47-MaleNoGlasses-Yawning,1802,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR001001,SRC003,47-MaleNoGlasses-Yawning.avi,YD_P47,47-MaleNoGlasses-Yawning,9042,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth moderately open; ambiguous between talking and yawning
+FR001001,SRC003,47-MaleNoGlasses-Yawning.avi,YD_P47,47-MaleNoGlasses-Yawning,9042,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR001002,SRC003,47-MaleNoGlasses-Yawning.avi,YD_P47,47-MaleNoGlasses-Yawning,16283,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR001002,SRC003,47-MaleNoGlasses-Yawning.avi,YD_P47,47-MaleNoGlasses-Yawning,16283,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"gaze down-right, no clear external deviation"
+FR001003,SRC003,5-MaleNoGlasses-Normal.avi,YD_P5,5-MaleNoGlasses-Normal,1468,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR001003,SRC003,5-MaleNoGlasses-Normal.avi,YD_P5,5-MaleNoGlasses-Normal,1468,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001004,SRC003,5-MaleNoGlasses-Normal.avi,YD_P5,5-MaleNoGlasses-Normal,7407,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR001004,SRC003,5-MaleNoGlasses-Normal.avi,YD_P5,5-MaleNoGlasses-Normal,7407,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001005,SRC003,5-MaleNoGlasses-Normal.avi,YD_P5,5-MaleNoGlasses-Normal,13313,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR001005,SRC003,5-MaleNoGlasses-Normal.avi,YD_P5,5-MaleNoGlasses-Normal,13313,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001006,SRC003,5-MaleNoGlasses-Talking.avi,YD_P5,5-MaleNoGlasses-Talking,1535,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth slightly open
+FR001006,SRC003,5-MaleNoGlasses-Talking.avi,YD_P5,5-MaleNoGlasses-Talking,1535,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001007,SRC003,5-MaleNoGlasses-Talking.avi,YD_P5,5-MaleNoGlasses-Talking,7708,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth open smiling
+FR001007,SRC003,5-MaleNoGlasses-Talking.avi,YD_P5,5-MaleNoGlasses-Talking,7708,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001008,SRC003,5-MaleNoGlasses-Talking.avi,YD_P5,5-MaleNoGlasses-Talking,13847,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth slightly open
+FR001008,SRC003,5-MaleNoGlasses-Talking.avi,YD_P5,5-MaleNoGlasses-Talking,13847,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001009,SRC003,5-MaleNoGlasses-Yawning.avi,YD_P5,5-MaleNoGlasses-Yawning,1802,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR001009,SRC003,5-MaleNoGlasses-Yawning.avi,YD_P5,5-MaleNoGlasses-Yawning,1802,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001010,SRC003,5-MaleNoGlasses-Yawning.avi,YD_P5,5-MaleNoGlasses-Yawning,9142,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR001010,SRC003,5-MaleNoGlasses-Yawning.avi,YD_P5,5-MaleNoGlasses-Yawning,9142,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001011,SRC003,5-MaleNoGlasses-Yawning.avi,YD_P5,5-MaleNoGlasses-Yawning,16450,SLEEPINESS,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,eyes fully covered by dark sunglasses; mouth closed
+FR001011,SRC003,5-MaleNoGlasses-Yawning.avi,YD_P5,5-MaleNoGlasses-Yawning,16450,DISTRACTION,UNOBSERVABLE,,,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze not assessable behind dark sunglasses
+FR001012,SRC003,6-MaleNoGlasses-Normal.avi,YD_P6,6-MaleNoGlasses-Normal,1568,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001012,SRC003,6-MaleNoGlasses-Normal.avi,YD_P6,6-MaleNoGlasses-Normal,1568,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001013,SRC003,6-MaleNoGlasses-Normal.avi,YD_P6,6-MaleNoGlasses-Normal,7841,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001013,SRC003,6-MaleNoGlasses-Normal.avi,YD_P6,6-MaleNoGlasses-Normal,7841,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001014,SRC003,6-MaleNoGlasses-Normal.avi,YD_P6,6-MaleNoGlasses-Normal,14114,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001014,SRC003,6-MaleNoGlasses-Normal.avi,YD_P6,6-MaleNoGlasses-Normal,14114,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001015,SRC003,6-MaleNoGlasses-Talking.avi,YD_P6,6-MaleNoGlasses-Talking,1835,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR001015,SRC003,6-MaleNoGlasses-Talking.avi,YD_P6,6-MaleNoGlasses-Talking,1835,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001016,SRC003,6-MaleNoGlasses-Talking.avi,YD_P6,6-MaleNoGlasses-Talking,9209,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001016,SRC003,6-MaleNoGlasses-Talking.avi,YD_P6,6-MaleNoGlasses-Talking,9209,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001017,SRC003,6-MaleNoGlasses-Talking.avi,YD_P6,6-MaleNoGlasses-Talking,16550,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling"
+FR001017,SRC003,6-MaleNoGlasses-Talking.avi,YD_P6,6-MaleNoGlasses-Talking,16550,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001018,SRC003,6-MaleNoGlasses-Yawning.avi,YD_P6,6-MaleNoGlasses-Yawning,968,SLEEPINESS,UNCERTAIN,MOUTH_OPEN,FORWARD,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,mouth moderately open; ambiguous between talking and yawning
+FR001018,SRC003,6-MaleNoGlasses-Yawning.avi,YD_P6,6-MaleNoGlasses-Yawning,968,DISTRACTION,ABSENT,,FORWARD,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze forward, no deviation"
+FR001019,SRC003,6-MaleNoGlasses-Yawning.avi,YD_P6,6-MaleNoGlasses-Yawning,4972,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling; no visible yawn"
+FR001019,SRC003,6-MaleNoGlasses-Yawning.avi,YD_P6,6-MaleNoGlasses-Yawning,4972,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001020,SRC003,6-MaleNoGlasses-Yawning.avi,YD_P6,6-MaleNoGlasses-Yawning,8942,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, smiling; no visible yawn"
+FR001020,SRC003,6-MaleNoGlasses-Yawning.avi,YD_P6,6-MaleNoGlasses-Yawning,8942,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001021,SRC003,7-MaleGlasses-Normal.avi,YD_P7,7-MaleGlasses-Normal,1735,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001021,SRC003,7-MaleGlasses-Normal.avi,YD_P7,7-MaleGlasses-Normal,1735,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001022,SRC003,7-MaleGlasses-Normal.avi,YD_P7,7-MaleGlasses-Normal,8675,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001022,SRC003,7-MaleGlasses-Normal.avi,YD_P7,7-MaleGlasses-Normal,8675,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001023,SRC003,7-MaleGlasses-Normal.avi,YD_P7,7-MaleGlasses-Normal,15616,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001023,SRC003,7-MaleGlasses-Normal.avi,YD_P7,7-MaleGlasses-Normal,15616,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001024,SRC003,7-MaleGlasses-Talking.avi,YD_P7,7-MaleGlasses-Talking,1668,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth slightly open"
+FR001024,SRC003,7-MaleGlasses-Talking.avi,YD_P7,7-MaleGlasses-Talking,1668,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001025,SRC003,7-MaleGlasses-Talking.avi,YD_P7,7-MaleGlasses-Talking,8442,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR001025,SRC003,7-MaleGlasses-Talking.avi,YD_P7,7-MaleGlasses-Talking,8442,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001026,SRC003,7-MaleGlasses-Talking.avi,YD_P7,7-MaleGlasses-Talking,15215,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling"
+FR001026,SRC003,7-MaleGlasses-Talking.avi,YD_P7,7-MaleGlasses-Talking,15215,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001027,SRC003,7-MaleGlasses-Yawning.avi,YD_P7,7-MaleGlasses-Yawning,2269,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth slightly open; no clear yawn"
+FR001027,SRC003,7-MaleGlasses-Yawning.avi,YD_P7,7-MaleGlasses-Yawning,2269,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001028,SRC003,7-MaleGlasses-Yawning.avi,YD_P7,7-MaleGlasses-Yawning,11378,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling; no visible yawn"
+FR001028,SRC003,7-MaleGlasses-Yawning.avi,YD_P7,7-MaleGlasses-Yawning,11378,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001029,SRC003,7-MaleGlasses-Yawning.avi,YD_P7,7-MaleGlasses-Yawning,20454,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, smiling; no visible yawn"
+FR001029,SRC003,7-MaleGlasses-Yawning.avi,YD_P7,7-MaleGlasses-Yawning,20454,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001030,SRC003,8-MaleGlassesBeard-Normal.avi,YD_P8,8-MaleGlassesBeard-Normal,1301,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001030,SRC003,8-MaleGlassesBeard-Normal.avi,YD_P8,8-MaleGlassesBeard-Normal,1301,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001031,SRC003,8-MaleGlassesBeard-Normal.avi,YD_P8,8-MaleGlassesBeard-Normal,6607,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001031,SRC003,8-MaleGlassesBeard-Normal.avi,YD_P8,8-MaleGlassesBeard-Normal,6607,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001032,SRC003,8-MaleGlassesBeard-Normal.avi,YD_P8,8-MaleGlassesBeard-Normal,11912,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001032,SRC003,8-MaleGlassesBeard-Normal.avi,YD_P8,8-MaleGlassesBeard-Normal,11912,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001033,SRC003,8-MaleGlassesBeard-Talking.avi,YD_P8,8-MaleGlassesBeard-Talking,2035,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001033,SRC003,8-MaleGlassesBeard-Talking.avi,YD_P8,8-MaleGlassesBeard-Talking,2035,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001034,SRC003,8-MaleGlassesBeard-Talking.avi,YD_P8,8-MaleGlassesBeard-Talking,10177,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed"
+FR001034,SRC003,8-MaleGlassesBeard-Talking.avi,YD_P8,8-MaleGlassesBeard-Talking,10177,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001035,SRC003,8-MaleGlassesBeard-Talking.avi,YD_P8,8-MaleGlassesBeard-Talking,18318,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth open (talking)"
+FR001035,SRC003,8-MaleGlassesBeard-Talking.avi,YD_P8,8-MaleGlassesBeard-Talking,18318,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001036,SRC003,8-MaleGlassesBeard-Yawning.avi,YD_P8,8-MaleGlassesBeard-Yawning,1502,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR001036,SRC003,8-MaleGlassesBeard-Yawning.avi,YD_P8,8-MaleGlassesBeard-Yawning,1502,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001037,SRC003,8-MaleGlassesBeard-Yawning.avi,YD_P8,8-MaleGlassesBeard-Yawning,7641,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR001037,SRC003,8-MaleGlassesBeard-Yawning.avi,YD_P8,8-MaleGlassesBeard-Yawning,7641,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001038,SRC003,8-MaleGlassesBeard-Yawning.avi,YD_P8,8-MaleGlassesBeard-Yawning,13747,SLEEPINESS,ABSENT,,RIGHT,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open behind clear glasses, mouth closed; no visible yawn"
+FR001038,SRC003,8-MaleGlassesBeard-Yawning.avi,YD_P8,8-MaleGlassesBeard-Yawning,13747,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted to image-right; persistence unknown
+FR001039,SRC003,9-MaleNoGlasses-Normal.avi,YD_P9,9-MaleNoGlasses-Normal,2436,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001039,SRC003,9-MaleNoGlasses-Normal.avi,YD_P9,9-MaleNoGlasses-Normal,2436,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001040,SRC003,9-MaleNoGlasses-Normal.avi,YD_P9,9-MaleNoGlasses-Normal,12279,SLEEPINESS,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001040,SRC003,9-MaleNoGlasses-Normal.avi,YD_P9,9-MaleNoGlasses-Normal,12279,DISTRACTION,ABSENT,,DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"gaze slightly downward, no clear deviation"
+FR001041,SRC003,9-MaleNoGlasses-Normal.avi,YD_P9,9-MaleNoGlasses-Normal,22122,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001041,SRC003,9-MaleNoGlasses-Normal.avi,YD_P9,9-MaleNoGlasses-Normal,22122,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001042,SRC003,9-MaleNoGlasses-Talking.avi,YD_P9,9-MaleNoGlasses-Talking,3737,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001042,SRC003,9-MaleNoGlasses-Talking.avi,YD_P9,9-MaleNoGlasses-Talking,3737,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001043,SRC003,9-MaleNoGlasses-Talking.avi,YD_P9,9-MaleNoGlasses-Talking,18752,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed"
+FR001043,SRC003,9-MaleNoGlasses-Talking.avi,YD_P9,9-MaleNoGlasses-Talking,18752,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001044,SRC003,9-MaleNoGlasses-Talking.avi,YD_P9,9-MaleNoGlasses-Talking,33734,SLEEPINESS,ABSENT,,RIGHT_DOWN,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth open (talking)"
+FR001044,SRC003,9-MaleNoGlasses-Talking.avi,YD_P9,9-MaleNoGlasses-Talking,33734,DISTRACTION,ABSENT,,RIGHT_DOWN,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,"slight drift down-right, no clear external deviation"
+FR001045,SRC003,9-MaleNoGlasses-Yawning.avi,YD_P9,9-MaleNoGlasses-Yawning,2436,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR001045,SRC003,9-MaleNoGlasses-Yawning.avi,YD_P9,9-MaleNoGlasses-Yawning,2436,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR001046,SRC003,9-MaleNoGlasses-Yawning.avi,YD_P9,9-MaleNoGlasses-Yawning,12279,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR001046,SRC003,9-MaleNoGlasses-Yawning.avi,YD_P9,9-MaleNoGlasses-Yawning,12279,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
+FR001047,SRC003,9-MaleNoGlasses-Yawning.avi,YD_P9,9-MaleNoGlasses-Yawning,22122,SLEEPINESS,ABSENT,,RIGHT_UP,NO,ANN_1,HIGH,DAYLIGHT,NONE,"eyes open, mouth closed; no visible yawn"
+FR001047,SRC003,9-MaleNoGlasses-Yawning.avi,YD_P9,9-MaleNoGlasses-Yawning,22122,DISTRACTION,UNCERTAIN,GAZE_DEVIATION,RIGHT_UP,NO,ANN_1,MEDIUM,DAYLIGHT,NONE,gaze averted up-right; persistence unknown
