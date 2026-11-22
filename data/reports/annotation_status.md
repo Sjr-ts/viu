@@ -1,6 +1,6 @@
 # NightEyes — status da anotação e do ground truth
 
-Gerado em 2026-11-22T02:17:51+00:00.
+Gerado em 2026-11-22T04:49:42+00:00.
 
 ## O que é ground truth observado
 
@@ -10,8 +10,8 @@ Gerado em 2026-11-22T02:17:51+00:00.
 
 ## Arquivos preservados (rascunhos)
 
-- `data/original_labels/episodes_draft_auto.csv` — rascunho automático por filename; não usar para avaliação.
-- `data/original_labels/windows_draft_auto.csv` — rascunho automático por filename; não usar para avaliação.
+- `data/_incoming/original_labels/episodes_draft_auto.csv` — rascunho local por filename; não usar para avaliação e não versionado.
+- `data/_incoming/original_labels/windows_draft_auto.csv` — rascunho local por filename; não usar para avaliação e não versionado.
 
 ## Divisão por participante (protocolo §8)
 

@@ -41,7 +41,7 @@ def build_sheets(catalog_csv: Path, out_dir: Path, per_sheet: int = GRID[0] * GR
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--catalog", default="data/catalog/frame_samples.csv")
-    ap.add_argument("--out", default="data/annotation/review_sheets")
+    ap.add_argument("--out", default="data/_incoming/review_sheets")
     args = ap.parse_args()
     sheets = build_sheets(Path(args.catalog), Path(args.out))
     print(f"generated {len(sheets)} sheets in {args.out}")

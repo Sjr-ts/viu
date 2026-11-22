@@ -80,7 +80,7 @@ def _next_frame_id(rows: list[dict]) -> int:
 def catalog(root: Path, positions: list[float], rebuild: bool = False,
             image_stride: int = 10) -> list[dict]:
     raw = root / "data" / "raw"
-    out_dir = root / "data" / "quality_control" / "frame_catalog"
+    out_dir = root / "data" / "_incoming" / "frame_catalog"
     csv_path = root / "data" / "catalog" / "frame_samples.csv"
     rows = [] if rebuild else _read_frames_csv(csv_path)
     if rebuild:

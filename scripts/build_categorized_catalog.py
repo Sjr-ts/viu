@@ -3,7 +3,7 @@
 
     python scripts/build_categorized_catalog.py --root .
 
-Creates data/curated/fotos_catalogadas/<categoria>/:
+Creates the canonical `fotos catalogadas/<categoria>/` tree:
     normal | sonolencia | fadiga | bocejo | olhos_fechados | usando_celular
 
 An image may appear in more than one folder (multi-label): a yawn with closed
@@ -17,6 +17,7 @@ import argparse
 import csv
 import hashlib
 import shutil
+import tempfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -52,7 +53,19 @@ def main(argv=None) -> int:
     root = args.root.resolve()
     samples = _read(root / "data" / "catalog" / "frame_samples.csv")
     ann = _read(root / "data" / "annotation" / "frame_annotations.csv")
-    out = root / "data" / "curated" / "fotos_catalogadas"
+    out = root / "fotos catalogadas"
+    tmp = tempfile.TemporaryDirectory()
+    tmp_dir = Path(tmp.name)
+    source_copy = {}
+    for sample in samples:
+        fid = sample["frame_id"]
+        src = Path(sample.get("original_frame_file") or sample["frame_file"])
+        if not src.exists():
+            src = Path(sample["frame_file"])
+        if src.exists():
+            dest = tmp_dir / f"{fid}{src.suffix.lower()}"
+            shutil.copyfile(src, dest)
+            source_copy[fid] = dest
     shutil.rmtree(out, ignore_errors=True)
     for cat in CATEGORIES:
         (out / cat).mkdir(parents=True, exist_ok=True)
@@ -114,7 +127,7 @@ def main(argv=None) -> int:
         if any(c.startswith("ERRO") for c in checks):
             audit_issues.append(f"{fid}: {audit}")
 
-        src = Path(sample["frame_file"])
+        src = source_copy.get(fid, Path(sample["frame_file"]))
         if not src.exists():
             audit_issues.append(f"{fid}: arquivo de imagem ausente ({sample['frame_file']})")
         elif _sha256(src) != sample["frame_sha256"]:
@@ -132,7 +145,10 @@ def main(argv=None) -> int:
             renamed[(sample["frame_id"], cat)] = dest
         manifest.append({
             "frame_id": sample["frame_id"], "dataset_id": sample["dataset_id"],
-            "original_filename": src.name,
+            "original_filename": (
+                sample.get("original_filename")
+                or Path(sample.get("original_frame_file") or sample["frame_file"]).name
+            ),
             "image": renamed[(sample["frame_id"], categories[0])].relative_to(root).as_posix(),
             "categories": "|".join(categories),
             "renamed_files": "|".join(
@@ -189,6 +205,7 @@ def main(argv=None) -> int:
     for cat in CATEGORIES:
         print(f"{cat}: {copied[cat]}")
     print(f"manifest: {len(manifest)} frames; auditoria: {len(audit_issues)} problema(s)")
+    tmp.cleanup()
     return 0
 
 

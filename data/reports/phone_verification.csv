@@ -1,0 +1,18 @@
+frame_id,image,source_video,dataset_id,phone_detection,activity_label,distraction_label,verification
+FR001081,fotos catalogadas/usando_celular/usando_celular_0001.jpg,IMG_5390_jpg.rf.37d560aea86a85e7b4d67201d64c6719.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001085,fotos catalogadas/usando_celular/usando_celular_0002.jpg,IMG_5435_jpg.rf.846b584f9b1bb18993f182b20dee4836.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001093,fotos catalogadas/usando_celular/usando_celular_0003.jpg,IMG_5755_jpg.rf.b16d66f7cac84c3900238f67b9553eeb.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001094,fotos catalogadas/usando_celular/usando_celular_0004.jpg,IMG_5768_jpg.rf.5e527c0ddcd102c6f52f0aa47c9daf71.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001095,fotos catalogadas/usando_celular/usando_celular_0005.jpg,IMG_5783_jpg.rf.22b3e6a99a2251e125cb6f7784df0b5f.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001096,fotos catalogadas/usando_celular/usando_celular_0006.jpg,IMG_5805_jpg.rf.91aeda49e46546c1cc6481dbb985d725.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001159,fotos catalogadas/usando_celular/usando_celular_0007.jpg,IMG_9015_JPG.rf.4217c9b78bc6464525cbd04926bed7fa.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001414,fotos catalogadas/usando_celular/usando_celular_0008.jpg,IMG_5390_jpg.rf.37d560aea86a85e7b4d67201d64c6719.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001415,fotos catalogadas/usando_celular/usando_celular_0009.jpg,IMG_5433_jpg.rf.d61d2fa4052ab3a1f848e25f3c7d785e.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001418,fotos catalogadas/usando_celular/usando_celular_0010.jpg,IMG_5683_jpg.rf.a7dc8d9b6ca1a002e7fb142db5e8c153.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001422,fotos catalogadas/usando_celular/usando_celular_0011.jpg,IMG_5739_jpg.rf.1b7faaad4a6ddbc56c70d2f73bfb36bd.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001424,fotos catalogadas/usando_celular/usando_celular_0012.jpg,IMG_5767_jpg.rf.f8a0115032b335b1402987a27a457513.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001425,fotos catalogadas/usando_celular/usando_celular_0013.jpg,IMG_5781_jpg.rf.6d9ce5bb368283cf7db07e9d7b026963.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001432,fotos catalogadas/usando_celular/usando_celular_0014.jpg,IMG_9014_JPG.rf.0c85caa967d3dcb51ef0179c012eac0d.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001433,fotos catalogadas/usando_celular/usando_celular_0015.jpg,IMG_9047_JPG.rf.b9d4cc3ff2cf49076d3b98a323a77305.jpg,SRC009,YES,PHONE_USE,UNCERTAIN,human full-resolution visual check 2026-11-21
+FR001443,fotos catalogadas/normal/normal_1211.jpg,IMG_9942_jpg.rf.bbc9f132501a1776d5d32e3c77362469.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21
+FR001447,fotos catalogadas/usando_celular/usando_celular_0016.jpg,IMG_5809_jpg.rf.adefae4e248ff584da191ff17c2a54eb.jpg,SRC009,YES,PHONE_USE,ABSENT,human full-resolution visual check 2026-11-21

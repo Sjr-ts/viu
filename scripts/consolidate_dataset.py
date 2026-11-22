@@ -4,7 +4,7 @@
     python scripts/consolidate_dataset.py --root . --seed 20261121
 
 Actions (idempotent, originals preserved):
-    1. archive filename-derived episode/window drafts under data/original_labels/
+    1. archive filename-derived episode/window drafts under data/_incoming/original_labels/
     2. canonicalize participant_id/session_id of every framed annotation
     3. register the SRC009 still-image sources as participants/sessions
     4. rebuild episodes ONLY from human visual frame observations (Level-A)
@@ -207,7 +207,7 @@ def canonicalize(root: Path) -> dict:
                         "session_id": f"SS_{ds}_{max_sess[ds]:04d}",
                         "participant_id": new_participants[source]["participant_id"],
                         "dataset_id": ds,
-                        "original_session_id": row["source_video"],
+                        "original_session_id": source,
                         "video_filename": row["source_video"],
                         "duration_ms": "1000",
                         "original_fps": "0",
@@ -401,9 +401,9 @@ def write_status(root: Path, manifest: dict, episodes: list[dict],
         "",
         "## Arquivos preservados (rascunhos)",
         "",
-        *[f"- `data/original_labels/{p.name}` — rascunho automático por filename; "
-          "não usar para avaliação."
-          for p in sorted((root / "data" / "original_labels").glob("*_draft_auto.csv"))
+        *[f"- `data/_incoming/original_labels/{p.name}` — rascunho local por filename; "
+          "não usar para avaliação e não versionado."
+          for p in sorted((root / "data" / "_incoming" / "original_labels").glob("*_draft_auto.csv"))
           if p.exists()],
         "",
         "## Divisão por participante (protocolo §8)",
@@ -461,7 +461,7 @@ def main(argv=None) -> int:
     root = args.root.resolve()
 
     archived = archive_drafts(root / "data" / "annotation",
-                              root / "data" / "original_labels")
+                              root / "data" / "_incoming" / "original_labels")
     canon = canonicalize(root)
     episodes = rebuild_episodes(root, canon["frames"])
     windows = rebuild_windows(root)

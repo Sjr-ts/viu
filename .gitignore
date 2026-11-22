@@ -24,3 +24,11 @@ Desktop.ini
 
 # Logs de download
 logs/
+
+# Artefatos gerados durante catalogação/revisão (não são dataset final)
+data/quality_control/frame_catalog/
+data/annotation/review_sheets/
+data/annotation/phone_review_sheets/
+data/annotation/dense_review_sheets/
+data/annotation/eye_review/
+data/original_labels/*_draft_auto.csv

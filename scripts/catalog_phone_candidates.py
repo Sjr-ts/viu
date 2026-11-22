@@ -41,7 +41,7 @@ def main(argv=None) -> int:
     root = args.root.resolve()
     base = root / "data" / "raw" / "DrowsinessEdge" / "Drowsiness Dataset"
     catalog_path = root / "data" / "catalog" / "frame_samples.csv"
-    out_dir = root / "data" / "quality_control" / "frame_catalog" / "DrowsinessEdge_phone"
+    out_dir = root / "data" / "_incoming" / "frame_catalog" / "DrowsinessEdge_phone"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     candidates = []
@@ -94,7 +94,7 @@ def main(argv=None) -> int:
         w.writeheader()
         w.writerows(rows)
 
-    review_dir = root / "data" / "annotation" / "phone_review_sheets"
+    review_dir = root / "data" / "_incoming" / "phone_review_sheets"
     review_dir.mkdir(parents=True, exist_ok=True)
     import numpy as np
 

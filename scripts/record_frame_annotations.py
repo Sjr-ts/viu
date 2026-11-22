@@ -66,7 +66,7 @@ def main() -> None:
         for item in batch:
             idx = int(item["idx"])
             row = catalog[idx]
-            stem = Path(row["frame_file"]).stem
+            stem = Path(row.get("original_frame_file") or row["frame_file"]).stem
             participant_id, session_id = identity_for_row(row, stem)
             key = (row["frame_id"], item["domain"])
             if key in existing:
