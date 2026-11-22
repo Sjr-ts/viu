@@ -8,6 +8,11 @@
 **Repositório:** https://github.com/Sjr-ts/viu (branch `main`)
 **Status:** validação `PASS` · **68 testes aprovados** · 1399 frames catalogados e anotados manualmente · 10 fontes inventariadas (3 adquiridas) · splits TRAIN/VALIDATION/TEST por participante · avaliação do engine pronta (`NOT_EVALUATED` até scores serem fornecidos)
 
+> **PASTA PRINCIPAL (nome pedido):** `fotos catalogadas/` na raiz do repositório,
+> com as pastas `normal`, `sonolencia`, `fadiga`, `bocejo`, `olhos_fechados` e
+> `usando_celular`, além de `manifest.csv` e `README.md`. Cópia espelho em
+> `data/curated/fotos_catalogadas/`.
+>
 > **Onde encontrar as imagens (2026-11-21):** `data/quality_control/frame_catalog/`
 > contém todos os frames catalogados. As pastas curadas ficam em
 > `data/curated/phone_use/` (celulares confirmadospor revisão visual em tamanho real,

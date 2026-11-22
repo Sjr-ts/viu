@@ -1,6 +1,6 @@
 # NightEyes — status da anotação e do ground truth
 
-Gerado em 2026-11-22T01:33:36+00:00.
+Gerado em 2026-11-22T02:17:51+00:00.
 
 ## O que é ground truth observado
 
@@ -32,8 +32,8 @@ Gerado em 2026-11-22T01:33:36+00:00.
 
 ## Distribuição de rótulos nos episódios
 
-- ABSENT: 1785
-- PRESENT: 205
+- ABSENT: 1793
+- PRESENT: 197
 - UNCERTAIN: 770
 - UNOBSERVABLE: 480
 
@@ -47,9 +47,9 @@ Gerado em 2026-11-22T01:33:36+00:00.
 
 - face_visible=UNKNOWN: 1161
 - face_visible=YES: 306
-- phone_visible=NO: 1175
+- phone_visible=NO: 1176
 - phone_visible=UNKNOWN: 275
-- phone_visible=YES: 17
+- phone_visible=YES: 16
 - `phone_visible=YES` sozinho nunca gera `DISTRACTION=PRESENT` (protocolo §2.3).
 - 50 candidatos SRC009 (rótulo-fonte 'Object') foram revisados visualmente; 13 confirmados como celular, o restante são garrafas/copos (falso positivo da fonte).
 - Amostragem densa (0.2..0.8) adicionada aos vídeos 5-FemaleGlasses para capturar bocejos reais que a amostragem 0.1/0.5/0.9 não alcançava.

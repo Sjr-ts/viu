@@ -88,7 +88,7 @@ def main(argv=None) -> int:
 
         if phone == "YES":
             categories.append("usando_celular")
-        if beh == "SLEEP_003" or act == "YAWNING":
+        if beh == "SLEEP_003":
             categories.append("bocejo")
         if beh in ("SLEEP_001", "SLEEP_006") or act == "DROWSY":
             categories.append("olhos_fechados")

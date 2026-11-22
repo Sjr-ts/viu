@@ -2,12 +2,12 @@
 
 Total de frames catalogados: **1467**. Cada imagem foi copiada para uma ou mais pastas abaixo, conforme rótulos de anotação humana (Level-A frame observation).
 
-- `normal/` — 1093 imagens
-- `sonolencia/` — 229 imagens
+- `normal/` — 1230 imagens
+- `sonolencia/` — 221 imagens
 - `fadiga/` — 34 imagens
-- `bocejo/` — 267 imagens
-- `olhos_fechados/` — 90 imagens
-- `usando_celular/` — 17 imagens
+- `bocejo/` — 117 imagens
+- `olhos_fechados/` — 82 imagens
+- `usando_celular/` — 16 imagens
 
 ## Regras de inclusão
 
