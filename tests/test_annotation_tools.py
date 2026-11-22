@@ -110,10 +110,22 @@ def test_make_windows_never_collapses_uncertain(tmp_path):
         _ep("EP1", 0, 5000, "UNCERTAIN", "ANN_1"),
         _ep("EP2", 5000, 10000, "UNOBSERVABLE", "ANN_1"),
     ])
-    rows = build_windows(root, window_ms=5000, annotator="AN_CONSOLIDATED")
+    rows = build_windows(root, window_ms=5000, annotator="AN_CONSOLIDATED",
+                         annotated_only=False)
     labels = [r["reference_label"] for r in rows
               if r["domain"] == "SLEEPINESS"]
     assert labels == ["UNCERTAIN", "UNOBSERVABLE", "ABSENT"]
+
+
+def test_make_windows_default_never_fabricates(tmp_path):
+    root = _project(tmp_path)
+    _write(root / "data" / "annotation" / "episodes.csv", EPISODES_HEADER, [
+        _ep("EP1", 0, 5000, "PRESENT", "ANN_1"),
+    ])
+    rows = build_windows(root, window_ms=5000, annotator="AN_CONSOLIDATED")
+    assert rows
+    assert {r["domain"] for r in rows} == {"SLEEPINESS"}
+    assert all(r["reference_label"] != "ABSENT" for r in rows)
 
 
 def test_make_windows_rejects_unknown_annotator(tmp_path):
@@ -124,7 +136,8 @@ def test_make_windows_rejects_unknown_annotator(tmp_path):
 
 def test_make_windows_writes_valid_grid(tmp_path):
     root = _project(tmp_path)
-    rows = build_windows(root, window_ms=5000, annotator="AN_CONSOLIDATED")
+    rows = build_windows(root, window_ms=5000, annotator="AN_CONSOLIDATED",
+                         annotated_only=False)
     # grid covers session duration with no overlaps per (session, domain)
     for domain in {r["domain"] for r in rows}:
         ws = sorted((r for r in rows if r["domain"] == domain),

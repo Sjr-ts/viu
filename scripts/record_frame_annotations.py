@@ -87,8 +87,8 @@ def main() -> None:
                 item.get("face_visible", "UNKNOWN"),
                 item.get("annotation_notes", ""),
                 item.get("activity_label", "UNKNOWN"),
-                item.get("phone_detection", "NO"),
-                item.get("face_detection", "YES"),
+                item.get("phone_detection", "UNKNOWN"),
+                item.get("face_detection", "UNKNOWN"),
             ])
             written += 1
     print(f"wrote {written} rows ({len(batch)} in batch, dups skipped)")

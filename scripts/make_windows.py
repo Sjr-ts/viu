@@ -7,6 +7,8 @@ Derives temporal windows from annotated episodes (Level A).
         --annotator AN_CONSOLIDATED
 
 Rules:
+    * By default only windows overlapping a human annotated episode are emitted;
+      no QUALITY domain and no fabricated ABSENT for unannotated material.
     * Window grid per session: 0 .. duration_ms, step = window_ms
       (last window may be partial if duration is not a multiple).
     * Window label priority: PRESENT > UNCERTAIN > UNOBSERVABLE > ABSENT.
@@ -57,8 +59,8 @@ def build_windows(
     root: Path,
     window_ms: int = 5000,
     annotator: str = "AN_CONSOLIDATED",
-    domains: tuple[str, ...] = ALL_DOMAINS,
-    annotated_only: bool = False,
+    domains: tuple[str, ...] = PROTOCOL_DOMAINS,
+    annotated_only: bool = True,
 ) -> list[dict]:
     ann_dir = root / "data" / "annotation"
     sessions = _read(ann_dir / "sessions.csv")
@@ -161,9 +163,12 @@ def main(argv: list[str] | None = None) -> int:
                    help="window size in ms (protocol initial value: 5000)")
     p.add_argument("--annotator", default="AN_CONSOLIDATED",
                    help="consolidator annotator_id (must exist in annotators.csv)")
-    p.add_argument("--annotated-only", action="store_true",
+    p.add_argument("--annotated-only", action="store_true", default=True,
                    help="emit only windows supported by a human annotated episode "
-                        "(never fabricate ABSENT for unannotated material)")
+                        "(default; never fabricate ABSENT)")
+    p.add_argument("--include-unannotated", dest="annotated_only",
+                   action="store_false",
+                   help="include full grid with synthetic ABSENT (legacy behavior)")
     p.add_argument("--out", type=Path, default=None,
                    help="output CSV (default: data/annotation/windows.csv)")
     args = p.parse_args(argv)

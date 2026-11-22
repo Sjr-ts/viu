@@ -2,7 +2,7 @@
 
 Base supervisionada para avaliação offline do **Risk Engine V1.0**. As imagens foram catalogadas e anotadas visualmente, com rótulos independentes para **sonolência**, **fadiga**, **distração**, **detecção de rosto** e **detecção de celular**.
 
-**Estado atual:** validação `PASS` · **73 testes aprovados** · **1.467 frames catalogados** · **1.700 imagens organizadas** · splits `TRAIN/VALIDATION/TEST` por participante.
+**Estado atual:** validação `PASS` · **74 testes aprovados** · **1.467 frames catalogados** · **1.700 imagens organizadas** · splits `TRAIN/VALIDATION/TEST` por participante.
 
 > Os rótulos de referência **nunca** foram produzidos com EAR, MAR, PERCLOS, scores do motor ou nomes de arquivo. `UNCERTAIN` e `UNOBSERVABLE` nunca são convertidos em `ABSENT`. A presença de celular sozinha nunca gera `DISTRACTION=PRESENT`.
 
@@ -118,7 +118,7 @@ NightEyes/
 │   ├── annotation_workflow.md
 │   └── IMPLEMENTATION_REPORT.md
 ├── scripts/                           # aquisição, catalogação, consolidação, validação
-└── tests/                             # 73 testes
+└── tests/                             # 74 testes
 ```
 
 Artefatos intermediários (folhas de revisão, frames extraídos, rascunhos automáticos) ficam em `data/_incoming/` e são ignorados pelo Git.
