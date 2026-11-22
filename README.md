@@ -103,7 +103,7 @@ NightEyes/
 │   │   └── split_manifest.json
 │   ├── reports/
 │   │   ├── annotation_status.md
-│   │   ├── phone_verification.csv     # 17 celulares confirmados visualmente
+│   │   ├── phone_verification.csv     # 16 celulares confirmados visualmente
 │   │   ├── engine_evaluation.json
 │   │   ├── engine_evaluation.csv
 │   │   └── validation_report.json/.csv

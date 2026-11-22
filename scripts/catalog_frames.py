@@ -2,7 +2,7 @@
 """NightEyes — sample frame catalog (traceable image inventory).
 
 Scans videos under data/raw/ and extracts sample frames into
-data/quality_control/frame_catalog/, registering every frame in
+data/_incoming/frame_catalog/, registering every frame in
 data/catalog/frame_samples.csv with SHA-256 for traceability.
 
     python scripts/catalog_frames.py --root . --positions 0.1,0.5,0.9

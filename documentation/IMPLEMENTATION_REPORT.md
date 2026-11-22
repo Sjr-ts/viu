@@ -51,9 +51,8 @@
 10. **43 testes automatizados** (pytest) cobrindo o caso limpo, cada verificação
     com defeito injetado, geração de relatórios e os CASOS 1–5.
 11. **Interface local** `scripts/serve_catalog.py` + `interface/index.html`:
-    cards de resumo, filtros (nome, instituição, domínio, acesso, licença,
-    compatibilidade), tabela e visualização de metadados completos por dataset.
-    Somente `http.server` da stdlib + CSV — sem APIs pagas.
+    existiu apenas na Parte 1 (cards, filtros e detalhe dos datasets) e foi
+    removida na limpeza final por não fazer parte do dataset catalogado.
 12. **README** com instruções de execução e vocabulários controlados.
 
 ---
@@ -78,8 +77,7 @@ documentation/label_mapping_rules.md
 documentation/IMPLEMENTATION_REPORT.md       (este arquivo)
 scripts/validate_dataset.py
 scripts/label_mapping.py
-scripts/serve_catalog.py
-interface/index.html
+(interface local da Parte 1 removida na limpeza final)
 tests/conftest.py
 tests/test_validate_dataset.py
 tests/test_label_mapping.py

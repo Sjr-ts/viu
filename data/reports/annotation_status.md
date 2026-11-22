@@ -51,5 +51,5 @@ Gerado em 2026-11-22T04:49:42+00:00.
 - phone_visible=UNKNOWN: 275
 - phone_visible=YES: 16
 - `phone_visible=YES` sozinho nunca gera `DISTRACTION=PRESENT` (protocolo §2.3).
-- 50 candidatos SRC009 (rótulo-fonte 'Object') foram revisados visualmente; 13 confirmados como celular, o restante são garrafas/copos (falso positivo da fonte).
+- 50 candidatos SRC009 (rótulo-fonte 'Object') foram revisados visualmente; 13 confirmados como celular nesse lote, o restante são garrafas/copos (falso positivo da fonte). Total final no dataset: 16 imagens confirmadas como celular.
 - Amostragem densa (0.2..0.8) adicionada aos vídeos 5-FemaleGlasses para capturar bocejos reais que a amostragem 0.1/0.5/0.9 não alcançava.
