@@ -25,7 +25,8 @@ CATEGORIES = (
     "olhos_fechados", "usando_celular",
 )
 MANIFEST_FIELDS = [
-    "frame_id", "dataset_id", "image", "categories", "activity_label",
+    "frame_id", "dataset_id", "original_filename", "image", "renamed_files",
+    "categories", "activity_label",
     "sleepiness_label", "sleepiness_behavior", "fatigue_label",
     "distraction_label", "phone_detection", "face_detection", "audit",
 ]
@@ -74,6 +75,7 @@ def main(argv=None) -> int:
     manifest = []
     audit_issues = []
     copied = defaultdict(int)
+    assignments = []
     for sample in samples:
         fid = sample["frame_id"]
         rec = by_frame.get(fid)
@@ -113,27 +115,36 @@ def main(argv=None) -> int:
             audit_issues.append(f"{fid}: {audit}")
 
         src = Path(sample["frame_file"])
-        dest_rel = None
-        if src.exists():
-            for cat in categories:
-                dest = out / cat / src.name
-                if not dest.exists():
-                    shutil.copyfile(src, dest)
-                    copied[cat] += 1
-            dest_rel = (out / categories[0] / src.name).relative_to(root).as_posix()
-            if _sha256(src) != sample["frame_sha256"]:
-                audit_issues.append(f"{fid}: SHA-256 da imagem não confere com catálogo")
-        else:
+        if not src.exists():
             audit_issues.append(f"{fid}: arquivo de imagem ausente ({sample['frame_file']})")
+        elif _sha256(src) != sample["frame_sha256"]:
+            audit_issues.append(f"{fid}: SHA-256 da imagem não confere com catálogo")
+        assignments.append((sample, rec, categories, audit, src))
 
+    renamed = {}
+    for sample, rec, categories, audit, src in assignments:
+        if not src.exists():
+            continue
+        for cat in categories:
+            copied[cat] += 1
+            dest = out / cat / f"{cat}_{copied[cat]:04d}{src.suffix.lower()}"
+            shutil.copyfile(src, dest)
+            renamed[(sample["frame_id"], cat)] = dest
         manifest.append({
-            "frame_id": fid, "dataset_id": sample["dataset_id"],
-            "image": dest_rel or "", "categories": "|".join(categories),
-            "activity_label": act, "sleepiness_label": label,
-            "sleepiness_behavior": beh,
+            "frame_id": sample["frame_id"], "dataset_id": sample["dataset_id"],
+            "original_filename": src.name,
+            "image": renamed[(sample["frame_id"], categories[0])].relative_to(root).as_posix(),
+            "categories": "|".join(categories),
+            "renamed_files": "|".join(
+                renamed[(sample["frame_id"], c)].relative_to(root).as_posix() for c in categories
+            ),
+            "activity_label": rec.get("activity_label", ""),
+            "sleepiness_label": rec.get("sleepiness_label", ""),
+            "sleepiness_behavior": rec.get("sleepiness_behavior", ""),
             "fatigue_label": rec.get("fatigue_label", ""),
             "distraction_label": rec.get("distraction_label", ""),
-            "phone_detection": phone, "face_detection": rec.get("face_detection", ""),
+            "phone_detection": rec.get("phone_detection", ""),
+            "face_detection": rec.get("face_detection", ""),
             "audit": audit,
         })
 
@@ -149,7 +160,14 @@ def main(argv=None) -> int:
         "para uma ou mais pastas abaixo, conforme rótulos de anotação humana "
         "(Level-A frame observation).",
         "",
-        *[f"- `{c}/` — {copied[c]} imagens" for c in CATEGORIES],
+        *[f"- `{c}/` — {copied[c]} imagens (`{c}_0001.jpg`, `{c}_0002.jpg`, ...)"
+          for c in CATEGORIES],
+        "",
+        "## Nomenclatura",
+        "",
+        "Cada arquivo foi renomeado para `categoria_NNNN.ext` em ordem de `frame_id`. "
+        "O nome original e o `frame_id` estão preservados em `manifest.csv` "
+        "(colunas `original_filename`, `frame_id` e `renamed_files`).",
         "",
         "## Regras de inclusão",
         "",
@@ -158,7 +176,7 @@ def main(argv=None) -> int:
         "de bocejo/olho fechado.",
         "- `fadiga`: olho fechado observado em frame isolado (UNCERTAIN por falta de "
         "persistência temporal — ver `documentation/fatigue_criteria.md`).",
-        "- `bocejo`: `SLEEP_003` ou atividade visual YAWNING.",
+        "- `bocejo`: somente `SLEEP_003` confirmado por revisão visual.",
         "- `olhos_fechados`: `SLEEP_001` / `SLEEP_006` ou atividade DROWSY.",
         "- `usando_celular`: `phone_detection=YES` após verificação visual em tamanho real; "
         "a presença de celular sozinha nunca gera `DISTRACTION=PRESENT` (§2.3).",
