@@ -1,11 +1,11 @@
 # NightEyes — status da anotação e do ground truth
 
-Gerado em 2026-11-21T21:57:06+00:00.
+Gerado em 2026-11-22T01:05:06+00:00.
 
 ## O que é ground truth observado
 
-- 3036 unidades Level-A derivadas de anotação visual humana de frames catalogados (não de nomes de arquivo nem de scores do motor).
-- 3026 janelas Level-B de 5 s apenas onde há episódio anotado; nenhum rótulo ABSENT fabricado para material não revisado.
+- 3240 unidades Level-A derivadas de anotação visual humana de frames catalogados (não de nomes de arquivo nem de scores do motor).
+- 3188 janelas Level-B de 5 s apenas onde há episódio anotado; nenhum rótulo ABSENT fabricado para material não revisado.
 - Rótulos UNCERTAIN/UNOBSERVABLE preservados (nunca convertidos em ABSENT).
 
 ## Arquivos preservados (rascunhos)
@@ -15,10 +15,10 @@ Gerado em 2026-11-21T21:57:06+00:00.
 
 ## Divisão por participante (protocolo §8)
 
-- Semente: `20261121`; participantes: 442.
-- TRAIN: 952 frames / 311 participantes (`data/processed/train.csv`)
-- VALIDATION: 213 frames / 72 participantes (`data/processed/validation.csv`)
-- TEST: 234 frames / 59 participantes (`data/processed/test.csv`)
+- Semente: `20261121`; participantes: 484.
+- TRAIN: 1004 frames / 338 participantes (`data/processed/train.csv`)
+- VALIDATION: 220 frames / 79 participantes (`data/processed/validation.csv`)
+- TEST: 243 frames / 67 participantes (`data/processed/test.csv`)
 - TEST está bloqueado para calibração (`test_locked=true`).
 
 ## Limitações conhecidas (declaradas, não ocultadas)
@@ -32,22 +32,24 @@ Gerado em 2026-11-21T21:57:06+00:00.
 
 ## Distribuição de rótulos nos episódios
 
-- ABSENT: 1655
-- PRESENT: 201
-- UNCERTAIN: 700
+- ABSENT: 1785
+- PRESENT: 205
+- UNCERTAIN: 770
 - UNOBSERVABLE: 480
 
 ## Domínios
 
-- DISTRACTION: 1399 episódios
-- FATIGUE: 238 episódios
-- SLEEPINESS: 1399 episódios
+- DISTRACTION: 1467 episódios
+- FATIGUE: 306 episódios
+- SLEEPINESS: 1467 episódios
 
 ## Detecção de rosto e celular (por frame catalogado)
 
 - face_visible=UNKNOWN: 1161
-- face_visible=YES: 238
-- phone_visible=NO: 1151
-- phone_visible=UNKNOWN: 238
-- phone_visible=YES: 10
+- face_visible=YES: 306
+- phone_visible=NO: 1169
+- phone_visible=UNKNOWN: 275
+- phone_visible=YES: 23
 - `phone_visible=YES` sozinho nunca gera `DISTRACTION=PRESENT` (protocolo §2.3).
+- 50 candidatos SRC009 (rótulo-fonte 'Object') foram revisados visualmente; 13 confirmados como celular, o restante são garrafas/copos (falso positivo da fonte).
+- Amostragem densa (0.2..0.8) adicionada aos vídeos 5-FemaleGlasses para capturar bocejos reais que a amostragem 0.1/0.5/0.9 não alcançava.

@@ -21,6 +21,7 @@ HEADER = [
     "timestamp_ms", "domain", "reference_label", "behavior_code",
     "gaze_direction", "phone_visible", "annotator_id", "annotation_confidence",
     "lighting_condition", "occlusion_condition", "face_visible", "annotation_notes",
+    "activity_label", "phone_detection", "face_detection",
 ]
 
 VALID_LABELS = {"PRESENT", "ABSENT", "UNCERTAIN", "UNOBSERVABLE"}
@@ -85,6 +86,9 @@ def main() -> None:
                 item.get("occlusion_condition", "UNKNOWN"),
                 item.get("face_visible", "UNKNOWN"),
                 item.get("annotation_notes", ""),
+                item.get("activity_label", "UNKNOWN"),
+                item.get("phone_detection", "NO"),
+                item.get("face_detection", "YES"),
             ])
             written += 1
     print(f"wrote {written} rows ({len(batch)} in batch, dups skipped)")

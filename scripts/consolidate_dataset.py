@@ -33,6 +33,7 @@ SPLIT_HEADER = [
     "distraction_behavior", "distraction_confidence", "distraction_gaze",
     "phone_visible",
     "lighting_condition", "occlusion_condition", "face_visible",
+    "activity_label", "phone_detection", "face_detection",
     "annotation_notes", "split",
 ]
 
@@ -41,6 +42,7 @@ FRAME_HEADER = [
     "timestamp_ms", "domain", "reference_label", "behavior_code",
     "gaze_direction", "phone_visible", "annotator_id", "annotation_confidence",
     "lighting_condition", "occlusion_condition", "face_visible", "annotation_notes",
+    "activity_label", "phone_detection", "face_detection",
 ]
 
 PARTICIPANT_HEADER = [
@@ -310,6 +312,9 @@ def make_splits(root: Path, frames: list[dict], seed: int) -> dict:
         rec["lighting_condition"] = f["lighting_condition"]
         rec["occlusion_condition"] = f["occlusion_condition"]
         rec["face_visible"] = f.get("face_visible") or "UNKNOWN"
+        rec["activity_label"] = f.get("activity_label") or "UNKNOWN"
+        rec["phone_detection"] = f.get("phone_detection") or "UNKNOWN"
+        rec["face_detection"] = f.get("face_detection") or "UNKNOWN"
         rec["annotation_notes"] = f.get("annotation_notes") or ""
 
     participants = sorted({r["participant_id"] for r in by_frame.values()})
@@ -439,6 +444,10 @@ def write_status(root: Path, manifest: dict, episodes: list[dict],
         *[f"- face_visible={k}: {v}" for k, v in sorted(face_counts.items())],
         *[f"- phone_visible={k}: {v}" for k, v in sorted(phone_counts.items())],
         "- `phone_visible=YES` sozinho nunca gera `DISTRACTION=PRESENT` (protocolo §2.3).",
+        "- 50 candidatos SRC009 (rótulo-fonte 'Object') foram revisados visualmente; "
+        "13 confirmados como celular, o restante são garrafas/copos (falso positivo da fonte).",
+        "- Amostragem densa (0.2..0.8) adicionada aos vídeos 5-FemaleGlasses para capturar "
+        "bocejos reais que a amostragem 0.1/0.5/0.9 não alcançava.",
         "",
     ]
     (reports / "annotation_status.md").write_text("\n".join(lines), encoding="utf-8")
