@@ -8,6 +8,11 @@
 **Repositório:** https://github.com/Sjr-ts/viu (branch `main`)
 **Status:** validação `PASS` · **68 testes aprovados** · 1399 frames catalogados e anotados manualmente · 10 fontes inventariadas (3 adquiridas) · splits TRAIN/VALIDATION/TEST por participante · avaliação do engine pronta (`NOT_EVALUATED` até scores serem fornecidos)
 
+> **Onde encontrar as imagens (2026-11-21):** `data/quality_control/frame_catalog/`
+> contém todos os frames catalogados. As pastas curadas ficam em
+> `data/curated/phone_use/` (celulares confirmadospor revisão visual em tamanho real,
+> com `manifest.csv`) — criada porque os rótulos estavam espalhados nos CSVs.
+>
 > **Estado real dos dados (2026-11-21):** os rascunhos de episódios derivados de nome
 > de arquivo foram preservados em `data/original_labels/` e **não** são ground truth.
 > Episódios e janelas atuais foram reconstruídos apenas a partir de anotação visual
